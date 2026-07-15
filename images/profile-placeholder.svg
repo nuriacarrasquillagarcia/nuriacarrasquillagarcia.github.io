@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#000000"/>
+  <rect x="4" y="4" width="292" height="292" fill="none" stroke="#565656" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="150" y="140" font-family="Consolas, monospace" font-size="16" fill="#bfbfbf" text-anchor="middle">[ PHOTO ]</text>
+  <text x="150" y="165" font-family="Consolas, monospace" font-size="12" fill="#707070" text-anchor="middle">replace images/profile.jpg</text>
+</svg>

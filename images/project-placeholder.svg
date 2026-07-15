@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260">
+  <rect width="400" height="260" fill="#000000"/>
+  <rect x="4" y="4" width="392" height="252" fill="none" stroke="#565656" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="200" y="120" font-family="Consolas, monospace" font-size="16" fill="#bfbfbf" text-anchor="middle">[ SCREENSHOT ]</text>
+  <text x="200" y="144" font-family="Consolas, monospace" font-size="12" fill="#707070" text-anchor="middle">replace images/project-x.jpg</text>
+</svg>

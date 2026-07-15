@@ -1,0 +1,300 @@
+/* =========================================================
+   PORTFOLIO :: MS-DOS TERMINAL THEME
+   Gray-on-black, monospace, box-drawing borders.
+   Edit the CSS variables below to retune the palette.
+   ========================================================= */
+
+:root {
+  --dos-bg: #000000;
+  --dos-text: #bfbfbf;
+  --dos-text-bright: #f2f2f2;
+  --dos-text-dim: #707070;
+  --dos-border: #565656;
+  --dos-highlight-bg: #bfbfbf;
+  --dos-highlight-text: #000000;
+  --font-dos: 'VT323', 'Perfect DOS VGA437', 'Consolas', 'Courier New', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--dos-bg);
+  color: var(--dos-text);
+  font-family: var(--font-dos);
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+a {
+  color: var(--dos-text-bright);
+}
+
+/* Faint CRT scanline overlay */
+.crt-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.025) 0px,
+    rgba(255, 255, 255, 0.025) 1px,
+    transparent 2px,
+    transparent 3px
+  );
+  mix-blend-mode: overlay;
+}
+
+.screen {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 20px 60px;
+}
+
+/* ---------- Navigation ---------- */
+.dos-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  border-bottom: 1px solid var(--dos-border);
+  padding-bottom: 12px;
+  margin-bottom: 28px;
+}
+
+.dos-nav a {
+  text-decoration: none;
+  padding: 2px 8px;
+}
+
+.dos-nav a::before {
+  content: "[";
+  color: var(--dos-text-dim);
+}
+
+.dos-nav a::after {
+  content: "]";
+  color: var(--dos-text-dim);
+}
+
+.dos-nav a:hover,
+.dos-nav a.active {
+  background: var(--dos-highlight-bg);
+  color: var(--dos-highlight-text);
+}
+
+.dos-nav a:hover::before,
+.dos-nav a:hover::after,
+.dos-nav a.active::before,
+.dos-nav a.active::after {
+  color: var(--dos-highlight-text);
+}
+
+/* ---------- ASCII art / static banners ---------- */
+.ascii-art {
+  color: var(--dos-text-dim);
+  font-size: 14px;
+  line-height: 1.15;
+  white-space: pre;
+  overflow-x: auto;
+  margin: 0 0 10px;
+}
+
+/* ---------- Headings / hero ---------- */
+h1, h2, h3 {
+  color: var(--dos-text-bright);
+  margin: 0 0 10px;
+}
+
+h1 {
+  font-size: 2.4em;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.5em;
+  border-bottom: 1px dashed var(--dos-border);
+  padding-bottom: 6px;
+  margin-top: 34px;
+}
+
+.tagline {
+  color: var(--dos-text-dim);
+  margin-top: 0;
+}
+
+.prompt {
+  color: var(--dos-text-dim);
+}
+
+.prompt .path {
+  color: var(--dos-text-bright);
+}
+
+/* ---------- Typewriter ---------- */
+.tw-line {
+  white-space: pre-wrap;
+  min-height: 1.45em;
+}
+
+.tw-line.cursor::after {
+  content: "\2588";
+  animation: blink 1s steps(1) infinite;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* ---------- Boxed panels ---------- */
+.box {
+  border: 1px solid var(--dos-border);
+  padding: 18px;
+  margin-bottom: 24px;
+}
+
+.box-title {
+  color: var(--dos-text-dim);
+  margin: -18px -18px 14px;
+  padding: 4px 12px;
+  border-bottom: 1px solid var(--dos-border);
+}
+
+/* ---------- Directory / menu list ---------- */
+.menu-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 6px 0 18px;
+}
+
+.menu-list li {
+  padding: 3px 0;
+}
+
+.menu-list li::before {
+  content: "\00BB ";
+  color: var(--dos-text-dim);
+}
+
+.menu-list a {
+  text-decoration: underline;
+}
+
+.menu-list .hint {
+  color: var(--dos-text-dim);
+}
+
+/* ---------- Images ---------- */
+.tw-reveal {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+.tw-reveal.visible {
+  opacity: 1;
+}
+
+.img-frame {
+  display: inline-block;
+  border: 1px dashed var(--dos-border);
+  padding: 6px;
+  max-width: 100%;
+}
+
+.img-frame img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(1) contrast(1.05) brightness(0.95);
+}
+
+.img-frame figcaption {
+  color: var(--dos-text-dim);
+  font-size: 0.85em;
+  margin-top: 4px;
+  text-align: center;
+}
+
+/* ---------- Project cards ---------- */
+.project-grid {
+  display: grid;
+  gap: 24px;
+}
+
+.project-card {
+  border: 1px solid var(--dos-border);
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 18px;
+}
+
+.project-card .img-frame {
+  width: 100%;
+}
+
+.project-card .tags {
+  color: var(--dos-text-dim);
+  margin-top: 8px;
+}
+
+@media (max-width: 640px) {
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Skill bars ---------- */
+.skill-bar {
+  white-space: pre;
+}
+
+/* ---------- Contact ---------- */
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-list li {
+  padding: 4px 0;
+}
+
+.contact-list .label {
+  color: var(--dos-text-dim);
+  display: inline-block;
+  width: 10ch;
+}
+
+/* ---------- Footer status bar ---------- */
+.status-bar {
+  border-top: 1px solid var(--dos-border);
+  margin-top: 44px;
+  padding-top: 12px;
+  color: var(--dos-text-dim);
+  font-size: 0.85em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* ---------- Skip hint ---------- */
+.skip-hint {
+  color: var(--dos-text-dim);
+  font-size: 0.8em;
+  position: fixed;
+  bottom: 10px;
+  right: 16px;
+  z-index: 60;
+  opacity: 0.7;
+}
+
+@media (max-width: 640px) {
+  body { font-size: 17px; }
+  .ascii-art { font-size: 10px; }
+  h1 { font-size: 1.8em; }
+}

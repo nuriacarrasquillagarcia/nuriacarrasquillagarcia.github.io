@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>YOUR NAME :: PORTFOLIO</title>
+<title>NURIA CARRASQUILLA :: PORTFOLIO</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -12,56 +12,53 @@
 <div class="crt-overlay"></div>
 <div class="screen">
 
-  <!-- OPENING SEQUENCE -->
-  <section class="tw-block">
-    <div class="tw-line" data-speed="10">WELCOME TO THE GALLERY OF YOUR NAME</div>
-    <div class="tw-line" data-speed="10">&nbsp;</div>
-    <div class="tw-line" data-speed="8">Loading exhibition catalog ...... done</div>
-    <div class="tw-line" data-speed="8">Retrieving artwork index ......... done</div>
-    <div class="tw-line" data-speed="8">Preparing viewing room ........... done</div>
-    <div class="tw-line" data-speed="10">&nbsp;</div>
-    <div class="tw-line" data-speed="12">Please step inside...</div>
-  </section>
-
   <!-- NAV -->
   <nav class="dos-nav">
-    <a href="index.html">HOME</a>
-    <a href="about.html">ABOUT</a>
-    <a href="projects.html">GALLERY</a>
-    <a href="contact.html">CONTACT</a>
+    <a href="index.html" data-i18n="nav.home">INICIO</a>
+    <a href="about.html" data-i18n="nav.about">SOBRE MÍ</a>
+    <a href="projects.html" data-i18n="nav.projects">PROYECTOS</a>
+    <a href="contact.html" data-i18n="nav.contact">CONTACTO</a>
+    <select id="language-selector" style="margin-left: auto; background: #000; color: #bfbfbf; font-family: 'VT323', monospace; border: 1px solid #565656; padding: 4px 8px;">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+      <option value="ca">Català</option>
+    </select>
   </nav>
 
   <!-- HERO -->
   <section class="tw-block">
-    <pre class="ascii-art">
-       .-----------------------.
-       |     .    *      .     |
-       |         /\    /\      |
-       |        /  \  /  \     |
-       |_______/____\/____\____|
-    </pre>
-    <!-- EDIT: replace with your name -->
-    <h1 class="tw-line" data-speed="16">YOUR NAME</h1>
-    <!-- EDIT: replace with your role / tagline -->
-    <p class="tagline tw-line" data-speed="14">Visual Artist // Illustrator</p>
+ 
+    <h1 class="tw-line" data-speed="16">NURIA CARRASQUILLA</h1>
+    <p class="tagline tw-line" data-speed="14" data-i18n="home.tagline">Producción artística e investigación</p>
+    <div style="margin-left: 20px;">
+      <p data-i18n="home.description1">» Práctica artística que utiliza el afecto y la tecnología como resistencia frente a la violencia institucional.</p>
+      <p data-i18n="home.description2">» Espacios interactivos basados en la estética háptica para transformar el cuerpo y la memoria en empatía radical.</p>
+    </div>
   </section>
 
   <!-- MAIN MENU -->
   <section class="tw-block">
-    <h2 class="tw-line" data-speed="14">EXPLORE</h2>
+    <h2 class="tw-line" data-speed="14" data-i18n="home.menu">ZOOM</h2>
 
     <ul class="menu-list">
-      <li><a href="about.html">About</a> <span class="hint">— bio, statement, skills &amp; CV</span></li>
-      <li><a href="projects.html">Gallery</a> <span class="hint">— selected artwork</span></li>
-      <li><a href="contact.html">Contact</a> <span class="hint">— get in touch</span></li>
+      <li><span data-i18n="home.selectedWorks">SELECCIÓN DE TRABAJOS:</span>
+        <ul>
+          <li><a href="projects.html#piece-1" data-i18n="home.work1">01. HISTÉRICAS EN REVISIÓN: ARCHIVO CLÍNICO, A VIVA VOZ (2025)</a> <span class="hint" data-i18n="home.work1Hint">— Apropiación fotográfica</span></li>
+          <li><a href="projects.html#piece-2" data-i18n="home.work2">02. NON RESTRAINT - "NO ESTÁS SOLA" (2025)</a> <span class="hint" data-i18n="home.work2Hint">— Instalación interactiva</span></li>
+          <li><a href="projects.html#piece-3" data-i18n="home.work3">03. IN MEMORIAM (2026)</a> <span class="hint" data-i18n="home.work3Hint">— Dossier conceptual y práctica escénica</span></li>
+        </ul>
+      </li>
+      <li>&nbsp;</li>
+      <li><a href="projects.html" data-i18n="home.viewAll">VER TODOS LOS PROYECTOS</a></li>
     </ul>
   </section>
 
   <footer class="status-bar">
-    <span>click / press any key to skip animation</span>
+    <span data-i18n="footer.skipAnimation">click / press any key to skip animation</span>
   </footer>
 
 </div>
+<script src="js/translations.js"></script>
 <script src="js/terminal.js"></script>
 </body>
 </html>

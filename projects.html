@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GALLERY :: YOUR NAME</title>
+<title>NURIA CARRASQUILLA :: GALERÍA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -13,85 +13,86 @@
 <div class="screen">
 
   <nav class="dos-nav">
-    <a href="index.html">HOME</a>
-    <a href="about.html">ABOUT</a>
-    <a href="projects.html">GALLERY</a>
-    <a href="contact.html">CONTACT</a>
+    <a href="index.html" data-i18n="nav.home">INICIO</a>
+    <a href="about.html" data-i18n="nav.about">SOBRE MÍ</a>
+    <a href="projects.html" data-i18n="nav.projects">PROYECTOS</a>
+    <a href="contact.html" data-i18n="nav.contact">CONTACTO</a>
+    <select id="language-selector" style="margin-left: auto; background: #000; color: #bfbfbf; font-family: 'VT323', monospace; border: 1px solid #565656; padding: 4px 8px;">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+      <option value="ca">Català</option>
+    </select>
   </nav>
 
   <section class="tw-block">
-    <h1 class="tw-line" data-speed="16">Gallery</h1>
+    <h1 class="tw-line" data-speed="16" data-i18n="projects.title">GALERÍA DE PROYECTOS</h1>
   </section>
 
-  <!-- EDIT: duplicate a .tw-block / .project-card pair per artwork -->
-  <section class="tw-block">
+  <!-- Project 1 -->
+  <section class="tw-block" id="piece-1">
     <div class="project-grid">
-
       <article class="project-card">
         <figure class="img-frame tw-reveal">
-          <!-- EDIT: swap for images/project-1.jpg -->
-          <img src="images/project-placeholder.svg" alt="Artwork 1">
-          <figcaption>piece-01.jpg</figcaption>
+          <img src="images/project-1.jpg" alt="Histéricas en revisión">
+          <figcaption>Histéricas en revisión (2025)</figcaption>
         </figure>
         <div>
-          <h2 class="tw-line" data-speed="10">01. UNTITLED_PIECE_ONE</h2>
-          <div class="tw-line" data-speed="8">Short description of the piece, the story behind it,</div>
-          <div class="tw-line" data-speed="8">or the technique used. Replace with your real copy.</div>
-          <div class="tw-line tags" data-speed="4">Medium: Oil on canvas, 60x80cm, 2025</div>
-          <div class="tw-line" data-speed="4">&gt; <a href="#">view full piece</a></div>
+          <h2 class="tw-line" data-speed="10" data-i18n="projects.project1Title">01. HISTÉRICAS EN REVISIÓN:</h2>
+          <h3 class="tw-line" data-speed="10" data-i18n="projects.project1Subtitle">ARCHIVO CLÍNICO, A VIVA VOZ (2025)</h3>
+          <div class="tw-line" data-speed="8" data-i18n="projects.project1Desc1">Apropiación fotográfica que cuestiona la representación</div>
+          <div class="tw-line" data-speed="8" data-i18n="projects.project1Desc2">histórica de la histeria en archivos clínicos.</div>
+          <div class="tw-line tags" data-speed="4" data-i18n="projects.project1Medium">Medio: Apropiación fotográfica, 2025</div>
+          <div class="tw-line" data-speed="4">&gt; <a href="#" data-i18n="projects.viewFullPiece">view full piece</a></div>
         </div>
       </article>
-
     </div>
   </section>
 
-  <section class="tw-block">
+  <!-- Project 2 -->
+  <section class="tw-block" id="piece-2">
     <div class="project-grid">
-
       <article class="project-card">
         <figure class="img-frame tw-reveal">
-          <!-- EDIT: swap for images/project-2.jpg -->
-          <img src="images/project-placeholder.svg" alt="Artwork 2">
-          <figcaption>piece-02.jpg</figcaption>
+          <img src="images/project-2.jpg" alt="Non Restraint - No estás sola">
+          <figcaption>Non Restraint - No estás sola (2025)</figcaption>
         </figure>
         <div>
-          <h2 class="tw-line" data-speed="10">02. UNTITLED_PIECE_TWO</h2>
-          <div class="tw-line" data-speed="8">Short description of the piece, the story behind it,</div>
-          <div class="tw-line" data-speed="8">or the technique used. Replace with your real copy.</div>
-          <div class="tw-line tags" data-speed="4">Medium: Digital illustration, 2025</div>
-          <div class="tw-line" data-speed="4">&gt; <a href="#">view full piece</a></div>
+          <h2 class="tw-line" data-speed="10" data-i18n="projects.project2Title">02. NON RESTRAINT -</h2>
+          <h3 class="tw-line" data-speed="10" data-i18n="projects.project2Subtitle">"NO ESTÁS SOLA" (2025)</h3>
+          <div class="tw-line" data-speed="8" data-i18n="projects.project2Desc1">Instalación interactiva que explora la solidaridad</div>
+          <div class="tw-line" data-speed="8" data-i18n="projects.project2Desc2">y la conexión entre los cuerpos en el espacio público.</div>
+          <div class="tw-line tags" data-speed="4" data-i18n="projects.project2Medium">Medio: Instalación interactiva, 2025</div>
+          <div class="tw-line" data-speed="4">&gt; <a href="#" data-i18n="projects.viewFullPiece">view full piece</a></div>
         </div>
       </article>
-
     </div>
   </section>
 
-  <section class="tw-block">
+  <!-- Project 3 -->
+  <section class="tw-block" id="piece-3">
     <div class="project-grid">
-
       <article class="project-card">
         <figure class="img-frame tw-reveal">
-          <!-- EDIT: swap for images/project-3.jpg -->
-          <img src="images/project-placeholder.svg" alt="Artwork 3">
-          <figcaption>piece-03.jpg</figcaption>
+          <img src="images/project-3.jpg" alt="In Memoriam - Installation">
+          <figcaption>In Memoriam (2026)</figcaption>
         </figure>
         <div>
-          <h2 class="tw-line" data-speed="10">03. UNTITLED_PIECE_THREE</h2>
-          <div class="tw-line" data-speed="8">Short description of the piece, the story behind it,</div>
-          <div class="tw-line" data-speed="8">or the technique used. Replace with your real copy.</div>
-          <div class="tw-line tags" data-speed="4">Medium: Charcoal on paper, 40x50cm, 2024</div>
-          <div class="tw-line" data-speed="4">&gt; <a href="#">view full piece</a></div>
+          <h2 class="tw-line" data-speed="10" data-i18n="projects.project3Title">03. IN MEMORIAM (2026)</h2>
+          <div class="tw-line" data-speed="8" data-i18n="projects.project3Desc1">Proyecto basado en el concepto de entrelazamiento cuántico:</div>
+          <div class="tw-line" data-speed="8" data-i18n="projects.project3Desc2">dos partículas entrelazadas donde el estado de una depende de la otra.</div>
+          <div class="tw-line tags" data-speed="4" data-i18n="projects.project3Medium">Medio: Dossier conceptual y práctica escénica, 2026</div>
+          <div class="tw-line" data-speed="4">&gt; <a href="#" data-i18n="projects.viewFullPiece">view full piece</a></div>
         </div>
       </article>
-
     </div>
   </section>
 
   <footer class="status-bar">
-    <span>click / press any key to skip animation</span>
+    <span data-i18n="footer.skipAnimation">click / press any key to skip animation</span>
   </footer>
 
 </div>
+<script src="js/translations.js"></script>
 <script src="js/terminal.js"></script>
 </body>
 </html>

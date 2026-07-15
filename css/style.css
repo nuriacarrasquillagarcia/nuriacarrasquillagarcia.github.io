@@ -209,7 +209,7 @@ h2 {
   display: block;
   max-width: 100%;
   height: auto;
-  filter: grayscale(1) contrast(1.05) brightness(0.95);
+  filter: contrast(1.05) brightness(0.95);
 }
 
 .img-frame figcaption {
@@ -228,13 +228,15 @@ h2 {
 .project-card {
   border: 1px solid var(--dos-border);
   padding: 18px;
-  display: grid;
-  grid-template-columns: 220px 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 18px;
 }
 
 .project-card .img-frame {
   width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .project-card .tags {
@@ -244,7 +246,7 @@ h2 {
 
 @media (max-width: 640px) {
   .project-card {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 }
 

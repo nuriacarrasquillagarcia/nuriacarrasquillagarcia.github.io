@@ -1,98 +1,231 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NURIA CARRASQUILLA :: GALERÍA</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NURIA CARRASQUILLA :: GALERÍA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="dos-body">
-<div class="crt-overlay"></div>
-<div class="screen">
+  <div class="crt-overlay"></div>
+  <div class="screen">
 
-  <nav class="dos-nav">
-    <a href="index.html" data-i18n="nav.home">INICIO</a>
-    <a href="about.html" data-i18n="nav.about">SOBRE MÍ</a>
-    <a href="projects.html" data-i18n="nav.projects">PROYECTOS</a>
-    <a href="contact.html" data-i18n="nav.contact">CONTACTO</a>
-    <select id="language-selector" style="margin-left: auto; background: #000; color: #bfbfbf; font-family: 'VT323', monospace; border: 1px solid #565656; padding: 4px 8px;">
-      <option value="es">Español</option>
-      <option value="en">English</option>
-      <option value="ca">Català</option>
-    </select>
-  </nav>
+    <nav class="dos-nav">
+      <a href="index.html" data-i18n="nav.home">INICIO</a>
+      <a href="about.html" data-i18n="nav.about">SOBRE MÍ</a>
+      <a href="projects.html" data-i18n="nav.projects">PROYECTOS</a>
+      <a href="contact.html" data-i18n="nav.contact">CONTACTO</a>
+      <select id="language-selector"
+        style="margin-left: auto; background: #000; color: #bfbfbf; font-family: 'VT323', monospace; border: 1px solid #565656; padding: 4px 8px;">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+        <option value="ca">Català</option>
+      </select>
+    </nav>
 
-  <section class="tw-block">
-    <h1 class="tw-line" data-speed="16" data-i18n="projects.title">GALERÍA DE PROYECTOS</h1>
-  </section>
+    <section class="tw-block">
+      <h1 class="tw-line" data-speed="16" data-i18n="projects.title">GALERÍA DE PROYECTOS</h1>
+    </section>
 
-  <!-- Project 1 -->
-  <section class="tw-block" id="piece-1">
-    <div class="project-grid">
-      <article class="project-card">
-        <figure class="img-frame tw-reveal">
-          <img src="images/project-1.jpg" alt="Histéricas en revisión">
-          <figcaption>Histéricas en revisión (2025)</figcaption>
-        </figure>
-        <div>
-          <h2 class="tw-line" data-speed="10" data-i18n="projects.project1Title">01. HISTÉRICAS EN REVISIÓN:</h2>
-          <h3 class="tw-line" data-speed="10" data-i18n="projects.project1Subtitle">ARCHIVO CLÍNICO, A VIVA VOZ (2025)</h3>
-          <div class="tw-line" data-speed="8" data-i18n="projects.project1Desc1">Apropiación fotográfica que cuestiona la representación</div>
-          <div class="tw-line" data-speed="8" data-i18n="projects.project1Desc2">histórica de la histeria en archivos clínicos.</div>
-          <div class="tw-line tags" data-speed="4" data-i18n="projects.project1Medium">Medio: Apropiación fotográfica, 2025</div>
-          <div class="tw-line" data-speed="4">&gt; <a href="#" data-i18n="projects.viewFullPiece">view full piece</a></div>
-        </div>
-      </article>
+    <!-- Project 1 -->
+    <section class="tw-block" id="piece-1">
+      <div class="project-grid">
+        <article class="project-card">
+          <div id="histericas-gallery" class="gallery-grid" aria-label="Galería de Histéricas en revisión"></div>
+          <div>
+            <h2 class="tw-line" data-speed="10" data-i18n="projects.project1Title">01. HISTÉRICAS EN REVISIÓN: ARCHIVO
+              CLÍNICO, A VIVA VOZ (2025)</h2>
+            <div class="tw-line" data-speed="8" data-i18n="projects.project1Desc1">Esta propuesta de creación
+              fotográfica e instalación de pared realiza una relectura crítica y política del histórico archivo de la
+              clínica de la Salpêtrière (París, 1878) de Bourneville y Regnard. Utilizando estrategias de
+              apropiacionismo, la obra busca devolver la voz, la dignidad y la subjetividad a las mujeres diagnosticadas
+              y expuestas bajo el violento escrutinio de la psiquiatría decimonónica. Formalmente, las imágenes se
+              disponen en la pared mediante una anamorfosis geométrica: el espectador se ve obligado a desplazarse
+              físicamente en el espacio para que las fotografías desordenadas se alineen en un cuadrado perfecto,
+              metaforizando la necesidad de cambiar de perspectiva política e histórica para "ver" realmente el trauma y
+              la opresión del archivo.</div>
+            <div class="tw-line tags" data-speed="4" data-i18n="projects.project1Medium">Medio: Apropiación fotográfica,
+              2025</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Project 2 -->
+    <section class="tw-block" id="piece-2">
+      <div class="project-grid">
+        <article class="project-card">
+          <figure class="img-frame tw-reveal">
+            <img src="images/project-2.jpg" alt="Non Restraint - No estás sola">
+            <figcaption>Non Restraint - No estás sola (2025)</figcaption>
+          </figure>
+          <div>
+            <h2 class="tw-line" data-speed="10" data-i18n="projects.project2Title">02. NON RESTRAINT - "NO ESTÁS SOLA" (2025)</h2>
+            <div class="tw-line" data-speed="8" data-i18n="projects.project2Desc">Instalación artística inmersiva y relacional que transforma el quiebre emocional en una experiencia colectiva de libertad, inspirada en la antipsiquiatría. La obra propone un tránsito sensorial a través de cuatro fases que materializan la evolución del dolor hacia la apertura:<br><br><div class="phase-block"><span class="phase-title">Fase 1 (Oscuridad):</span> Fotografía analógica en blanco y negro sobre cartón pluma y ruido blanco para evocar vulnerabilidad e introspección.</div><div class="phase-block"><span class="phase-title">Fase 2 (Camino):</span> Un pasillo oscuro que funciona como metáfora del tránsito psíquico hacia la luz.</div><div class="phase-block"><span class="phase-title">Fase 3 (Penumbra):</span> Vídeo-performance de lenguaje austero donde el cuerpo del espectador se integra en la proyección, priorizando la honestidad emocional y el tiempo real.</div><div class="phase-block"><span class="phase-title">Fase 4 (Luz):</span> Un lienzo de lino giratorio y vestimentas negras que simbolizan la aceptación del azar, el autocuidado y el cierre del ciclo vital.</div><br>La pieza despoja al sufrimiento de su estigma clínico para ofrecer un "abrazo" sensorial libre de juicios y ataduras.</div>
+            <div class="tw-line tags" data-speed="4" data-i18n="projects.project2Medium">Medio: Instalación interactiva,
+              2025</div>
+            <div class="tw-line" data-speed="4">&gt; <a href="#" data-i18n="projects.viewFullPiece">view full piece</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Project 3 -->
+    <section class="tw-block" id="piece-3">
+      <div class="project-grid">
+        <article class="project-card">
+          <figure class="img-frame tw-reveal">
+            <img src="images/project-3.jpg" alt="In Memoriam - Installation">
+            <figcaption>In Memoriam (2026)</figcaption>
+          </figure>
+          <div>
+            <h2 class="tw-line" data-speed="10" data-i18n="projects.project3Title">03. IN MEMORIAM (2026)</h2>
+            <div class="tw-line" data-speed="8" data-i18n="projects.project3Desc1">Proyecto basado en el concepto de
+              entrelazamiento cuántico:</div>
+            <div class="tw-line" data-speed="8" data-i18n="projects.project3Desc2">dos partículas entrelazadas donde el
+              estado de una depende de la otra.</div>
+            <div class="tw-line tags" data-speed="4" data-i18n="projects.project3Medium">Medio: Dossier conceptual y
+              práctica escénica, 2026</div>
+            <div class="tw-line" data-speed="4">&gt; <a href="#" data-i18n="projects.viewFullPiece">view full piece</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div id="image-modal" class="image-modal" hidden>
+      <button type="button" class="image-modal-close" aria-label="Cerrar">×</button>
+      <button type="button" class="image-modal-prev" aria-label="Imagen anterior">◀</button>
+      <img id="image-modal-img" src="" alt="Vista ampliada">
+      <div id="image-modal-caption" class="image-modal-caption"></div>
+      <button type="button" class="image-modal-next" aria-label="Imagen siguiente">▶</button>
     </div>
-  </section>
 
-  <!-- Project 2 -->
-  <section class="tw-block" id="piece-2">
-    <div class="project-grid">
-      <article class="project-card">
-        <figure class="img-frame tw-reveal">
-          <img src="images/project-2.jpg" alt="Non Restraint - No estás sola">
-          <figcaption>Non Restraint - No estás sola (2025)</figcaption>
-        </figure>
-        <div>
-          <h2 class="tw-line" data-speed="10" data-i18n="projects.project2Title">02. NON RESTRAINT -</h2>
-          <h3 class="tw-line" data-speed="10" data-i18n="projects.project2Subtitle">"NO ESTÁS SOLA" (2025)</h3>
-          <div class="tw-line" data-speed="8" data-i18n="projects.project2Desc1">Instalación interactiva que explora la solidaridad</div>
-          <div class="tw-line" data-speed="8" data-i18n="projects.project2Desc2">y la conexión entre los cuerpos en el espacio público.</div>
-          <div class="tw-line tags" data-speed="4" data-i18n="projects.project2Medium">Medio: Instalación interactiva, 2025</div>
-          <div class="tw-line" data-speed="4">&gt; <a href="#" data-i18n="projects.viewFullPiece">view full piece</a></div>
-        </div>
-      </article>
-    </div>
-  </section>
+    <footer class="status-bar">
+      <span>© 2026 Nuria Carrasquilla ®. Todos los derechos reservados.</span>
+    </footer>
 
-  <!-- Project 3 -->
-  <section class="tw-block" id="piece-3">
-    <div class="project-grid">
-      <article class="project-card">
-        <figure class="img-frame tw-reveal">
-          <img src="images/project-3.jpg" alt="In Memoriam - Installation">
-          <figcaption>In Memoriam (2026)</figcaption>
-        </figure>
-        <div>
-          <h2 class="tw-line" data-speed="10" data-i18n="projects.project3Title">03. IN MEMORIAM (2026)</h2>
-          <div class="tw-line" data-speed="8" data-i18n="projects.project3Desc1">Proyecto basado en el concepto de entrelazamiento cuántico:</div>
-          <div class="tw-line" data-speed="8" data-i18n="projects.project3Desc2">dos partículas entrelazadas donde el estado de una depende de la otra.</div>
-          <div class="tw-line tags" data-speed="4" data-i18n="projects.project3Medium">Medio: Dossier conceptual y práctica escénica, 2026</div>
-          <div class="tw-line" data-speed="4">&gt; <a href="#" data-i18n="projects.viewFullPiece">view full piece</a></div>
-        </div>
-      </article>
-    </div>
-  </section>
+  </div>
+  <script src="js/translations.js"></script>
+  <script src="js/terminal.js"></script>
+  <script>
+    const galleryImages = [
+      '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg',
+      '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg',
+      'IMG_3955.JPG', 'IMG_3957.JPG'
+    ];
 
-  <footer class="status-bar">
-    <span data-i18n="footer.skipAnimation">click / press any key to skip animation</span>
-  </footer>
+    const gallery = document.getElementById('histericas-gallery');
+    const modal = document.getElementById('image-modal');
+    const modalImage = document.getElementById('image-modal-img');
+    const closeButton = modal?.querySelector('.image-modal-close');
+    const prevButton = modal?.querySelector('.image-modal-prev');
+    const nextButton = modal?.querySelector('.image-modal-next');
 
-</div>
-<script src="js/translations.js"></script>
-<script src="js/terminal.js"></script>
+    let currentImageIndex = 0;
+
+    if (gallery) {
+      galleryImages.forEach((fileName, index) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'gallery-thumb';
+        button.setAttribute('aria-label', `Abrir imagen ${index + 1}`);
+
+        const img = document.createElement('img');
+        img.src = encodeURI(`HISTERICAS EN REVISIÓN/${fileName}`);
+        img.alt = `Imagen ${index + 1} de Histéricas en revisión`;
+        img.loading = 'lazy';
+
+        button.appendChild(img);
+        button.addEventListener('click', () => openModal(index));
+        gallery.appendChild(button);
+      });
+    }
+
+    function openModal(index) {
+      if (!modal || !modalImage) return;
+      currentImageIndex = index;
+      updateModalImage();
+      modal.hidden = false;
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      if (!modal) return;
+      modal.hidden = true;
+      document.body.style.overflow = '';
+    }
+
+    function showNextImage() {
+      currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+      updateModalImage();
+    }
+
+    function showPrevImage() {
+      currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+      updateModalImage();
+    }
+
+    function updateModalImage() {
+      if (!modalImage) return;
+      const fileName = galleryImages[currentImageIndex];
+      modalImage.src = encodeURI(`HISTERICAS EN REVISIÓN/${fileName}`);
+
+      const captionEl = document.getElementById('image-modal-caption');
+      if (captionEl) {
+        if (fileName === 'IMG_3955.JPG') {
+          captionEl.setAttribute('data-i18n', 'projects.img3955Caption');
+        } else if (fileName === 'IMG_3957.JPG') {
+          captionEl.setAttribute('data-i18n', 'projects.img3957Caption');
+        } else {
+          captionEl.removeAttribute('data-i18n');
+          captionEl.textContent = '';
+        }
+
+        const lang = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : 'es';
+        const key = captionEl.getAttribute('data-i18n');
+        if (key && typeof translations !== 'undefined') {
+          const keys = key.split('.');
+          let translation = translations[lang];
+          keys.forEach(k => {
+            translation = translation?.[k];
+          });
+          captionEl.textContent = translation || '';
+        }
+
+        captionEl.style.display = captionEl.textContent ? 'block' : 'none';
+      }
+    }
+
+    closeButton?.addEventListener('click', closeModal);
+
+    prevButton?.addEventListener('click', (event) => {
+      event.stopPropagation();
+      showPrevImage();
+    });
+
+    nextButton?.addEventListener('click', (event) => {
+      event.stopPropagation();
+      showNextImage();
+    });
+
+    modal?.addEventListener('click', (event) => {
+      if (event.target === modal) closeModal();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (modal && !modal.hidden) {
+        if (event.key === 'Escape') closeModal();
+        if (event.key === 'ArrowRight') showNextImage();
+        if (event.key === 'ArrowLeft') showPrevImage();
+      }
+    });
+  </script>
 </body>
+
 </html>

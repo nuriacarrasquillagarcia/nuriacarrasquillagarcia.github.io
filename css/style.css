@@ -22,11 +22,11 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: var(--dos-bg);
-  color: var(--dos-text);
-  font-family: var(--font-dos);
-  font-size: 20px;
-  line-height: 1.45;
+  background: #000000 !important;
+  color: #f2f2f2 !important;
+  font-family: 'VT323', 'Courier New', monospace !important;
+  font-size: 20px !important;
+  line-height: 1.6 !important;
 }
 
 a {
@@ -38,7 +38,7 @@ a {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 50;
+  z-index: 0;
   background: repeating-linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0.025) 0px,
@@ -50,9 +50,12 @@ a {
 }
 
 .screen {
+  position: relative;
+  z-index: 10;
   max-width: 900px;
   margin: 0 auto;
   padding: 28px 20px 60px;
+  background: #000000;
 }
 
 /* ---------- Navigation ---------- */
@@ -107,6 +110,8 @@ a {
 h1, h2, h3 {
   color: var(--dos-text-bright);
   margin: 0 0 10px;
+  position: relative;
+  z-index: 2;
 }
 
 h1 {
@@ -136,8 +141,16 @@ h2 {
 
 /* ---------- Typewriter ---------- */
 .tw-line {
-  white-space: pre-wrap;
-  min-height: 1.45em;
+  display: block !important;
+  white-space: normal !important;
+  min-height: 1.6em !important;
+  margin-bottom: 0.35em !important;
+  color: #f2f2f2 !important;
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 20 !important;
+  background: transparent !important;
+  visibility: visible !important;
 }
 
 .tw-line.cursor::after {
@@ -190,8 +203,8 @@ h2 {
 
 /* ---------- Images ---------- */
 .tw-reveal {
-  opacity: 0;
-  transition: opacity 0.7s ease;
+  opacity: 1;
+  transition: none;
 }
 
 .tw-reveal.visible {
@@ -199,10 +212,11 @@ h2 {
 }
 
 .img-frame {
-  display: inline-block;
+  display: block;
   border: 1px dashed var(--dos-border);
-  padding: 6px;
+  padding: 8px;
   max-width: 100%;
+  margin: 12px 0 18px;
 }
 
 .img-frame img {
@@ -219,10 +233,138 @@ h2 {
   text-align: center;
 }
 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.gallery-thumb {
+  padding: 0;
+  border: 1px solid var(--dos-border);
+  background: transparent;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.gallery-thumb img {
+  display: block;
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+}
+
+.gallery-link {
+  color: var(--dos-text-bright);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.image-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 100;
+  gap: 16px;
+}
+
+.image-modal[hidden] {
+  display: none !important;
+}
+
+.image-modal img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border: 1px solid var(--dos-border);
+}
+
+.image-modal-caption {
+  color: var(--dos-text-bright);
+  font-family: var(--font-dos);
+  font-size: 1.3rem;
+  text-align: center;
+  max-width: 80%;
+  line-height: 1.4;
+  word-wrap: break-word;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 4px 12px;
+  border: 1px dashed var(--dos-border);
+}
+
+.image-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: 1px solid var(--dos-border);
+  color: var(--dos-text-bright);
+  font-size: 1.4rem;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.image-modal-prev,
+.image-modal-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 1px solid var(--dos-border);
+  color: var(--dos-text-bright);
+  font-size: 1.8rem;
+  font-family: var(--font-dos);
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 110;
+  user-select: none;
+}
+
+.image-modal-prev {
+  left: 24px;
+}
+
+.image-modal-next {
+  right: 24px;
+}
+
+.image-modal-prev:hover,
+.image-modal-next:hover,
+.image-modal-close:hover {
+  background: var(--dos-highlight-bg);
+  color: var(--dos-highlight-text);
+}
+
 /* ---------- Project cards ---------- */
 .project-grid {
   display: grid;
   gap: 24px;
+}
+
+/* ---------- Phase blocks ---------- */
+.phase-block {
+  border-left: 2px solid var(--dos-border);
+  padding: 6px 12px;
+  margin: 10px 0;
+}
+
+.phase-title {
+  display: block;
+  color: var(--dos-text-bright);
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
 }
 
 .project-card {
@@ -239,14 +381,23 @@ h2 {
   margin: 0 auto;
 }
 
+.project-card > div {
+  width: 100%;
+}
+
 .project-card .tags {
   color: var(--dos-text-dim);
-  margin-top: 8px;
+  margin-top: 24px;
 }
 
 @media (max-width: 640px) {
   .project-card {
     flex-direction: column;
+  }
+  .project-card .img-frame {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
   }
 }
 

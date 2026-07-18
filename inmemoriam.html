@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NURIA CARRASQUILLA :: IN MEMORIAM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dos-body">
+  <div class="crt-overlay"></div>
+  <div class="screen">
+
+    <nav class="dos-nav">
+      <a href="index.html" data-i18n="nav.home">INICIO</a>
+      <a href="about.html" data-i18n="nav.about">SOBRE MÍ</a>
+      <a href="projects.html" data-i18n="nav.projects">PROYECTOS</a>
+      <a href="contact.html" data-i18n="nav.contact">CONTACTO</a>
+      <select id="language-selector"
+        style="margin-left: auto; background: #000; color: #bfbfbf; font-family: 'VT323', monospace; border: 1px solid #565656; padding: 4px 8px;">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+        <option value="ca">Català</option>
+      </select>
+    </nav>
+
+    <section class="tw-block">
+      <div class="tw-line" style="margin-bottom: 20px;">
+        &lt; <a href="projects.html" data-i18n="projects.backToGallery">VOLVER A LA GALERÍA</a>
+      </div>
+      <h1 class="tw-line" data-speed="16" data-i18n="projects.project3Title">03. IN MEMORIAM (2026)</h1>
+    </section>
+
+    <section class="tw-block">
+      <div class="project-grid">
+        <article class="project-card" style="flex-direction: column;">
+          <figure class="img-frame tw-reveal">
+            <button type="button" class="cover-gallery-trigger" aria-label="Ampliar imagen" onclick="openModal()">
+              <img src="images/project-3.jpg" alt="In Memoriam - Imagen representativa">
+            </button>
+            <figcaption data-i18n="projects.project3ImageCaption">In Memoriam (2026)</figcaption>
+          </figure>
+          <div>
+            <div class="tw-line" data-speed="8" data-i18n="projects.project3Desc1">Proyecto basado en el concepto de entrelazamiento cuántico:</div>
+            <div class="tw-line" data-speed="8" data-i18n="projects.project3Desc2">dos partículas entrelazadas donde el estado de una depende de la otra.</div>
+            <div class="tw-line tags" data-speed="4" data-i18n="projects.project3Medium">Medio: Dossier conceptual y práctica escénica, 2026</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div id="image-modal" class="image-modal" hidden>
+      <button type="button" class="image-modal-close" aria-label="Cerrar">×</button>
+      <button type="button" class="image-modal-prev" aria-label="Imagen anterior" style="display: none;">◀</button>
+      <img id="image-modal-img" src="" alt="Vista ampliada">
+      <video id="image-modal-video" controls style="outline: none;" hidden></video>
+      <div id="image-modal-caption" class="image-modal-caption"></div>
+      <button type="button" class="image-modal-next" aria-label="Imagen siguiente" style="display: none;">▶</button>
+    </div>
+
+    <footer class="status-bar">
+      <span>© 2026 Nuria Carrasquilla ®. Todos los derechos reservados.</span>
+    </footer>
+
+  </div>
+  <script src="js/translations.js"></script>
+  <script src="js/terminal.js"></script>
+  <script>
+    const modal = document.getElementById('image-modal');
+    const modalImage = document.getElementById('image-modal-img');
+    const modalVideo = document.getElementById('image-modal-video');
+    const closeButton = modal?.querySelector('.image-modal-close');
+    const prevButton = modal?.querySelector('.image-modal-prev');
+    const nextButton = modal?.querySelector('.image-modal-next');
+
+    function openModal() {
+      if (!modal || !modalImage) return;
+      modalImage.src = encodeURI('images/project-3.jpg');
+      modalImage.hidden = false;
+      if (modalVideo) modalVideo.hidden = true;
+      if (prevButton) prevButton.style.display = 'none';
+      if (nextButton) nextButton.style.display = 'none';
+
+      const captionEl = document.getElementById('image-modal-caption');
+      if (captionEl) {
+        captionEl.removeAttribute('data-i18n');
+        captionEl.setAttribute('data-i18n', 'projects.project3ImageCaption');
+        const lang = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : 'es';
+        const keys = 'projects.project3ImageCaption'.split('.');
+        let translation = translations[lang];
+        keys.forEach(k => {
+          translation = translation?.[k];
+        });
+        captionEl.textContent = translation || '';
+        captionEl.style.display = captionEl.textContent ? 'block' : 'none';
+      }
+
+      modal.hidden = false;
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      if (!modal) return;
+      modal.hidden = true;
+      document.body.style.overflow = '';
+    }
+
+    closeButton?.addEventListener('click', closeModal);
+    modal?.addEventListener('click', (event) => {
+      if (event.target === modal) closeModal();
+    });
+    document.addEventListener('keydown', (event) => {
+      if (modal && !modal.hidden && event.key === 'Escape') closeModal();
+    });
+  </script>
+</body>
+
+</html>

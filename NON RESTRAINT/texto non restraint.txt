@@ -1,0 +1,627 @@
+memoria.NURIACARRASQUILLAGARCIAJunio 2025PROYECTO IReto 4.3 : Espejo - autoevaluación Profesora: Paula Moliner Vergel
+ABSTRACT
+Este proyecto nace de un proceso de introspección profunda. Por primera vez, he utilizado el arte no solo como herramienta terapéutica para mi propia sanación, sino también como un intento de ofrecer algo a quienes estén dispuestos a dejarse afectar.
+Lo que comenzó como una pulsión creativa vital, nacida de un quiebre emocional personal, ha evolucionado hacia una búsqueda de sentido, estructura y un lenguaje propio.
+En este camino comprendí que mi impulso artístico no se basa únicamente en lo estético, sino en la posibilidad de transformación. Crear es mi forma de comprender el mundo y, sobre todo, de habitarlo.
+Esta obra nace de una oscuridad íntima y se dirige hacia una luz que no quema, sino que abraza. Se articula desde el principio de Non restraint: sin ataduras, sin juicio.
+La instalación es un intento de traducir, a través del movimiento, el color y el sonido, aquello que no se puede decir con palabras. Explora, de forma sensorial e intuitiva, el tránsito desde la tristeza, el desasosiego o la ansiedad, hacia la vida exterior y el contacto con el otro.
+Es una propuesta inmersiva que no pretende imponer una narrativa, sino generar una atmósfera compartida.
+No busca respuestas. No es una instalación narcisista. Es un humilde acto de presencia: un espacio donde lo emocional se vuelve materia, y donde el espectador puede detenerse y sentir. No para entenderme, ni conocerme, sino para reconocerse.
+Porque, a veces, lo único que necesitamos escuchar es:
+“yo también estuve ahí.”
+Gracias a Ibán por los conocimientos, la ayuda y el apoyo; siempre hace que la imaginación no parezca una utopía.
+A mis hijos, por entender que soy algo más que madre.
+A mi familia, por su colaboración en la conciliación, por ser esencia y empuje.
+Índice
+1. OBRA, JUSTIFICACIÓN CONCEPTUAL Y FORMAL.......................................................... .2
+1.1 Título.............................................................................................................................. .2
+1.2 Presentación.................................................................................................................. .2
+1.2.1 Justificación conceptual.......................................................................................... .3
+1.2.2 Justificación formal.................................................................................................. .4
+1.2.3 Metodología............................................................................................................ .6
+2.OBJETIVOS......................................................................................................................... .8
+3.EXPOSICIÓN....................................................................................................................... .8
+3.1 Selección de obras......................................................................................................... .8
+3.2 Espacio expositivo........................................................................................................ .11
+4.REFLEXIÓN....................................................................................................................... .12
+5.RECURSOS........................................................................................................................ .13
+5.1 Lista de recursos.......................................................................................................... .13
+5.2 Presupuesto................................................................................................................. .14
+5.3 Calendario de trabajo................................................................................................... .15
+6.BIBLIOGRAFÍA................................................................................................................... .16
+7. ANEXO............................................................................................................................... .17
+7.1 Selección de obras detallada....................................................................................... .17
+7.2 Infografía de metodología............................................................................................ .31
+7.3 Carteles curatoriales.................................................................................................... .32
+7.4 Gráfico de gastos......................................................................................................... .34
+7.5 Calendario-tabla de trabajo.......................................................................................... .34
+7.6 Making of del proyecto................................................................................................. .35
+7.7 Líneas de programación en Arduino para el motor...................................................... .39
+7.8 Hoja de Sala................................................................................................................. .40
+2
+1. OBRA, JUSTIFICACIÓN CONCEPTUAL Y FORMAL
+1.1 Título
+NON RESTRAINT
+“No estás sola”
+1.2 Presentación
+Esta instalación establece una relación entre arte y emoción, entre cuerpo y lenguaje. Se construye a partir de la exploración de varios conceptos importantes:
+•
+El arte como forma de terapia: esta fue la semilla del proyecto.
+•
+La pulsión creativa como un acto natural y orgánico.
+•
+El arte relacional y su cruce con lo sensorial en una instalación.
+El proceso de creación (involuntario) comenzó hace más de un año, impulsado por un anhelo profundo de respuestas, ayuda y comprensión. Durante este tiempo, me he sumergido en lecturas sobre neurociencia, arteterapia y arte marginal, lo cual ha permeado tanto la perspectiva material como conceptual del trabajo. Esta búsqueda no ha sido casual, sino el resultado de una necesidad vital de entender y transformar las emociones.
+Cuando encontré la semilla del proyecto, inicié una investigación que abarcó tanto referentes artísticos como teóricos. Por un lado, seleccioné obras y artistas que han influido tanto estética como conceptualmente, como Louise Bourgeois, Sophie Calle o el expresionismo abstracto contemporáneo, cuyas formas intensas y gestuales funcionan como catarsis emocional -este último caso fue justo cuando tuve que realizar la pintura-. Por otro, recurrí al pensamiento psicoanalítico: desde Freud y Lacan, pasando por Foucault, hasta el pensamiento de Julia Kristeva.
+Estos pilares conceptuales se mezclan y retroalimentan. Así, la obra se puede leer en varios niveles:
+•
+Psicológico: poder explorar el inconsciente utilizando el arte como lenguaje simbólico.
+•
+Cultural: se relaciona con arquetipos universales, pero también con estructuras culturales propias.
+•
+Biográfico: surge desde una perspectiva subjetiva, vinculada directamente a mis vivencias personales.
+3
+Este proyecto busca hacer visibles emociones profundas, transformando el conflicto interno en formas sensoriales con sentido, eco y belleza. En ese camino, la instalación se convierte en un espacio compartido: una invitación a mirar sin complejos y sin miedo.
+1.2.1 Justificación conceptual
+El proyecto sirve como instrumento o canal para la construcción de atmósferas empáticas. No se trata de abordar el tema de la salud mental como un tabú, sino de exponerla como una dimensión que convive y condiciona nuestras experiencias. La instalación nace de la necesidad de abrazo y comprensión: “No estás sola”.
+Elegí este tema porque ha sido el epicentro que ha movido y removido mi vida en los últimos años, y especialmente en este último. Sufrir crisis emocionales muy profundas, o verlas en personas a las que quieres, convierte la enfermedad en algo colectivo.
+Para sanar pequeñas partes del dolor, siempre encontré un refugio momentáneo en la pintura al óleo. Pero esta asignatura me ha ofrecido la oportunidad de hacer algo trascendente, que no quedara solo en mí, algo que pudiera ayudar a alguien más.
+Cuando padeces una enfermedad mental, te sientes sola, incomprendida y aislada. Crece una tela invisible entre el tacto y la realidad, que convierte tus vivencias en un eco de lo que desearías que fueran. La vida pasa lenta y rápida a la vez, y tu ritmo se desacompaña del resto del mundo.
+Este proyecto nace de una necesidad inherente, profundamente personal y orgánica, de acercarme a los marginados, a quienes desean formar parte del grupo pero sienten que su pieza no encaja en el puzle común. O a mí misma. En todo caso, la obra está dirigida a todo el público. Quizás, especialmente, a personas sensibles, a quienes han pasado —o están pasando— por estados de tristeza o ansiedad y, de algún modo, buscan comprenderse, sentirse acompañadas o simplemente poner nombre a lo que sienten. También a quienes viven sus emociones con intensidad, incluso cuando eso duele. No pretendo dar respuestas ni erigirme en gurú de nada, sino crear un espacio íntimo donde lo emocional no sea tabú.
+También puede dirigirse a quienes se interesan por el arte como herramienta terapéutica, y a quienes encuentran en él un lenguaje alternativo a la palabra.
+Aunque la semilla de esta obra es profundamente personal, creo que puede resonar en lo colectivo. Por eso, me dirijo también a quienes, desde la empatía —abierta y sin prejuicios— desean explorar las formas en que la creación artística puede contener, transformar o liberar.
+Esta instalación no excluye a nadie, pero probablemente interpelará con más fuerza a quienes han sentido el peso del aislamiento emocional, el vacío o la necesidad urgente de volver a vivir con intensidad. Porque no es una obra sobre el dolor, sino sobre el camino hacia algo que aún está por venir, y sobre la posibilidad de transitarlo acompañada.
+La obra se inscribe en una tradición que enlaza el arte autobiográfico, el arte terapéutico y el arte relacional en torno a la salud mental. Recoge elementos de distintos movimientos y artistas que han abordado la fragilidad emocional, el cuerpo, la marginalidad y la subjetividad como eje central de su producción.
+4
+Desde el lenguaje plástico, la obra se sitúa dentro del expresionismo abstracto contemporáneo, influenciada por el action painting, donde el gesto pictórico y la materia sirven como forma de exteriorización del mundo interior y catarsis emocional tras el conflicto psíquico. En este sentido, han sido especialmente inspiradoras las obras de Willem de Kooning, cuya pintura no pretendía replicar la realidad, sino transmitir su experiencia emocional de forma visceral.
+Parte de la instalación también se conecta con el arte feminista y performativo de los años 60 y 70, donde el cuerpo se convierte en herramienta para expresar vivencias personales y colectivas. Artistas como Carolee Schneemann o Louise Bourgeois son referentes por su manera de tratar el trauma y la intimidad desde lo corporal y lo emocional.
+Desde una perspectiva más conceptual, la obra dialoga con la práctica de Sophie Calle, quien explora la vulnerabilidad, la pérdida y las relaciones humanas desde la descomposición del yo y la búsqueda de identidad desde lo introspectivo.
+En el plano teórico, el proyecto se articula entre las ideas de Michel Foucault, en su crítica a la institucionalización de la locura, y la corriente de la antipsiquiatría, que permite repensar los tratamientos tradicionales desde una mirada más humanista. También se conecta con la noción de Art Brut de Jean Dubuffet, al valorar las formas de creación que emergen del sufrimiento psíquico.
+Finalmente, la idea de identidad es el hilo conductor de la instalación. Se concibe como algo fragmentado, fluido y en permanente construcción, lo que puede relacionarse con corrientes posmodernas y con los planteamientos filosóficos de Julia Kristeva, quien entiende el arte como forma de sublimación del dolor y espacio de resignificación simbólica del yo.
+1.2.2 Justificación formal
+Las decisiones estéticas y materiales del proyecto responden a una necesidad de coherencia entre la forma, el contenido y la experiencia sensorial.
+El habitáculo denominado “oscuridad” está dominado por fotografías, ya que se busca capturar una realidad, como lo haría un objetivo. Estas imágenes están en blanco y negro para evocar una sensación de ensoñación. El formato cuadrado se eligió con la intención de no jerarquizar los elementos dentro de la composición: todos ellos son importantes, y se quiere generar una simetría conceptual.
+La habitación es negra porque representa precisamente la oscuridad, el ir a tientas, la soledad y la vulnerabilidad. La elección del cartón pluma como soporte para las impresiones responde a que es un material ligero, versátil y con capacidad para formar estructuras frágiles pero firmes, en sintonía con la idea de vulnerabilidad emocional: lo que aparenta solidez por fuera, pero es delicado en su interior.
+El ruido blanco que envuelve este espacio busca inducir un estado emocional en el visitante, transportándolo sensorialmente a ese lugar interno donde todo se ralentiza. Es el eco de una experiencia emocional que se siente.
+El pasillo oscuro funciona como metáfora del tránsito psíquico: un recorrido introspectivo, a veces angustioso, que va antes que la aparición de la luz. No es solo un espacio físico, sino
+5
+un umbral simbólico hacia el interior de una misma. La oscuridad no busca incomodar, sino ralentizar, invitar al recogimiento y activar los sentidos. Asimismo, la transición entre los espacios no busca una continuidad armoniosa, sino pretende la recepción de los ecos acústicos de las estancias colindantes para dar la sensación de contradicción y/o confusión. En lugar de suavizar las transiciones entre estados, lo que se propone es conservar los contrastes y los silencios como representación simbólica de cómo realmente se experimenta el cambio: a veces confuso, abrupto y con emociones solapadas. De este modo, se refuerza la intención de la obra, evitando convertirla en un relato fácil y estético.
+El vídeo-performance se proyecta para que la imagen en movimiento se “sobrescriba” o se “imprima” sobre el espectador. Está pensado para que el visitante cruce físicamente el espacio de proyección, de esta manera su cuerpo se verá proyectado dentro del vídeo-performance. El lenguaje utilizado se alinea con la tradición del videoarte performativo europeo, cercano a las prácticas de Dora García, donde el cuerpo, el tiempo y la relación con el espectador es lo más importante para la narrativa o el montaje. Esta elección responde a la honestidad formal que quiero llevar a cabo: mostrar una emoción sin filtros ni artificios, desde un lugar de presencia y escucha corporal. La interacción con el visitante convierten la instalación en relacional. La elección del formato audiovisual responde a que la imagen abraza y la música acompaña. La música que actúa como banda sonora se escogió por tener un in crescendo instrumental, sin voces que dirijan o condicionen, desde lo más sutil hasta lo más intenso. Porque cuando llegas al final, es épico. Además, el lenguaje visual es austero, con cámara fija, sin montaje recargado ni intervenciones digitales. Esto es así porque se ha querido preservar la transparencia emocional del momento. Cualquier adorno podría haber distorsionado la intención original: mostrar el camino interno desde la penumbra hacia la luz, sin coreografía ni narrativas impostadas. La fuerza del movimiento y del cuerpo ocupando el espacio, no necesita de filtros: es Verdad.
+En la estancia de la “luz” encontramos el cuadro giratorio y la silla con la ropa. El lienzo gira como metáfora del carácter cíclico de la vida, del devenir imprevisible, de aquello que escapa a nuestro control y que nos obliga a adaptarnos. Aquí, quien pinta no domina: es lo externo lo que marca el ritmo. Solo he decidido cómo, cuándo y con qué color pintaré, pero no el resultado. El lienzo de lino crudo representa esa vida sin artificios, sin filtros, tal como se presenta.
+La ropa negra, por su neutralidad, da importancia a las “huellas” del proceso. Descansa sobre una silla porque necesita, simbólicamente, reposar. Es un gesto de cuidado hacia la propia vivencia.
+Desde una perspectiva ética y crítica, el proyecto señala cómo la sociedad margina o silencia el malestar psíquico. Se cuestiona cómo la presión de normalidad y productividad enferma nuestras emociones, y se propone, en cambio, un espacio de validación y escucha. Inspirado por el principio de Non restraint, se plantea una visión más humanista, donde la salud mental no se trata desde el juicio o la corrección, sino desde el acompañamiento, el reconocimiento y la posibilidad de transformación a través del arte.
+Esta instalación no busca dar respuestas, sino abrir preguntas, propiciar presencia y crear un entorno seguro donde sentir no sea un acto tabú.
+6
+1.2.3 Metodología
+Con la propuesta de este ejercicio he realizado un acto de introspección y análisis que nunca antes había hecho con tanta profundidad. No me había detenido a indagar ni a desmenuzar mi forma de trabajar. En mi infancia y juventud, el hecho de llevar a cabo un acto artístico respondía al puro disfrute. No se trataba de alcanzar un resultado: el simple hecho de pintar colmaba esa necesidad, y con eso bastaba.
+Cuando retomé el arte hace un par de años, solo el olor de los materiales y pintar desde el impulso ya era la meta. El proceso artístico se convirtió en una herramienta terapéutica, una forma de neutralizar mis emociones. El arte me salvó. Y aunque esta afirmación nace desde lo íntimo, conecta con una realidad más amplia que han señalado autores como Kristeva o Foucault: el arte puede ser instrumento o espacio de sublimación simbólica del dolor, y como resistencia ante discursos normativos que patologizan la diferencia. En contextos donde la salud mental sigue siendo estigmatizada, crear puede ser una forma de reivindicar lo emocional no como debilidad, sino como verdad. Desde ahí, mi proyecto no es solo catarsis personal, sino también un gesto de resistencia compartida.
+Antes de dar forma a cada impulso creativo, comencé a preguntarme qué quería mostrar, cómo y por qué con esos materiales.
+Necesito impregnarme de información. Llevo un año leyendo sobre neurociencia en el arte, arteterapia, arte marginal o la expresión artística de la enfermedad mental. Supongo que mi forma de ser va inevitablemente acompañada de una necesidad imperativa de saber, y eso permea profundamente mi voluntad artística. Desde entonces, todo lo que creo surge de lo orgánico y se impregna de pensamiento psicoanalítico.
+Durante este curso, me he puesto a prueba por primera vez. Nunca antes había pensado “a lo grande”. Mis métodos eran simples, casi automatizados por la práctica constante del óleo. Ha sido estimulante crear una obra que trascienda lo técnico, porque tengo mucho que decir desde mi verdad.
+He comprendido que las metodologías de trabajo están íntimamente ligadas a la forma de ser de cada artista. Uno puede ser minucioso, riguroso, flexible o intuitivo en tanto que vive de ese modo. Es cierto que para llevar a cabo un método hay que cumplir ciertas premisas, incluso adaptarse a nuevas situaciones por el bien de la obra, “sacrificando” algo de uno mismo. En mi caso, me considero rigurosa y muy detallista, pero reconozco que la flexibilidad es algo que debo trabajar a nivel vital. El error y el azar forman parte del proceso creativo, que pueden enriquecer, matizar o incluso transformar la obra sin restarle valor. Sin embargo, me cuesta separar rigurosidad de rigidez. Debo confiar en que, si hay trabajo detrás, puede funcionar, más aún considerando que me muevo en lo sensorial.
+Con la gestación del proyecto, he entendido que todo surge de algo que aún no sé explicar del todo. Pero ahora, al concretar, empiezo a comprender el porqué de cada idea y cómo materializarla. Lo que tengo claro es la hipótesis que me sostiene y que, para mí, es el tótem de la obra: transmitir de forma sensorial e intuitiva cómo una persona puede estar sumergida en un estado de tristeza, desasosiego o ansiedad, y cómo, posteriormente, se transita hacia la vida exterior desde ese lugar.
+7
+A partir de ahí comienza la búsqueda de respuestas: ¿cómo quiero transmitirlo? Sé que quiero hacer una instalación. Ahora bien, ¿cómo voy a configurarla? ¿En qué disciplinas me voy a mover? ¿Necesitaré ayuda en algún aspecto?
+Sobre el “mentoring” de científicos a artistas, he comprendido que la frontera la marco yo. No debo tener miedo y debo centrarme en lo que quiero transmitir, porque “el cómo” de ciertos detalles puede resolverse con ayuda técnica.
+Ahora surge una cuestión importante: si quiero realizar una instalación, es fundamental pensar en su configuración, su enclave, la disposición y los elementos que la compondrán. ¿Por qué una instalación y no otro recurso? Porque creo que se adapta mejor a mi hipótesis.
+Después de profundizar en referentes y contextos artísticos, he llegado a la conclusión de que, a nivel sensorial, una instalación puede resultar más cautivadora. El espectador se sumerge en el mensaje que se le quiere transmitir. Yo soy responsable del canal, pero no del contenido que le llega al receptor, y ahí radica la esencia del proyecto. No pretendo que el público sienta algo concreto: las emociones son únicas, cada quien es un filtro moldeado por su experiencia. El grosor de la piel depende de lo vivido. Pero de forma intuitiva, quiero crear una atmósfera que diga: “no estás solo”.
+Mi hipótesis nace de una realidad profundamente personal. Creí estar sola en mi experiencia, pero comprendí que muchas otras personas también han transitado ese dolor. Desde ahí, mi obra adquiere un carácter confesional. Pero cuando sales de ahí, te das cuenta de que no es así. En cierto modo, es realizar un tipo de arte confesional. Poder realizar esta instalación supone un proceso terapéutico de cierre de etapa y, quizá, también un espejo para quien lo necesite. Con toda la humildad.
+La fotografía puede servirme para “mostrar” una realidad captada, estática. ¿Qué me aporta esta disciplina? El reconocimiento del espectador ante una realidad compartida. ¿Cómo la muestro? ¿Necesito algo más para provocar sensaciones?
+Luego viene el reto de representar ese paso de la oscuridad hacia la vida. ¿Qué es la vida? Movimiento y color, ruidos y silencios. Lo que mejor puede transmitir eso es el vídeo y la performance. ¿Cómo lo expongo? Tal vez mediante proyecciones, para que el espectador se vea inmerso en la luz y la imagen: que también se sienta parte de ella. Hacer algo de arte relacional ¿Qué movimiento? Para eso, debo pensar en lo que a mí me “salvó”: la pintura.
+En definitiva, he tomado conciencia de que mi proceso artístico refleja mi manera de sentir y habitar el mundo. A través de esta obra, no solo busco comunicar una emoción o una vivencia, sino también tender un puente hacia el otro, generar un espacio compartido donde lo íntimo pueda resonar en lo colectivo. El arte, en este sentido, deja de ser solo expresión para convertirse en acto de acompañamiento, de resistencia y de apertura. Este proyecto es, al mismo tiempo, un cierre y un inicio: la conclusión de una etapa personal y el comienzo de una búsqueda más consciente, más libre y más fiel a lo que verdaderamente me mueve.
+(Véase Anexo 7.2 para visualizar Infografía de la metodología llevada acabo)
+8
+2. OBJETIVOS
+Esta instalación artística tiene la intención de materializar una experiencia emocional muy profunda a partir de una función inmersiva que combina imagen, sonido, espacio y movimiento. El objetivo principal ha sido crear un lugar sensible y que simbolice aquello que pueda remover al espectador, ya no solo observando, sino sintiéndolo y reconociéndose.
+Desde un punto de vista formal, se quiso crear una instalación multisensorial dividida en 4 espacios: la oscuridad, el camino, la penumbra y la luz. Cada uno tiene que ver con un estado emocional concreto y está pensado para activar diferentes percepciones (visual, auditiva y espacial). Se pretendía alcanzar un lenguaje no narrativo, en el que cada elemento comunicara una parte del proceso emocional sin necesidad de ser explícito.
+En lo que tiene que ver a la comunicación con el público, el objetivo ha sido crear un espacio empático donde el espectador pueda sentirse acompañado en sus propias emociones, sin juicios ni diagnósticos, y con la libertad de que pueda interpretar como sienta. No se buscaba imponer una lectura única o personal, sino dar un refugio -como diría Louise Bourgeois-, un lugar para parar y conectar y quizá transformar algo en el interior.
+El proyecto está pensado para personas que hayan vivido la tristeza o la ansiedad, pero también para quienes se interesan por el arte como forma de acompañamiento, terapia o crítica sobre los márgenes de lo emocional y lo social.
+Aunque el proyecto aún no se ha materializado físicamente, su estructura, contenido y propósito están sólidos. Es el inicio de algo real y posible, una propuesta madura que está lista para cobrar vida.
+3. EXPOSICIÓN
+3.1 Selección de obras
+(La selección completa de obras que componen la selección, así como sus fichas técnicas, se puede consultar en el Anexo 7.1.)
+•
+FOTOGRAFÍAS DE LA SERIE “OSCURIDAD”:
+9
+•
+EL VIDEO-PERFORMANCE DE “PENUMBRA”.
+•
+OBRAS DE “LUZ”:
+Muestra en miniatura de la serie fotográfica de Oscuridad.
+10
+Posos de vida sobre eterno devenir (2025) en pausa y en movimiento
+Objeto artístico, Reposo (2025)
+11
+3.2 Espacio expositivo
+1.
+OSCURIDAD
+2.
+CAMINO
+3.
+PENUMBRA
+4.
+LUZ
+Este proyecto está concebido como una instalación inmersiva que establezca un diálogo sensorial con el espectador. Por ello, no la imagino ni en un museo tradicional ni en una galería comercial, sino en un espacio íntimo como una sala alternativa, un centro cultural, una nave industrial reconvertida o incluso, en un formato más experimental, en plena calle, dentro de un espacio protegido del bullicio.
+A nivel técnico, necesito paredes y estructuras para dividir la instalación: paredes negras para las secciones de “Oscuridad” y “Camino”, y blancas para el resto. También requeriré una silla para dejar una prenda con restos de pintura, un proyector de vídeo, altavoces y luces controladas. Todo ello debe estar conectado a una instalación eléctrica estable.
+Diseño en 3D de la instalación.
+Planta del espacio de la instalación.
+12
+La duración de la exposición sería de una semana o de un mes, permitiendo al público asistir de forma pausada y, si lo desea, repetir la experiencia. Por otro lado, también podría presentarse como una intervención efímera de un solo día en el marco de un evento específico, como un festival de arte o una jornada dedicada a la salud mental.
+El proyecto puede adaptarse a un formato digital. Una versión online, accesible desde plataformas artísticas o redes sociales, podría funcionar como reflejo parcial de la experiencia física. Aun así, la esencia de la obra reside en el espacio compartido, en la atmósfera que envuelve al cuerpo presente.
+4. REFLEXIÓN
+Tras la realización del presente proyecto, he podido deshacer nudos y centrarme en las piezas que conforman cada emoción, porque cada una de ellas es un entramado de muchas otras. Ha sido un proceso enriquecedor y terapéutico, además de suponer un camino de aprendizaje y crecimiento profesional.
+La “oscuridad” fue el primer estado en el que me centré mentalmente. No quería que fuera algo tenebroso, sino un espacio de recogimiento, confusión y pausa. En un principio pensé en utilizar fotografías a color, pero desaturadas. Sin embargo, deseché la idea porque rompía con la línea narrativa del espacio. También contemplé la posibilidad de realizar imágenes más explícitas de la emoción, pero tampoco me parecía una buena elección, ya que se alejaba de mi intención de sugerir en lugar de imponer.
+Las principales dificultades en este espacio tuvieron que ver con la captura de las imágenes, ya que era la primera vez que utilizaba el trípode y me autofotografiaba de ese modo. Un aspecto a mejorar sería mi flexibilidad: evitar ser tan exigente o “cuadriculada” en la materialización de la imagen, permitirme fluir y sorprenderme, ya que es precisamente ahí donde pueden surgir las mejores fotografías.
+El “camino” fue el siguiente espacio en desarrollarse. Al principio pensé en ambientarlo con algún sonido concreto, pero luego consideré que eso podría restar relevancia a los espacios contiguos. Además, el tránsito de una emoción a otra nunca ocurre a un ritmo fijo; siempre se solapan momentos positivos y negativos, al igual que los ecos de la oscuridad y la penumbra.
+La estancia de “penumbra” resultó especialmente estimulante. Ofrecía un amplio abanico de posibilidades. En un inicio, pensé en que “penumbra” y “luz” fueran un único espacio, y que el vídeo se emitiera en una televisión junto al lienzo. Sin embargo, al visualizar la escena, percibí que quizá se generaban demasiados estímulos para el espectador y el mensaje se diluía.
+Considero que compartimentar las emociones es como esquematizar un proceso de aprendizaje: si tienes claros los puntos principales, estos son más fáciles de aprehender. La opción del proyector me pareció ideal porque engloba varios elementos: envuelve al espectador y funciona como un impás entre la oscuridad y la luz. Proyectarlo sobre un muro medianero obliga al visitante a cruzarlo, a atravesar esa fase para llegar al final. Son estancias conectadas, pero claramente diferenciadas.
+13
+En cuanto a la realización de la performance, debo decir que era la primera vez que hacía una. Tenía muchos miedos e inseguridades relacionados con mi movimiento, mi cuerpo y mi forma de expresión. El proceso fue lento, pero al adentrarme en ese estado, logré soltar lastre. Para futuras oportunidades, debería dejar de lado los prejuicios y confiar en que mi cuerpo también tiene la capacidad de transmitir. Quizá no lo haga de la manera “correcta”, pero sí desde un lugar auténtico y propio.
+Finalmente, el espacio de la “luz” fue el habitáculo que tenía más claro desde el principio. Sé cómo es la vida —o al menos cómo me gusta vivirla—: con ruidos, silencios, murmullos, pasos y voces. La luz como eje conductor y el resultado de “penumbra” como quien muestra la solución de una ecuación. Ese era el objetivo. Y aunque el camino no termina aquí, esta obra es la prueba de que la oscuridad puede convertirse en lenguaje, y el dolor, en algo compartido.
+5.RECURSOS
+5.1 Lista de recursos
+Materiales para la obra (materialización y formalización de la instalación):
+•
+Cartón pluma (para soportes de impresión fotográfica en blanco y negro).
+•
+Impresiones fotográficas en blanco y negro, formato cuadrado.
+•
+Paredes en blanco y negro para crear la estructura expositiva.
+•
+Sistema de iluminación regulable (focos dirigidos, luces suaves o LEDs para crear ambiente en cada espacio).
+•
+Reproductores de sonido (altavoces o auriculares para ruido blanco y música de la video-instalación).
+•
+Reproductor y proyector de vídeo.
+•
+Lienzo de lino crudo (para el cuadro giratorio).
+•
+Estructura motorizada o mecánica para hacer girar el lienzo.
+•
+Silla (estética neutra).
+•
+Ropa negra.
+•
+Cables, regletas y soportes técnicos para el montaje.
+Material para la presentación pública (expositivo o comunicativo):
+•
+Hoja de sala. (véase el apartado 7.8 del Anexo)
+•
+Cartelas explicativas para cada sala . (véase el apartado 7.3 del Anexo)
+14
+5.2 Presupuesto
+Para la confección de un supuesto presupuesto, me he basado en los gastos llevados a cabo y consultado tarifas de establecimientos. Aquí paso a desglosarlos:
+1. Habitáculos y Estructuras:
+•
+Habitáculo oscuro (rígido, pintado en negro, iluminación focalizada): 800 €
+•
+Pasillo (rígido, pintado en negro, iluminación tenue): 400 €
+•
+Habitáculo blanco (rígido, mucha luz): 600 €
+•
+Muros separadores + cortinas de separación: 300 €
+•
+Pintura negra y blanca (material y mano de obra): 250 €
+2. Materiales plásticos y elementos electrónicos:
+•
+lienzo: 100 €
+•
+pinturas acrílicas y material para pintar: 100 €
+•
+piezas electrónicas para el movimiento giratorio + sujeción: 30€
+3. Fotografías:
+•
+4 fotografías de 50x50 cm en cartón pluma: 120 € (30 € cada una)
+•
+4 fotografías de 25x25 cm en cartón pluma: 80 € (20 € cada una)
+4. Equipos Audiovisuales:
+•
+Proyector estándar (1080p, 3000 lúmenes): 450 €
+•
+Sistema de sonido envolvente (2 altavoces en habitáculo negro, 2 en zona de proyección): 300 €
+•
+Silla básica para zona de proyección: 50 €
+5.Iluminación:
+•
+Focos dirigidos para habitáculo negro (x3): 150 €
+•
+Luz tenue para pasillo (x2): 100 €
+•
+Luz intensa para habitáculo blanco (x2): 120 €
+6. Montaje e Instalación:
+•
+Mano de obra para montaje de estructuras y equipos: 500 €
+•
+Transporte de materiales y equipos: 200 €
+•
+Ajustes y pruebas técnicas: 150 €
+TOTAL ESTIMADO: 4,700 €
+(Véase el apartado 7.4 del Anexo para visualizar gráfico de gastos)
+15
+5.3 Calendario de trabajo
+Fecha de presentación final del proyecto: 14 de junio
+MARZO - ABRIL: FASE DE CONCEPCIÓN Y PLANIFICACIÓN
+•
+Proyección conceptual del proyecto:
+•
+Definición de la idea general, enfoque emocional y estructura.
+•
+Revisión de referentes artísticos, teóricos y materiales.
+•
+Estudio técnico y de materiales:
+•
+Evaluación de necesidades materiales: cartón pluma, motor, impresiones, proyector, lienzo, audio, etc.
+•
+Búsqueda de proveedores o prestadores de servicio.
+Abril (1ª quincena):
+•
+Selección final de materiales.
+•
+Búsqueda o encargo de elementos técnicos.
+•
+Contacto con ayuda técnica para montaje del motor.
+Abril (última semana): Montaje del sistema giratorio (motor) con asistencia técnica.
+MAYO: FASE DE PRODUCCIÓN DE CONTENIDO
+1ª quincena de mayo: Captura y edición de fotografías en blanco y negro.
+2ª quincena de mayo:
+•
+Realización de la performance (grabación audiovisual).
+•
+Edición del vídeo-performance .
+JUNIO: MONTAJE Y PREPARACIÓN DE LA PRESENTACIÓN
+14 de junio: Presentación del proyecto.
+A partir del 14 de junio (hipotético):
+•
+Planteamiento logístico del montaje: distribución de espacios según las cuatro etapas (oscuridad, camino, penumbra y luz).
+•
+Montaje técnico: colocación de impresiones, lienzo giratorio, dispositivos de audio y vídeo.
+•
+Preparación de la hoja de sala y material explicativo.
+•
+Pruebas técnicas generales: iluminación, sonido, proyección.
+•
+Documentación del montaje (foto y vídeo del resultado final).
+(Véase apartado Anexo 7.5 para visualizar gráfico)
+16
+6. BIBLIOGRAFÍA
+Art Toolkit (s.f) https://art-toolkit.recursos.uoc.edu/es/
+Berga Carreras,Q (2018), Manual de Intrusiones. Recuperado de la UOC.
+Grid_Spinoza (s.f.) [video] para el centro de investigación artística de Hangar de Barcelona. Recuperado de http://109.69.8.21/old_gridspinoza_files/videos/
+Moliner, M. (2018a) Proyecto I. Recuperado de la UOC.
+Moliner, M. (2018b) La semilla.Preproyecto/anteproyecto. Recuperado de la UOC.
+Moliner, M. (2018c) El símbolo. Recuperado de la UOC.
+Moliner, M. (2018d) El hechizo. Recuperado de la UOC.
+Moliner, M. (2018e). El Camino. Recuperado de la UOC.
+Moliner, M. (2018f). El Espejo.. Recuperado de la UOC.
+Parés, R. (s.f.) Tzompantli. Recuperado de la UOC.
+Suera, M. (s.f.) Souvenirs Oníricos. Recuperado de la UOC .
+17
+7. ANEXO
+7.1 Selección de obras detallada
+•
+FOTOGRAFÍAS DE LA SERIE “OSCURIDAD”:
+FICHA TÉCNICA
+Título
+Disorder
+Fecha
+12 de mayo del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Cámara
+Canon EOS600D con objetivo EFS 18-55mm
+Soporte de la imagen
+Digital impreso en cartón pluma
+Dimensiones
+3456x3456 píxeles
+Descripción
+I've got the spirit, but lose the feeling (Joy Division, Disorder, 1979)
+18
+FICHA TÉCNICA
+Título
+A(nude)
+Fecha
+12 de mayo del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Cámara
+Canon EOS600D con objetivo EFS 18-55mm
+Soporte de la imagen
+Digital impreso en cartón pluma
+Dimensiones
+2396x2396 píxeles
+Descripción
+Vulnerable, expuesta y a la deriva.
+19
+FICHA TÉCNICA
+Título
+Lengua
+Fecha
+12 de mayo del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Cámara
+Canon EOS600D con objetivo EFS 18-55mm
+Soporte de la imagen
+Digital impreso en cartón pluma
+Dimensiones
+3179x3179 píxeles
+Descripción
+Lánguido, lamentable, lacerante, lejos, lúgubre, luminiscente, lóbrego, lamentoso.
+20
+FICHA TÉCNICA
+Título
+Hurt
+Fecha
+12 de mayo del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Cámara
+Canon EOS600D con objetivo EFS 18-55mm
+Soporte de la imagen
+Digital impreso en cartón pluma
+Dimensiones
+3112x3112 píxeles
+Descripción
+“¿Alguna vez sentiste algo parecido?” (Johnny Cash, Hurt, 2002)
+21
+FICHA TÉCNICA
+Título
+Despojo
+Fecha
+12 de mayo del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Cámara
+Canon EOS600D con objetivo EFS 18-55mm
+Soporte de la imagen
+Digital impreso en cartón pluma
+Dimensiones
+2837x2837 píxeles
+Descripción
+Descender, alejarse o acercarse. Pérdida y desencuentro. Inquietud en la aparente calma. Telas que inhiben el tacto. Atraigo y dejo. Abandono.
+22
+FICHA TÉCNICA
+Título
+Abrupto
+Fecha
+12 de mayo del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Cámara
+Canon EOS600D con objetivo EFS 18-55mm
+Soporte de la imagen
+Digital impreso en cartón pluma
+Dimensiones
+2837x2837 píxeles
+Descripción
+Avance y retroceso. Camino interrumpido. Desilusión. Descomposición del tiempo y del espacio.
+23
+FICHA TÉCNICA
+Título
+(Des)carga emocional
+Fecha
+12 de abril del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Cámara
+Canon EOS600D con objetivo EFS 18-55mm
+Soporte de la imagen
+Digital impreso en cartón pluma
+Dimensiones
+4142x3456 píxeles
+Descripción
+Manifestaciones frente a represiones. Juicio y sentencia. Desequilibrio evidente. Eterna búsqueda.
+24
+FICHA TÉCNICA
+Título
+Under (pain)ting
+Fecha
+12 de abril del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Cámara
+Canon EOS600D con objetivo EFS 18-55mm
+Soporte de la imagen
+Digital impreso en cartón pluma
+Dimensiones
+2660x2660 píxeles
+Descripción
+Grabe, grito, gúmido, gélido, goteante, gemido, golpe, gótico, gimoteante, gris. Bajo el agua.
+25
+•
+VIDEO-PERFORMANCE DE “PENUMBRA”:
+(El archivo está adjunto a la capeta de entrega de la presente memoria reflexiva con el título: “CarrasquillaGarcia_Nuria_VIDEO-PERFORMANCE” )
+FICHA TÉCNICA
+Título
+Órbita emocional
+Fecha
+31 de mayo del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Duración
+5:36:36 minutos
+Formato y tamaño
+Video digital Full HD | 815 MB
+Técnica
+Vídeo-performance | Autoperformance | Cámara fija | Montaje audiovisual minimista. Registro en espacio íntimo sin público
+Dimensión de proyección
+Proyección mural a gran escala (formato horizontal, superficie blanca lisa)
+Formato final:
+VIDEO:H.264 |1920X1080p | 60 fps | 38 Mbps
+AUDIO: AAC | 320 Kbps |48 kHz | Estéreo
+Sonido
+Artista: Benjamín Lázaro
+Canción: Inside
+Sonido envolvente.
+Idioma
+Sin diálogo
+Subtítulos
+No aplica
+Lugar de realización
+Espacio doméstico / Estudio personal – entorno seguro y simbólico
+Edición y montaje
+Nuria Carrasquilla García.
+Software utilizado: Adobe Premiere Pro
+Concepto
+Este vídeo-performance forma parte de la fase de “penumbra” dentro de la instalación inmersiva NON RESTRAINT, que trata sobre el tránsito emocional, la salud mental y el acompañamiento. No hay coreografía ni guion. Las emociones se canalizan a través del cuerpo, siendo el umbral entre la “oscuridad” y la “luz”.
+Requisitos técnicos para exhibición
+•
+Proyector con entrada HDMI o USB
+•
+Sistema de sonido estéreo.
+•
+Habitación en penumbra u oscuridad total.
+•
+Superficie blanca para proyección.
+•
+Reproductor de vídeo.
+Licencias y derechos
+Music by https//:www.bensound.comfree-music-for-videos
+License code V1BOTOZUR99A7KGT
+26
+•
+OBJETO ARTÍSTICO DE “LUZ”:
+27
+FICHA TÉCNICA
+Título
+Reposo
+Fecha
+1 de junio del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Materiales
+•
+Silla negra
+•
+Conjunto de ropa negra (camiseta y pantalón)
+•
+Pintura acrílica.
+Técnica
+Instalación escultórica, pieza única
+Dimensiones
+Ancho: 45 cm
+Fondo: 47 cm
+Altura: 76 cm
+Ancho del asiento: 39 cm
+Fondo del asiento: 42 cm
+Altura del asiento: 45 cm
+Ubicación dentro de la instalación
+Habitáculo de “la luz” – culminación del recorrido emocional de la instalación NON RESTRAINT
+Descripción
+La obra se compone de una silla sobre la cual reposa la ropa manchada con restos reales del proceso pictórico. Funciona como testigo material del cuerpo que no está: el residuo simbólico del acto, del desgaste emocional y de la huella que deja vivir..
+28
+•
+CUADRO GIRATORIO DE “LUZ”
+29
+FICHA TÉCNICA
+Título
+Posos de vida sobre eterno devenir
+Fecha
+30 de mayo del 2025
+Lugar
+Vilanova i la Geltrú, Barcelona (España)
+Autora
+Nuria Carrasquilla García
+Técnica
+Acrílico sobre lienzo de lino. Action painting.
+Materiales
+•
+Pintura acrílica
+•
+Lienzo de lino con imprimación transparente.
+•
+Motor giratorio
+•
+estructura de anclaje
+Dimensiones
+80 x 80 cm
+soporte giratorio: base circular motorizada con velocidad constante y movimientos aleatorios.
+Ubicación dentro de la instalación
+Habitáculo de “la luz” – culminación del recorrido emocional de la instalación NON RESTRAINT
+Descripción
+Lienzo giratorio, donde la pintura fue aplicada durante el movimiento continuo del soporte. Esta técnica pone en crisis el control del artista: el gesto pictórico se ve condicionado por un factor externo e impredecible, con reminiscencias del “action painting”. El lienzo, sin imprimar, representa una vida sin filtros.
+El cuadro giratorio funciona como metáfora del devenir emocional y vital: todo está en constante cambio, y la obra responde a una lógica cíclica más que narrativa.La pintura no busca representar, sino dejar huella de un tránsito interno y materializar una emoción viva, en movimiento. Lo abstracto se convierte en testimonio emocional.
+Condiciones de montaje
+•
+El cuadro debe permanecer en rotación constante durante la exposición.
+•
+Instalación segura del motor con base estable.
+•
+Iluminación sin deslumbramiento.
+•
+Espacio libre alrededor de la pieza .
+•
+Protección acústica si el motor emite ruido.
+30
+7.2 Infografía de metodología
+31
+7.3 Carteles curatoriales
+32
+33
+7.4 Gráfico de gastos
+7.5 Calendario-tabla de trabajo
+Gastos
+Estructura
+Fotografía
+Materiales
+Audiovisuales
+Montaje
+Iluminación
+34
+7.6 Making of del proyecto
+•
+Fotos relativas al montaje y programación del motor giratorio:
+Montaje motor con ensamblaje con la pieza que va a la pared y el lienzo.
+Acople.
+35
+•
+Fotos relativas al making of de las imágenes que se encuentran en el habitáculo de “oscuridad”:
+36
+•
+Fotos relativas al montaje para la grabación de la vídeo-performance:
+37
+38
+7.7 Líneas de programación en Arduino para el motor
+Líneas de programación de Arduino para programar la placa que va al motor.
+39
+7.8 Hoja de Sala
+(en las siguientes páginas: cara exterior e interior respectivamente)
+Hoja de sala física
+LUGAR DE
+EXPOSICIÓN
+123 Cualquier calle, cualquier ciudad,
+(55) 1234 5678
+hola@sitioincreible.mx
+www.sitioincreible.mx
+De la oscuridad íntima a la luz
+que abraza.
+Al igual que el principio de
+antipsiquiatría de
+«Non restraint»,
+siéntete libre y sin ataduras.
+No estás sola
+NON
+RESTRAINT
+de Nuria Carrasquilla García
+14/06/2025 - 30/09/2025
+DIÁLOGO ENTRE CUERPO, MOVIMIENTO Y EMOCIÓN QUE SE ENCUENTRAN EN UNA ATMÓSFERA PARA LA EMPATÍA Esta instalación nace del intento de traducir —a través delmovimiento, el color y el cuerpo— aquello que no siemprepuede decirse con palabras. Es un lenguaje alternativo,hecho de sensaciones, gestos y presencias, que buscacomunicar lo indecible sin necesidad de nombrarlo.La obra propone una exploración sensorial e intuitiva deltránsito desde un estado de tristeza, ansiedad o encierroemocional hacia la apertura, el movimiento, la vida exteriory el contacto con el otro. No se trata de una representaciónlineal, ni de una historia con principio y fin, sino de unespacio compartido donde cada cuerpo puede resonar a suritmo.Se trata de una experiencia inmersiva que no narra, sinoque envuelve; que no dirige, sino que acompaña. Suatmósfera está tejida con la intención de acoger: generarempatía sin invadir, ofrecer compañía sin intervenir. No hayrespuestas aquí, ni conclusiones. Tampoco hay heroicidad,ni catarsis. Esta pieza no es una confesión ni un reclamo. Essimplemente un acto de presencia: un lugar donde loemocional se vuelve materia, donde el dolor y la bellezaconviven sin necesidad de ser resueltos.El espectador no está invitado a entender, ni a interpretar,ni siquiera a conocer a la artista. Está invitado adetenerse… y sentir. A reconocerse en lo ajeno. Aescucharse en el silencio de otro cuerpo. Porque, a veces, lo único que necesitamos escuchar es:“Yo también estuve ahí.”Para ello, la artista propone un recorrido en cuatro fases: laoscuridad, el camino, la penumbra y la luz. No comometáfora cerrada, sino como ritmo emocional, comopulsación vital.A partir del texto curatorial, el espectador podrásintonizarse con la frecuencia en que vibra esta experienciasensorial, abriendo la posibilidad de habitar el espaciocomo quien entra en un cuerpo que le reconoce.Sobre “Non Restraint”NURIA CARRASQUILLA GARCÍANON RESTRAINTA través del oído y de la imagen congelada, se invita alvisitante a sumergirse en un estado de inquietud sutil, casiintangible. Las conexiones emocionales que emergen noestán impuestas por el entorno, sino que brotan desde lomás profundo, de ese espacio introspectivo.La fotografía, con su lenguaje silencioso, ha sido el vehículoelegido para capturar una realidad en blanco y negro. Nocomo un registro objetivo, sino como una forma de mirarque elimina lo superfluo y deja al descubierto la esencia delas cosas. Las escenas retratadas habitan espaciosdomésticos donde se asoma el abismo de lo íntimo.El habitáculo oscuro que acoge la obra actúa como útero yumbral. Las luces focales no iluminan con claridad, sino quesugieren, obligan a mirar con atención. Este juego de lucesy sombras configura un paisaje emocional que seexperimenta con lo sensorial. De este modo, el visitante nosolo observa, sino que se transforma en parte de la escena.El sonido, como una presencia invisible, acompaña estetránsito. Es una vibración que busca despertar memorias,sensaciones olvidadas o reconoce su existencia a pesar deno haberla vivido. Porque hay recuerdos que no nospertenecen y, sin embargo, nos habitan. Todo en esta pieza —la imagen, la luz, el sonido— está alservicio de una teletransportación sensorial. No hacia otrolugar, sino hacia una emoción. En ese viaje, el visitante estásolo, pero acompañado por la vibración sutil de locompartido, de lo humano, de lo invisible.OSCURIDADA veces, el trayecto hacia la luz es confuso o puramenteintuitivo. Sientes que avanzas por un sendero estrecho yoscuro, guiado únicamente por lo que intuyes al final. Hay señales que te indican la dirección —solo hay una—, ylos ecos del sonido se solapan para ayudarte a dejar atráslo que no quieres llevar contigo, y así empezar a escucharel sonido de la vida.Confía en tu instinto, no te fuerces, solo fluye.CAMINOLlegados a este punto, nos ilumina la claridad delmovimiento. Con la emisión de la video-performance, elespectador podrá fundirse con ella. Al tratarse de unaproyección, la imagen, el sonido, el color y el movimientoconviven en un estado permeable y soluble con quienquiera amalgamarse.El vídeo se proyecta en forma de loop de tal modo que sepretende evocar la idea de que todo se repite, que laexperiencia humana es un ciclo continuo de emociones,recuerdos o vivencias. Además, de este modo, la instalaciónte permite crear la sensación de que el tiempo se hadetenido, o que se está atrapado en un instante perpetuo,que es un aspecto imposible de llevar a cabo en la vidareal. También es un modo de permitir que el espectadorentre y salga del relato en cualquier punto, accediendo adiferentes lecturas en cada repetición, porque al final, laexperiencia se vive de manera subjetiva y es el observadorel dueño del tiempo y del espacio.PENUMBRAAl fin la luz, el sonido de la vida. El visitante podrá contemplar la obra finalizada, ya no solola instalación propiamente dicha, sino también la relativa alo que contempló en el video proyectado en la faseanterior.El cuadro sigue girando porque no está en nuestra mano,las vueltas que da la vida. En ella solo quedan los restos denuestras decisiones y nuestras emociones. De lo que dijimosy lo que preferimos guardarnos. Los impulsos y lasquietudes. Junto al cuadro, hay una silla con la ropa manchada depintura. La misma que llevo la artista en la performance.Símbolo del poso que deja el vivir. Materializa elmovimiento, porque la pintura no solo cubrió el lienzo,también lo hizo en la piel, la tela y el tiempo. La ropa comotestigo de que el arte (la vida) deja rastro, incluso en loque no fue pensado para mostrarse o exhibirse; porque loque más escondemos, es lo que más domina nuestraexistencia.LUZ

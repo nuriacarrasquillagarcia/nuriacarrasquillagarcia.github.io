@@ -1,121 +1,298 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NURIA CARRASQUILLA :: IN MEMORIAM</title>
+  <meta name="description" content="IN MEMORIAM &mdash; instalaci&oacute;n inmersiva y relacional de Nuria Carrasquilla Garc&iacute;a. Una reflexi&oacute;n sobre la ausencia, el afecto y el duelo.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body class="dos-body">
   <div class="crt-overlay"></div>
   <div class="screen">
-
     <nav class="dos-nav">
       <a href="index.html" data-i18n="nav.home">INICIO</a>
-      <a href="about.html" data-i18n="nav.about">SOBRE MÍ</a>
+      <a href="about.html" data-i18n="nav.about">SOBRE M&Iacute;</a>
       <a href="projects.html" data-i18n="nav.projects">PROYECTOS</a>
       <a href="contact.html" data-i18n="nav.contact">CONTACTO</a>
-      <select id="language-selector"
-        style="margin-left: auto; background: #000; color: #bfbfbf; font-family: 'VT323', monospace; border: 1px solid #565656; padding: 4px 8px;">
-        <option value="es">Español</option>
+      <select id="language-selector" style="margin-left: auto; background: #000; color: #bfbfbf; font-family: 'VT323', monospace; border: 1px solid #565656; padding: 4px 8px;">
+        <option value="es">Espa&ntilde;ol</option>
         <option value="en">English</option>
-        <option value="ca">Català</option>
+        <option value="ca">Catal&agrave;</option>
       </select>
     </nav>
 
+    <!-- T&iacute;tulo + Abstract -->
     <section class="tw-block">
       <div class="tw-line" style="margin-bottom: 20px;">
-        &lt; <a href="projects.html" data-i18n="projects.backToGallery">VOLVER A LA GALERÍA</a>
+        &lt; <a href="projects.html" data-i18n="projects.backToGallery">VOLVER A LA GALER&Iacute;A</a>
       </div>
       <h1 class="tw-line" data-speed="16" data-i18n="projects.project3Title">03. IN MEMORIAM (2026)</h1>
+      <div class="tw-line" data-speed="8">In Memoriam es una instalaci&oacute;n de arte relacional que investiga el afecto y el tiempo como elementos configuradores de v&iacute;nculos. La obra entiende los cuerpos como filtros sensibles que construyen el camino expl&iacute;cito entre el presente y el duelo, convirtiendo el dormitorio en un espacio de resistencia afectiva e introspecci&oacute;n. En este caso, el duelo debe entenderse como p&eacute;rdida de lo vivido, de lo que fue y no volver&aacute;. Adem&aacute;s, la propuesta combina materiales h&aacute;pticos &mdash;muselinas, yeso y escayola&mdash; con sensores de movimiento e iluminaci&oacute;n programada.</div>
+      <div class="tw-line" data-speed="7">El recorrido tiene dos espacios: una antesala con im&aacute;genes de piel y escayola, titulada <em>Fotograf&iacute;as v&iacute;vidas del cuidado</em>, y una sala principal &mdash;el dormitorio&mdash; donde piezas de muselina suspendidas activan una experiencia inmersiva. La presencia del visitante activa un foco que proyecta luz sobre las piezas escult&oacute;ricas y genera sombras ef&iacute;meras de las mismas. As&iacute; se pretende evocar la huella que deja el afecto, el olvido.</div>
+      <div class="tw-line" data-speed="6" style="margin-top: 0.8em;">El proyecto propone que el visitante co-autor no habite la memoria del otro, sino la suya propia: un ejercicio de reconocimiento y empat&iacute;a.</div>
     </section>
 
+    <!-- Imagen destacada -->
     <section class="tw-block">
-      <div class="project-grid">
-        <article class="project-card" style="flex-direction: column;">
-          <figure class="img-frame tw-reveal">
-            <button type="button" class="cover-gallery-trigger" aria-label="Ampliar imagen" onclick="openModal()">
-              <img src="images/project-3.jpg" alt="In Memoriam - Imagen representativa">
-            </button>
-            <figcaption data-i18n="projects.project3ImageCaption">In Memoriam (2026)</figcaption>
-          </figure>
-          <div>
-            <div class="tw-line" data-speed="8" data-i18n="projects.project3Desc1">Proyecto basado en el concepto de entrelazamiento cuántico:</div>
-            <div class="tw-line" data-speed="8" data-i18n="projects.project3Desc2">dos partículas entrelazadas donde el estado de una depende de la otra.</div>
-            <div class="tw-line tags" data-speed="4" data-i18n="projects.project3Medium">Medio: Dossier conceptual y práctica escénica, 2026</div>
-          </div>
-        </article>
+      <figure class="img-frame tw-reveal">
+        <button type="button" class="cover-gallery-trigger" aria-label="Ampliar imagen" onclick="openModal(0, 'cover')">
+          <img src="IN MEMORIAM/INSTALACION/IMAGEN PRINCIPAL.jpg" alt="In Memoriam &mdash; Imagen Principal">
+        </button>
+        <figcaption>In Memoriam (2026)</figcaption>
+      </figure>
+    </section>
+
+    <!-- Ficha T&eacute;cnica General -->
+    <section class="tw-block" id="ficha-general">
+      <h2 class="tw-line" data-speed="12">FICHA T&Eacute;CNICA</h2>
+      <div class="tech-sheet">
+        <div class="tech-sheet-block">
+          <div class="tech-sheet-header">[ OBRA ]</div>
+          <div class="tech-row"><span class="tech-label">T&iacute;tulo</span><span class="tech-value">In memoriam</span></div>
+          <div class="tech-row"><span class="tech-label">Artista</span><span class="tech-value">Nuria Carrasquilla Garc&iacute;a</span></div>
+          <div class="tech-row"><span class="tech-label">A&ntilde;o</span><span class="tech-value">2026</span></div>
+          <div class="tech-row"><span class="tech-label">Tipo</span><span class="tech-value">Instalaci&oacute;n interactiva y relacional</span></div>
+          <div class="tech-row"><span class="tech-label">Materiales</span><span class="tech-value">Muselinas, yeso y escayola, sensor de movimiento PIR, foco LED 20W, travesa&ntilde;o de madera, hilos de nylon</span></div>
+          <div class="tech-row"><span class="tech-label">Espacio</span><span class="tech-value">Antesala (semi-penumbra con fotograf&iacute;as) + Sala principal (dormitorio oscuro con piezas suspendidas y sombras)</span></div>
+        </div>
+        <div class="tech-sheet-block">
+          <div class="tech-sheet-header">[ COMPONENTES ]</div>
+          <div class="tech-row"><span class="tech-label">Antesala</span><span class="tech-value">Serie <em>Fotograf&iacute;as v&iacute;vidas del cuidado</em> (5 piezas de 20x20 cm en cart&oacute;n pluma)</span></div>
+          <div class="tech-row"><span class="tech-label">Instalaci&oacute;n</span><span class="tech-value">Pieza escult&oacute;rica suspendida <em>Memor&aacute;ndum</em> (50 x 140 x 170 cm) sobre el lecho</span></div>
+          <div class="tech-row"><span class="tech-label">Interactividad</span><span class="tech-value">Sensor de movimiento PIR y foco LED (activaci&oacute;n ef&iacute;mera lum&iacute;nica y proyecci&oacute;n de sombras)</span></div>
+          <div class="tech-row"><span class="tech-label">Documento</span><span class="tech-value">Registro audiovisual de recepci&oacute;n y experiencia colectiva (Video HD, 4 min 30 s)</span></div>
+        </div>
       </div>
+    </section>
+
+    <!-- Justificaci&oacute;n Conceptual y Formal -->
+    <section class="tw-block" id="declaraciones">
+      <div class="tw-line" data-speed="7">In Memoriam concibe la ausencia no como un vacío inerte, sino como una materia sensible que deja una huella física y emocional en el espacio. Utilizando el dormitorio &mdash;el lecho cotidiano&mdash; como territorio simbólico, la obra busca mimetizar sensorialmente el duelo y el afecto. Las telas de muselina escayoladas actúan como fragmentos anatómicos fracturados, moldes de un cuerpo que ya no está, suspendidos en una levedad vulnerable que el visitante completa desde su propia experiencia biográfica.</div>
+      <div class="tw-line" data-speed="7">La hibridación con la tecnología (sensores y luces) evita las lecturas estáticas. El rastro de sombras proyectado efímeramente en las paredes al paso de la gente evoca el carácter dinámico del recuerdo y el olvido: el afecto no se mantiene fijo, sino que aparece y desaparece en la interacción cotidiana. La proximidad con las muselas expone la fragilidad inherente del material, reforzando la idea de la impermanencia del cuerpo.</div>
+    </section>
+
+    <!-- ANTESALA -->
+    <section class="tw-block" id="antesala">
+      <h2 class="tw-line" data-speed="12">ANTESALA &mdash; FOTOGRAFÍAS VÍVIDAS DEL CUIDADO</h2>
+      <div class="tw-line" data-speed="7">La antesala introduce al visitante en la experiencia inmersiva mediante una serie de fotografías que registran la intimidad del cuidado y la interacción táctil con los materiales de la obra. Estas fotografías, presentadas en hilera y bajo una iluminación focal en semipenumbra, preparan sensorialmente al espectador para la entrada a la sala principal.</div>
+
+      <h3 class="tw-line" data-speed="10" style="margin-top: 1.5em; margin-bottom: 0.5em;">SERIE FOTOGRÁFICA</h3>
+      <div class="ficha-shared">
+        <span>Autora: Nuria Carrasquilla Garc&iacute;a</span>
+        <span>Lugar: Vilanova i la Geltr&uacute;, Barcelona (Espa&ntilde;a)</span>
+        <span>T&eacute;cnica: Fotografía digital impresa sobre cartón pluma (foam core)</span>
+        <span>Soporte: Cartón pluma de 20x20 cm con iluminación focal</span>
+      </div>
+
+      <!-- Grid de las 5 fotos de antesala con su ficha técnica -->
+      <div id="antesala-photo-fichas" class="foto-ficha-grid"></div>
+    </section>
+
+    <!-- SALA PRINCIPAL / DORMITORIO -->
+    <section class="tw-block" id="sala-principal">
+      <h2 class="tw-line" data-speed="12">SALA PRINCIPAL &mdash; DORMITORIO</h2>
+      <div class="tw-line" data-speed="7">La sala principal es el dormitorio, un espacio cotidiano e íntimo transformado en zona de experiencia inmersiva. En su interior, la pieza escultórica suspendida <em>Memorándum</em> cuelga sobre la cama. Al detectar la presencia del espectador mediante un sensor de movimiento, un foco LED proyecta siluetas y sombras efímeras en la pared. Este juego de luces y sombras evoca las dinámicas del recuerdo, la presencia de la ausencia y el duelo.</div>
+
+      <h3 class="tw-line" data-speed="10" style="margin-top:1.8em;margin-bottom:.8em;">IMÁGENES DE LA INSTALACIÓN</h3>
+
+      <!-- OBRA 1: MEMORANDUM (pieza escultórica en el dormitorio) -->
+      <div class="obra-layout">
+        <div class="obra-imagen">
+          <button type="button" class="obra-img-main" aria-label="Ampliar imagen de Memorándum" onclick="openModal(0,'memorandum_gallery')">
+            <img src="IN MEMORIAM/MEMORANDUM/MEMORANDUM.jpg" alt="Memorándum &mdash; Exposición de las piezas">
+          </button>
+          <div class="obra-img-details">
+            <span class="obra-details-label">&gt; Ver detalles e imágenes adicionales:</span>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 1" onclick="openModal(1,'memorandum_gallery')">
+              <img src="IN MEMORIAM/MEMORANDUM/PERSPECTIVA MEMORANDUM 1.jpg" alt="Perspectiva 1">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 2" onclick="openModal(2,'memorandum_gallery')">
+              <img src="IN MEMORIAM/MEMORANDUM/PERSPECTIVA MEMORANDUM 2.jpg" alt="Perspectiva 2">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 3" onclick="openModal(3,'memorandum_gallery')">
+              <img src="IN MEMORIAM/MEMORANDUM/PERSPECTIVA MEMORANDUM 3.jpg" alt="Perspectiva 3">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 4" onclick="openModal(4,'memorandum_gallery')">
+              <img src="IN MEMORIAM/MEMORANDUM/PERSPECTIVA MEMORANDUM 4.jpg" alt="Perspectiva 4">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 5" onclick="openModal(5,'memorandum_gallery')">
+              <img src="IN MEMORIAM/MEMORANDUM/PERSPECTIVA MEMORANDUM 5.jpg" alt="Perspectiva 5">
+            </button>
+          </div>
+        </div>
+        <div class="obra-ficha">
+          <div class="tech-sheet-block">
+            <div class="tech-sheet-header">[ MEMORÁNDUM ]</div>
+            <div class="tech-row"><span class="tech-label">Autora</span><span class="tech-value">Nuria Carrasquilla Garc&iacute;a</span></div>
+            <div class="tech-row"><span class="tech-label">Fecha</span><span class="tech-value">2026</span></div>
+            <div class="tech-row"><span class="tech-label">Lugar</span><span class="tech-value">Vilanova i la Geltr&uacute;, Barcelona (Espa&ntilde;a)</span></div>
+            <div class="tech-row"><span class="tech-label">T&eacute;cnica</span><span class="tech-value">Escultura en escayola y muselina. Sistema de suspensión mediante hilos de nylon y travesaño de madera.</span></div>
+            <div class="tech-row"><span class="tech-label">Dimensiones</span><span class="tech-value">50 x 140 x 170 cm</span></div>
+            <div class="tech-row"><span class="tech-label">Descripci&oacute;n</span><span class="tech-value">Representación de fragmentos anatómicos fracturados. La obra explora la memoria de los cuerpos habitados y el rastro de lo vivido a través de la levedad y el vacío sobre el lecho del dormitorio.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OBRA 2: DOCUMENTO AUDIOVISUAL -->
+      <div class="obra-layout">
+        <div class="obra-imagen">
+          <button type="button" class="obra-img-main" aria-label="Ampliar frame del vídeo" onclick="openModal(0,'video_recepcion')">
+            <img src="IN MEMORIAM/VIDEO RECEPCI&Oacute;N/frame video.png" alt="Frame del vídeo Recepción de In Memoriam">
+          </button>
+        </div>
+        <div class="obra-ficha">
+          <div class="tech-sheet-block">
+            <div class="tech-sheet-header">[ RECEPCIÓN DE "IN MEMORIAM" ]</div>
+            <div class="tech-row"><span class="tech-label">Autora</span><span class="tech-value">Nuria Carrasquilla Garc&iacute;a</span></div>
+            <div class="tech-row"><span class="tech-label">Fecha</span><span class="tech-value">2026</span></div>
+            <div class="tech-row"><span class="tech-label">Formato</span><span class="tech-value">Video HD, 16:9, color, sonido estéreo envolvente</span></div>
+            <div class="tech-row"><span class="tech-label">Duraci&oacute;n</span><span class="tech-value">4 min 30 s</span></div>
+            <div class="tech-row"><span class="tech-label">M&uacute;sica</span><span class="tech-value">Rockot (vía Pixabay)</span></div>
+            <div class="tech-row"><span class="tech-label">Colaboradores</span><span class="tech-value">Participación del público asistente en co-autoría</span></div>
+            <div class="tech-row"><span class="tech-label">Descripci&oacute;n</span><span class="tech-value">Registro documental de la recepción y la experiencia colectiva de los visitantes al interactuar con la instalación.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="phase-link" data-gallery="video_recepcion" style="display:inline-block;margin:16px 0;">&gt; Ver el v&iacute;deo simulación expositiva de esta fase</a>
     </section>
 
     <div id="image-modal" class="image-modal" hidden>
-      <button type="button" class="image-modal-close" aria-label="Cerrar">×</button>
-      <button type="button" class="image-modal-prev" aria-label="Imagen anterior" style="display: none;">◀</button>
+      <button type="button" class="image-modal-close" aria-label="Cerrar">&#215;</button>
+      <button type="button" class="image-modal-prev" aria-label="Imagen anterior">&#9664;</button>
       <img id="image-modal-img" src="" alt="Vista ampliada">
       <video id="image-modal-video" controls style="outline: none;" hidden></video>
       <div id="image-modal-caption" class="image-modal-caption"></div>
-      <button type="button" class="image-modal-next" aria-label="Imagen siguiente" style="display: none;">▶</button>
+      <button type="button" class="image-modal-next" aria-label="Imagen siguiente">&#9654;</button>
     </div>
 
     <footer class="status-bar">
-      <span>© 2026 Nuria Carrasquilla ®. Todos los derechos reservados.</span>
+      <span>&copy; 2026 Nuria Carrasquilla &reg;. Todos los derechos reservados.</span>
     </footer>
 
   </div>
   <script src="js/translations.js"></script>
   <script src="js/terminal.js"></script>
   <script>
-    const modal = document.getElementById('image-modal');
-    const modalImage = document.getElementById('image-modal-img');
-    const modalVideo = document.getElementById('image-modal-video');
-    const closeButton = modal?.querySelector('.image-modal-close');
-    const prevButton = modal?.querySelector('.image-modal-prev');
-    const nextButton = modal?.querySelector('.image-modal-next');
+    var galleries = {
+      cover: { folder: 'IN MEMORIAM/INSTALACION', files: ['IMAGEN PRINCIPAL.jpg'] },
+      antesala: { folder: 'IN MEMORIAM/FOTOS ANTESALA', files: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'] },
+      memorandum_gallery: { folder: 'IN MEMORIAM/MEMORANDUM', files: ['MEMORANDUM.jpg', 'PERSPECTIVA MEMORANDUM 1.jpg', 'PERSPECTIVA MEMORANDUM 2.jpg', 'PERSPECTIVA MEMORANDUM 3.jpg', 'PERSPECTIVA MEMORANDUM 4.jpg', 'PERSPECTIVA MEMORANDUM 5.jpg', 'IMAGEN PRINCIPAL MEMORANDUM.png'] },
+      video_recepcion: { folder: 'IN MEMORIAM/VIDEO RECEPCI\u00d3N', files: ['Video_Recepcion_InMemoriam.mp4'] }
+    };
 
-    function openModal() {
-      if (!modal || !modalImage) return;
-      modalImage.src = encodeURI('images/project-3.jpg');
-      modalImage.hidden = false;
-      if (modalVideo) modalVideo.hidden = true;
-      if (prevButton) prevButton.style.display = 'none';
-      if (nextButton) nextButton.style.display = 'none';
+    var antesalaFichas = [
+      { idx: 0, title: 'Fotografía vívida I', fecha: '2026', dim: '20 \u00d7 20 cm', desc: 'Registro fotográfico de momentos de intimidad vinculados a la producción.' },
+      { idx: 1, title: 'Fotografía vívida II', fecha: '2026', dim: '20 \u00d7 20 cm', desc: 'Detalle de la textura y registro del cuidado sobre las extremidades.' },
+      { idx: 2, title: 'Fotografía vívida III', fecha: '2026', dim: '20 \u00d7 20 cm', desc: 'Pliegues y formas de la muselina interactuando con la escayola.' },
+      { idx: 3, title: 'Fotografía vívida IV', fecha: '2026', dim: '20 \u00d7 20 cm', desc: 'El cuerpo como soporte sensible y transitorio del duelo.' },
+      { idx: 4, title: 'Fotografía vívida V', fecha: '2026', dim: '20 \u00d7 20 cm', desc: 'Detalle final de secado e ingravidez del relieve.' }
+    ];
 
-      const captionEl = document.getElementById('image-modal-caption');
-      if (captionEl) {
-        captionEl.removeAttribute('data-i18n');
-        captionEl.setAttribute('data-i18n', 'projects.project3ImageCaption');
-        const lang = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : 'es';
-        const keys = 'projects.project3ImageCaption'.split('.');
-        let translation = translations[lang];
-        keys.forEach(k => {
-          translation = translation?.[k];
-        });
-        captionEl.textContent = translation || '';
-        captionEl.style.display = captionEl.textContent ? 'block' : 'none';
-      }
+    // Render photo-ficha cards for antesala
+    var pfGrid = document.getElementById('antesala-photo-fichas');
+    if (pfGrid) {
+      antesalaFichas.forEach(function(f) {
+        var card = document.createElement('div');
+        card.className = 'foto-ficha-card';
 
-      modal.hidden = false;
-      document.body.style.overflow = 'hidden';
+        var btn = document.createElement('button');
+        btn.type = 'button'; btn.className = 'foto-ficha-img';
+        btn.setAttribute('aria-label', 'Ver ' + f.title);
+        btn.addEventListener('click', (function(i){ return function(){ openModal(i, 'antesala'); }; })(f.idx));
+
+        var img = document.createElement('img');
+        img.src = encodeURI(galleries.antesala.folder + '/' + galleries.antesala.files[f.idx]);
+        img.alt = f.title; img.loading = 'lazy';
+        btn.appendChild(img);
+        card.appendChild(btn);
+
+        var meta = document.createElement('div');
+        meta.className = 'foto-ficha-meta';
+        meta.innerHTML =
+          '<div class="ficha-title">' + f.title + '</div>' +
+          '<div class="tech-row"><span class="tech-label">Fecha</span><span class="tech-value">' + f.fecha + '</span></div>' +
+          '<div class="tech-row"><span class="tech-label">Dimensiones</span><span class="tech-value">' + f.dim + '</span></div>' +
+          '<div class="ficha-desc"><em>' + f.desc + '</em></div>';
+        card.appendChild(meta);
+
+        pfGrid.appendChild(card);
+      });
     }
 
-    function closeModal() {
+    var modal = document.getElementById('image-modal');
+    var modalImage = document.getElementById('image-modal-img');
+    var modalVideo = document.getElementById('image-modal-video');
+    var closeBtn = modal ? modal.querySelector('.image-modal-close') : null;
+    var prevBtn = modal ? modal.querySelector('.image-modal-prev') : null;
+    var nextBtn = modal ? modal.querySelector('.image-modal-next') : null;
+    var curGallery = 'antesala', curIdx = 0;
+
+    function openModal(idx, gKey) {
       if (!modal) return;
-      modal.hidden = true;
-      document.body.style.overflow = '';
+      curGallery = gKey || 'antesala'; curIdx = idx;
+      updateModal(); modal.hidden = false; document.body.style.overflow = 'hidden';
     }
-
-    closeButton?.addEventListener('click', closeModal);
-    modal?.addEventListener('click', (event) => {
-      if (event.target === modal) closeModal();
+    function closeModal() {
+      if (!modal) return; modal.hidden = true; document.body.style.overflow = '';
+      if (modalVideo) { modalVideo.pause(); modalVideo.src = ''; modalVideo.hidden = true; }
+    }
+    function showNext() {
+      var f = galleries[curGallery].files;
+      if (f.length <= 1) return;
+      curIdx = (curIdx + 1) % f.length; updateModal();
+    }
+    function showPrev() {
+      var f = galleries[curGallery].files;
+      if (f.length <= 1) return;
+      curIdx = (curIdx - 1 + f.length) % f.length; updateModal();
+    }
+    function updateModal() {
+      if (!modalImage) return;
+      var gd = galleries[curGallery], fn = gd.files[curIdx], isVid = fn.toLowerCase().endsWith('.mp4');
+      if (prevBtn && nextBtn) {
+        var sn = gd.files.length > 1;
+        prevBtn.style.display = sn ? 'flex' : 'none';
+        nextBtn.style.display = sn ? 'flex' : 'none';
+      }
+      if (modalVideo) { modalVideo.pause(); modalVideo.src = ''; modalVideo.hidden = true; }
+      modalImage.hidden = true;
+      var url = encodeURI(gd.folder + '/' + fn);
+      if (isVid) { if (modalVideo) { modalVideo.src = url; modalVideo.hidden = false; modalVideo.load(); } }
+      else { modalImage.src = url; modalImage.hidden = false; }
+      var cap = document.getElementById('image-modal-caption');
+      if (cap) {
+        cap.removeAttribute('data-i18n'); cap.textContent = '';
+        var ck = null;
+        if (curGallery === 'cover') ck = 'projects.project3ImageCaption';
+        if (ck && typeof translations !== 'undefined') {
+          cap.setAttribute('data-i18n', ck);
+          var lang = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : 'es';
+          var keys = ck.split('.'), t = translations[lang];
+          keys.forEach(function(k) { t = t ? t[k] : undefined; });
+          cap.textContent = t || '';
+        }
+        cap.style.display = cap.textContent ? 'block' : 'none';
+      }
+    }
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    if (prevBtn) prevBtn.addEventListener('click', function(e) { e.stopPropagation(); showPrev(); });
+    if (nextBtn) nextBtn.addEventListener('click', function(e) { e.stopPropagation(); showNext(); });
+    if (modal) modal.addEventListener('click', function(e) { if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', function(e) {
+      if (modal && !modal.hidden) {
+        if (e.key === 'Escape') closeModal();
+        if (e.key === 'ArrowRight') showNext();
+        if (e.key === 'ArrowLeft') showPrev();
+      }
     });
-    document.addEventListener('keydown', (event) => {
-      if (modal && !modal.hidden && event.key === 'Escape') closeModal();
+    document.addEventListener('click', function(e) {
+      var pl = e.target.closest('.phase-link');
+      if (pl) { e.preventDefault(); openModal(0, pl.getAttribute('data-gallery') || 'antesala'); }
     });
   </script>
 </body>
-
 </html>

@@ -1,0 +1,126 @@
+Resumen del proyecto
+In Memoriam es una instalación de arte relacional que investiga el afecto y el tiempo como elementos configuradores de vínculos. La obra entiende los cuerpos como filtros sensibles y que construyen el camino explícito entre el presente y el duelo, convirtiendo el dormitorio en un espacio de resistencia afectiva e introspección. En este caso, el duelo debe entenderse como pérdida de lo vivido, de lo que fue y no volverá. Además, la propuesta combina materiales hápticos —muselinas, yeso y escayola— con sensores de movimiento e iluminación programada.
+El recorrido tiene dos espacios: una antesala con imágenes de piel y escayola, titulada Fotografías vívidas del cuidado, y una sala principal —el dormitorio— donde piezas de muselina suspendidas activan una experiencia inmersiva. La presencia del visitante activa un foco que proyecta luz sobre las piezas escultóricas y genera sombras efímeras de las mismas. Así se pretende evocar la huella que deja el afecto, el olvido.
+El proyecto propone que el visitante co-autor no habite la memoria del otro, sino la suya propia: un ejercicio de reconocimiento y empatía.
+Descripción del proceso
+El proceso de producción de In Memoriam ha sido una negociación constante entre la intuición y las resistencias del propio material. Todo comenzó con una fase de ideación y prueba de materiales ya que era la primera vez que se trabajaba con muselina y escayola.
+Fase 1: Preparación y pruebas
+El trabajo material empezó con la construcción de una estructura para el secado. Utilicé poliestireno intentando reproducir el volumen del cuerpo humano y adaptado, posteriormente con toallas para conseguir la forma más ergonómica posible. Así las piezas podrían conservar su forma una vez separadas de la piel.
+Uno de los puntos más delicados fue la mezcla de la escayola. Tuve que ajustar proporciones hasta encontrar una textura que impregnara bien la muselina sin perder flexibilidad. Antes de trabajar directamente sobre el cuerpo, hice varias pruebas con retales de tela para entender cómo reaccionaban los materiales entre sí, cuánto tardaban en secar y qué tipo de huella eran capaces de registrar, ya que era la primera vez que realizaba un trabajo de este tipo. 4
+Fase 2: Trabajo sobre el cuerpo y registro fotográfico
+Las piezas se generaron a partir del contacto directo con el cuerpo. Protegí la piel del modelo con film transparente para evitar que la escayola se adhiriera demasiado, aunque después entendí que el uso de vaselina habría permitido recoger mejor la textura real de la piel.
+Las muselinas se sumergían en la mezcla y se colocaban sobre el cuerpo, poniendo atención a pliegues y zonas concretas que me interesaba destacar.
+Durante este proceso, se realizaron las capturas fotográficas para la serie de la Antesala teniendo en cuenta que serían impresas en formato cuadrado y en cartón pluma.
+Tras unos 30 minutos de secado de la escayola sobre el cuerpo, las telas se retiraban con cuidado. Después, las piezas se dejaban secar durante 72 horas sobre la estructura preparada previamente.
+Fase 3: Montaje y tecnología
+Cuando las piezas estuvieron listas, las suspendí con hilo de nylon sujeto a un travesaño de madera. Hice varias pruebas para asegurar que aguantaran bien sin perder esa sensación de ligereza que buscaba.
+La parte tecnológica fue probablemente la más experimental. Probé diferentes posiciones para el foco y el sensor de movimiento hasta conseguir que las sombras fueran como una especie de rastro o presencia. Como el dormitorio es un espacio cotidiano, no podía dejar la instalación fija, así que el montaje final fue temporal, ajustando todo justo antes de documentarlo.
+Fase 4: Materialización de la instalación
+Tras la revisión y retoque de la selección de fotografías finales para la Antesala, se procedió al pedido junto con las luces focales que llevarían sobre ellas. Ya que en toda la instalación se mantendría una atmósfera íntima y de introspección.
+Evaluación y mejoras
+Este proceso me ha hecho muy consciente de la fragilidad, tanto del material como de la propia idea. De cara a futuras versiones, cambiaría las toallas y la estructura de poliestireno por sacos de arena. Creo que de este modo, se puede alcanzar una forma 5
+óptima ergonómica. Además, sustituiría el travesaño de madera por metacrilato para reforzar la sensación de levedad.
+En conjunto, In Memoriam ha sido una forma de llevar una idea muy íntima a algo tangible, capaz de generar una experiencia compartida desde lo afectivo.
+6
+Documentación del proceso
+7
+Prueba previa con retal de muselina para ver la interacción de materiales.
+Aplicación del film transparente al modelo.
+8
+Elaboración de la mezcla de escayola.
+Aplicación de las telas impregnadas de escayola sobre el modelo y primer secado.
+9
+Segundo proceso de secado sobre estructura de poliestireno y toallas.
+Tras la instalación del travesaño de madera en el techo, vino el ensamblaje de las argollas.
+10
+Pruebas de distribución de peso y seguridad de las piezas.
+Descripción y documentación del resultado
+El resultado final de In Memoriam es una instalación inmersiva que materializa la ausencia a través de la huella. La pieza principal, creada con muselinas escayoladas y suspendidas, da sensación de levedad y vulnerabilidad, como fragmentos de un cuerpo que ya no está y que el visitante debe completar desde su propia experiencia.
+La interacción con el sensor activa la proyección de sombras en la pared, generando una presencia que te invita a detenerte y habitar la propia memoria.
+Aunque la realización técnica ha sido bastante precisa, algunas texturas no alcanzan la nitidez deseada en un primer momento debido a la potente iluminación. Esto invita al espectador a acercarse y recorrer la pieza. Esta proximidad acentúa la fragilidad de los materiales, reforzando la idea del duelo. El proyecto se entiende así como un espacio donde lo íntimo se comparte, generando reconocimiento y empatía.
+11
+Fichas técnicas
+INSTALACIÓN ARTÍSTICA
+•
+Título: In memoriam
+•
+Año de realización: 2026
+•
+Técnica, medio y soporte: Instalación interactiva y relacional. Hibridación de materiales hápticos (muselinas, yeso y escayola) y nuevos medios (sensores de movimiento y sistema de iluminación programada). Soporte mediante hilos de nylon y travesaño de madera.
+•
+Dimensiones y duración:
+•
+Espacio: 3,10 m x 2,65 m con una altura de 2,10 m (aprox. 4 m en diagonal).
+•
+Duración: Acción procesual de tiempo indefinido; la activación lumínica es efímera y depende de la presencia del visitante.
+•
+Forma de presentación y necesidades técnicas:
+12
+•
+Instalación dividida en dos estancias (antesala y sala principal/dormitorio).
+•
+Requiere oscuridad parcial para la proyección de sombras y para generar atmósfera íntima y de introspección.
+•
+Necesidad de toma eléctrica para el sensor de movimiento PIR y el foco LED de 20W.
+•
+Montaje de las piezas escultóricas suspendidas del techo o travesaño sobre la cama.
+•
+Créditos de la imagen: Fotografías cortesía de Nuria Carrasquilla García.
+•
+Descripción: Instalación que explora la fenomenología del afecto y el duelo a través de la mimetización sensorial. La obra utiliza el dormitorio como espacio simbólico donde la tecnología actúa como canalizador para proyectar la "huella" de la ausencia, transformando la experiencia íntima en un territorio compartido de empatía radical.
+13
+SERIE FOTOGRÁFICA
+•
+Título: Fotografías vívidas del cuidado (serie)
+•
+Año: 2026
+•
+Técnica, medio y soporte: Fotografía digital, impresión sobre cartón pluma (foam core).
+•
+Dimensiones: 20 x 20 cm (cada pieza).
+•
+Forma de presentación : Presentación en hilera con iluminación focal. Ambientación en semipenumbra. Ubicada en la antesala de la instalación “In Memoriam”.
+•
+Créditos de la imagen: Nuria Carrasquilla García
+•
+Descripción: Serie realizada durante el proceso creativo de la pieza principal de In Memoriam. La obra registra momentos íntimos y gestos de cuidado vinculados a la producción de la instalación.
+14
+PIEZA ESCULTÓRICA
+•
+Título: Memorándum
+•
+Año de realización: 2026
+•
+Técnica, medio y soporte: Escultura en escayola y muselina. Sistema de suspensión mediante hilos de nylon y travesaño de madera.
+•
+Dimensiones y duración: 50 x 140 x 170 centímetros.
+•
+Forma de presentación: Pieza suspendida mediante hilos de nylon (1 mm) y travesaño con anclajes. Ubicación específica: suspendida sobre el lecho (dormitorio).
+•
+Créditos de la imagen: Nuria Carrasquilla García
+•
+Descripción: Representación de fragmentos anatómicos fracturados. La obra explora la memoria de los cuerpos habitados y el rastro de lo vivido a través de la levedad y el vacío.
+15
+DOCUMENTO AUDIOVISUAL DE RECEPCIÓN
+•
+Título: Recepción de “In Memoriam”
+•
+Año : 2026
+•
+Formato: Video HD, 16:9, color.
+•
+Duración: 4’ 30”
+•
+Sonido: estéreo
+•
+Créditos de la imagen: Nuria Carrasquilla García
+•
+Música: Rockot (vía Pixabay)
+•
+Colaboraciones: participación del público asistente.
+•
+Descripción: Registro documental de la recepción y experiencia de la obra instalativa “In Memoriam”.
+•
+Link de visualización: https://vimeo.com/1192975069?fl=ip&fe=ec
+16
+Frame del video

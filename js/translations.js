@@ -10,7 +10,7 @@ const translations = {
       title: "NURIA CARRASQUILLA",
       tagline: "Producción artística e investigación",
       description1: "» Práctica artística que utiliza el afecto y la tecnología como resistencia frente a la violencia institucional.",
-      description2: "» Espacios interactivos basados en la estética háptica para transformar el cuerpo y la memoria en empatía radical.",
+      description2: "» Creación de espacios interactivos y empatía radical.",
       menu: "ZOOM",
       selectedWorks: "SELECCIÓN DE TRABAJOS:",
       work1: "HISTÉRICAS EN REVISIÓN: ARCHIVO CLÍNICO, A VIVA VOZ (2025)",
@@ -152,7 +152,7 @@ const translations = {
       title: "NURIA CARRASQUILLA",
       tagline: "Artistic production and research",
       description1: "» Artistic practice that uses affect and technology as resistance against institutional violence.",
-      description2: "» Interactive spaces based on haptic aesthetics to transform body and memory into radical empathy.",
+      description2: "» Created interactive spaces and radical empathy.",
       menu: "ZOOM",
       selectedWorks: "SELECTED WORKS:",
       work1: "HYSTERICAL REVIEW: CLINICAL ARCHIVE, ALOUD (2025)",
@@ -284,7 +284,7 @@ const translations = {
       title: "NURIA CARRASQUILLA",
       tagline: "Producció artística i investigació",
       description1: "» Pràctica artística que utilitza l'afecte i la tecnologia com a resistència davant de la violència institucional.",
-      description2: "» Espais interactius basats en l'estètica hàptica per transformar el cos i la memòria en empatia radical.",
+      description2: "» Creació d'espais interactius i d'empatia radical.",
       menu: "ZOOM",
       selectedWorks: "SELECCIÓ DE TREBALLS:",
       work1: "HISTÈRIQUES SOTA REVISIÓ: ARXIU CLÍNIC, EN VEU ALTA (2025)",
@@ -426,14 +426,14 @@ function updatePageLanguage(lang) {
     });
     el.innerHTML = translation ?? originalHtml;
   });
-  
+
   document.documentElement.lang = lang;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   const currentLang = getCurrentLanguage();
   updatePageLanguage(currentLang);
-  
+
   const langSelector = document.getElementById('language-selector');
   if (langSelector) {
     langSelector.value = currentLang;

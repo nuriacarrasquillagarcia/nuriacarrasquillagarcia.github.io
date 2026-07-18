@@ -215,7 +215,7 @@ h2 {
   display: block;
   border: 1px dashed var(--dos-border);
   padding: 8px;
-  max-width: 100%;
+  max-width: 500px;
   margin: 12px 0 18px;
 }
 
@@ -678,6 +678,7 @@ h2 {
   padding: 0;
   cursor: pointer;
   width: 100%;
+  max-width: 500px;
   display: block;
   overflow: hidden;
 }

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NURIA CARRASQUILLA :: EL DEVENIR</title>
+  <meta name="description"
+    content="EL DEVENIR &mdash; instalaci&oacute;n interactiva y relacional de Nuria Carrasquilla Garc&iacute;a. Una reflexi&oacute;n sobre la maternidad y la identidad.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dos-body">
+  <div class="crt-overlay"></div>
+  <div class="screen">
+    <nav class="dos-nav">
+      <a href="index.html" data-i18n="nav.home">INICIO</a>
+      <a href="about.html" data-i18n="nav.about">SOBRE M&Iacute;</a>
+      <a href="projects.html" data-i18n="nav.projects">PROYECTOS</a>
+      <a href="contact.html" data-i18n="nav.contact">CONTACTO</a>
+      <select id="language-selector"
+        style="margin-left: auto; background: #000; color: #bfbfbf; font-family: 'VT323', monospace; border: 1px solid #565656; padding: 4px 8px;">
+        <option value="es">Espa&ntilde;ol</option>
+        <option value="en">English</option>
+        <option value="ca">Catal&agrave;</option>
+      </select>
+    </nav>
+
+    <!-- T&iacute;tulo + Abstract -->
+    <section class="tw-block">
+      <div class="tw-line" style="margin-bottom: 20px;">
+        &lt; <a href="projects.html" data-i18n="projects.backToGallery">VOLVER A LA GALER&Iacute;A</a>
+      </div>
+      <h1 class="tw-line" data-speed="16" data-i18n="projects.project4Title">EL DEVENIR (2026)</h1>
+      <div class="tw-line" data-speed="8">Esta instalaci&oacute;n art&iacute;stica nace de una necesidad introspectiva
+        dentro del espacio dom&eacute;stico. El detonante fue la noticia de una nueva gestaci&oacute;n, un
+        acontecimiento que reaviv&oacute; emociones como el miedo, la incertidumbre y la ilusi&oacute;n, trayendo
+        consigo la certeza de que el ser humano se encuentra atravesado por un proceso constante de
+        deconstrucci&oacute;n y recomposici&oacute;n de la propia identidad. Habitar esta nueva versi&oacute;n de una
+        misma, desde la fragilidad intr&iacute;nseca de la vida y el cuidado, constituye el eje conceptual de la obra.
+      </div>
+      <div class="tw-line" data-speed="7">La propuesta plantea el cuerpo que gesta como un espacio de resistencia activa
+        y resignificaci&oacute;n afectiva. A trav&eacute;s de la descontextualizaci&oacute;n de objetos cotidianos de su
+        propio entorno familiar, se construye una met&aacute;fora visual y espacial sobre la metamorfosis del cuerpo y
+        la inestabilidad.</div>
+      <div class="tw-line" data-speed="6" style="margin-top: 0.8em;">El pasillo distribuidor de la casa funciona como un
+        umbral, un no-lugar de tr&aacute;nsito f&iacute;sico y emocional donde la pieza inclinada se erige en centinela
+        del desvelo cotidiano.</div>
+    </section>
+
+    <!-- Galer&iacute;a de im&aacute;genes -->
+    <section class="tw-block">
+      <div class="obra-layout">
+        <div class="obra-imagen">
+          <button type="button" class="obra-img-main" aria-label="Ampliar imagen" onclick="openModal(0, 'gallery')"
+            style="max-width: 500px;">
+            <img src="EL DEVENIR/FOTOGRAFIAS/FOTOGRAFIA PRINCIPAL DEVENIR.jpg"
+              alt="El Devenir &mdash; Imagen Principal">
+          </button>
+          <div class="obra-img-details">
+            <span class="obra-details-label">&gt; Ver detalles e im&aacute;genes adicionales:</span>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 1" onclick="openModal(1,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5145.jpg" alt="Detalle 1">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 2" onclick="openModal(2,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5147.jpg" alt="Detalle 2">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 3" onclick="openModal(3,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5148.jpg" alt="Detalle 3">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 4" onclick="openModal(4,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5149.jpg" alt="Detalle 4">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 5" onclick="openModal(5,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5151.jpg" alt="Detalle 5">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 6" onclick="openModal(6,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5153.jpg" alt="Detalle 6">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 7" onclick="openModal(7,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5156.jpg" alt="Detalle 7">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 8" onclick="openModal(8,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5161.jpg" alt="Detalle 8">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 9" onclick="openModal(9,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5161-2.jpg" alt="Detalle 9">
+            </button>
+            <button type="button" class="gallery-thumb-small" aria-label="Detalle 10" onclick="openModal(10,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/WhatsApp Image 2026-06-09 at 08.17.36.jpeg" alt="Detalle 10">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ficha T&eacute;cnica -->
+    <section class="tw-block" id="ficha-general">
+      <h2 class="tw-line" data-speed="12">FICHA T&Eacute;CNICA</h2>
+      <div class="tech-sheet">
+        <div class="tech-sheet-block">
+          <div class="tech-sheet-header">[ OBRA ]</div>
+          <div class="tech-row"><span class="tech-label">T&iacute;tulo</span><span class="tech-value">El devenir</span>
+          </div>
+          <div class="tech-row"><span class="tech-label">Artista</span><span class="tech-value">Nuria Carrasquilla
+              Garc&iacute;a</span></div>
+          <div class="tech-row"><span class="tech-label">A&ntilde;o</span><span class="tech-value">2026</span></div>
+          <div class="tech-row"><span class="tech-label">T&eacute;cnica</span><span
+              class="tech-value">Instalaci&oacute;n interactiva y relacional. Hibridaci&oacute;n de objetos encontrados
+              (silla de madera, jarr&oacute;n, espejo), elementos org&aacute;nicos (flores naturales) y nuevos medios.
+              Estructura interna de sujeción sobre peana.</span></div>
+        </div>
+        <div class="tech-sheet-block">
+          <div class="tech-sheet-header">[ COMPONENTES ]</div>
+          <div class="tech-row"><span class="tech-label">Silla</span><span class="tech-value">Madera de pino natural
+              inclinada sobre una sola pata, fijaci&oacute;n con varilla de 10mm roscada interior.</span></div>
+          <div class="tech-row"><span class="tech-label">Jarr&oacute;n</span><span class="tech-value">Jarr&oacute;n de
+              PVC fijado al respaldo y flores naturales de duraci&oacute;n ef&iacute;mera.</span></div>
+          <div class="tech-row"><span class="tech-label">Interactividad</span><span class="tech-value">Sensor de
+              movimiento PIR y proyector LED 20W para activaci&oacute;n lum&iacute;nica ef&iacute;mera de
+              sombras.</span></div>
+          <div class="tech-row"><span class="tech-label">Dimensiones</span><span class="tech-value">Objeto con peana: 80
+              x 150 x 50 cm. Instalaci&oacute;n de dimensiones variables adaptada al espacio distribuidor.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Justificaci&oacute;n Conceptual y Formal -->
+    <section class="tw-block" id="explicacion">
+      <div class="tw-line" data-speed="7"><strong>Objetos y s&iacute;mbolos:</strong> La instalaci&oacute;n se articula
+        sobre la tensi&oacute;n de tres elementos principales. La <em>silla</em> de madera, s&iacute;mil del cuerpo, se
+        apoya sobre una sola pata desafiando el equilibrio est&aacute;tico, met&aacute;fora del desplazamiento
+        f&iacute;sico del centro de gravedad y el v&eacute;rtigo de la creaci&oacute;n biol&oacute;gica. En el respaldo,
+        el <em>jarr&oacute;n con flores naturales</em> introduce la fragilidad del ciclo vital y lo ef&iacute;mero,
+        mientras que el <em>espejo lateral</em> funciona como un dispositivo de alteridad que multiplica el espacio.
+      </div>
+      <div class="tw-line" data-speed="7"><strong>Dispositivo lum&iacute;nico e interactivo:</strong> La pieza se basa
+        en "El Instante Revelado". El pasillo permanece a oscuras hasta que la presencia f&iacute;sica del visitante
+        activa un sensor de movimiento PIR. En ese segundo, un foco LED cenital rompe la penumbra proyectando sombras
+        dram&aacute;ticas sobre las superficies, envolviendo al espectador en una atm&oacute;sfera de luces, reflejos y
+        autodescubrimiento en la que deviene simult&aacute;neamente sujeto y objeto de la experiencia.</div>
+    </section>
+
+    <!-- Documentaci&oacute;n Audiovisual -->
+    <section class="tw-block" id="audiovisual">
+      <h2 class="tw-line" data-speed="12">DOCUMENTACIÓN AUDIOVISUAL</h2>
+      <div style="margin-top: 16px;">
+        <a href="#" class="phase-link" data-gallery="video_registro"
+          style="display:inline-block; margin-bottom:12px;">&gt; Ver el v&iacute;deo de registro de la
+          instalaci&oacute;n</a><br>
+      </div>
+    </section>
+
+    <div id="image-modal" class="image-modal" hidden>
+      <button type="button" class="image-modal-close" aria-label="Cerrar">&#215;</button>
+      <button type="button" class="image-modal-prev" aria-label="Imagen anterior">&#9664;</button>
+      <img id="image-modal-img" src="" alt="Vista ampliada">
+      <video id="image-modal-video" controls style="outline: none;" hidden></video>
+      <div id="image-modal-caption" class="image-modal-caption"></div>
+      <button type="button" class="image-modal-next" aria-label="Imagen siguiente">&#9654;</button>
+    </div>
+
+    <footer class="status-bar">
+      <span>&copy; 2026 Nuria Carrasquilla &reg;. Todos los derechos reservados.</span>
+    </footer>
+  </div>
+
+  <script src="js/translations.js"></script>
+  <script src="js/terminal.js"></script>
+  <script>
+    var galleries = {
+      gallery: {
+        folder: 'EL DEVENIR/FOTOGRAFIAS',
+        files: [
+          'FOTOGRAFIA PRINCIPAL DEVENIR.jpg',
+          'IMG_5145.jpg',
+          'IMG_5147.jpg',
+          'IMG_5148.jpg',
+          'IMG_5149.jpg',
+          'IMG_5151.jpg',
+          'IMG_5153.jpg',
+          'IMG_5156.jpg',
+          'IMG_5161.jpg',
+          'IMG_5161-2.jpg',
+          'WhatsApp Image 2026-06-09 at 08.17.36.jpeg'
+        ]
+      },
+      video_registro: {
+        folder: 'EL DEVENIR/VIDEOS',
+        files: [
+          'El devenir_primera persona.mp4'
+        ]
+      },
+      video_feedback: {
+        folder: 'EL DEVENIR/VIDEOS',
+        files: [
+          'Feedback_ El devenir.mp4'
+        ]
+      }
+    };
+
+    var modal = document.getElementById('image-modal');
+    var modalImage = document.getElementById('image-modal-img');
+    var modalVideo = document.getElementById('image-modal-video');
+    var closeBtn = modal ? modal.querySelector('.image-modal-close') : null;
+    var prevBtn = modal ? modal.querySelector('.image-modal-prev') : null;
+    var nextBtn = modal ? modal.querySelector('.image-modal-next') : null;
+    var curGallery = 'gallery', curIdx = 0;
+
+    function openModal(idx, gKey) {
+      if (!modal) return;
+      curGallery = gKey || 'gallery'; curIdx = idx;
+      updateModal(); modal.hidden = false; document.body.style.overflow = 'hidden';
+    }
+    function closeModal() {
+      if (!modal) return; modal.hidden = true; document.body.style.overflow = '';
+      if (modalVideo) { modalVideo.pause(); modalVideo.src = ''; modalVideo.hidden = true; }
+    }
+    function showNext() {
+      var f = galleries[curGallery].files;
+      if (f.length <= 1) return;
+      curIdx = (curIdx + 1) % f.length; updateModal();
+    }
+    function showPrev() {
+      var f = galleries[curGallery].files;
+      if (f.length <= 1) return;
+      curIdx = (curIdx - 1 + f.length) % f.length; updateModal();
+    }
+    function updateModal() {
+      if (!modalImage) return;
+      var gd = galleries[curGallery], fn = gd.files[curIdx], isVid = fn.toLowerCase().endsWith('.mp4');
+      if (prevBtn && nextBtn) {
+        var sn = gd.files.length > 1;
+        prevBtn.style.display = sn ? 'flex' : 'none';
+        nextBtn.style.display = sn ? 'flex' : 'none';
+      }
+      if (modalVideo) { modalVideo.pause(); modalVideo.src = ''; modalVideo.hidden = true; }
+      modalImage.hidden = true;
+      var url = encodeURI(gd.folder + '/' + fn);
+      if (isVid) { if (modalVideo) { modalVideo.src = url; modalVideo.hidden = false; modalVideo.load(); } }
+      else { modalImage.src = url; modalImage.hidden = false; }
+      var cap = document.getElementById('image-modal-caption');
+      if (cap) {
+        cap.textContent = fn.replace(/\.[^/.]+$/, "").replace(/_/g, " ");
+        cap.style.display = cap.textContent ? 'block' : 'none';
+      }
+    }
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    if (prevBtn) prevBtn.addEventListener('click', function (e) { e.stopPropagation(); showPrev(); });
+    if (nextBtn) nextBtn.addEventListener('click', function (e) { e.stopPropagation(); showNext(); });
+    if (modal) modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', function (e) {
+      if (modal && !modal.hidden) {
+        if (e.key === 'Escape') closeModal();
+        if (e.key === 'ArrowRight') showNext();
+        if (e.key === 'ArrowLeft') showPrev();
+      }
+    });
+    document.addEventListener('click', function (e) {
+      var pl = e.target.closest('.phase-link');
+      if (pl) { e.preventDefault(); openModal(0, pl.getAttribute('data-gallery') || 'gallery'); }
+    });
+  </script>
+</body>
+
+</html>

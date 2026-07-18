@@ -1,47 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CONTACT :: YOUR NAME</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NURIA CARRASQUILLA :: CONTACT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="dos-body">
-<div class="crt-overlay"></div>
-<div class="screen">
+  <div class="crt-overlay"></div>
+  <div class="screen">
 
-  <nav class="dos-nav">
-    <a href="index.html">HOME</a>
-    <a href="about.html">ABOUT</a>
-    <a href="projects.html">GALLERY</a>
-    <a href="contact.html">CONTACT</a>
-  </nav>
+    <nav class="dos-nav">
+      <a href="index.html" data-i18n="nav.home">INICIO</a>
+      <a href="about.html" data-i18n="nav.about">SOBRE M&Iacute;</a>
+      <a href="projects.html" data-i18n="nav.projects">PROYECTOS</a>
+      <a href="contact.html" data-i18n="nav.contact">CONTACTO</a>
+      <select id="language-selector" style="margin-left: auto; background: #000; color: #bfbfbf; font-family: 'VT323', monospace; border: 1px solid #565656; padding: 4px 8px;">
+        <option value="es">Espa&ntilde;ol</option>
+        <option value="en">English</option>
+        <option value="ca">Catal&agrave;</option>
+      </select>
+    </nav>
 
-  <section class="tw-block">
-    <h1 class="tw-line" data-speed="16">Contact</h1>
-  </section>
+    <section class="tw-block">
+      <h1 class="tw-line" data-speed="16" data-i18n="contact.title">CONTACTO</h1>
+    </section>
 
-  <section class="tw-block box">
-    <div class="box-title">Get in Touch</div>
+    <section class="tw-block box">
+      <div class="box-title" data-i18n="contact.boxTitle">Ponerse en contacto</div>
 
-    <div class="tw-line" data-speed="12">Interested in a commission, or just want to say hi?</div>
-    <div class="tw-line" data-speed="12">Reach me through any of the channels below.</div>
+      <div class="tw-line" data-speed="12" data-i18n="contact.line1">&iquest;Interesado en una colaboraci&oacute;n, un encargo o simplemente quieres saludar?</div>
+      <div class="tw-line" data-speed="12" data-i18n="contact.line2">Puedes contactarme a trav&eacute;s de cualquiera de los canales a continuaci&oacute;n.</div>
 
-    <ul class="contact-list">
-      <!-- EDIT: replace with your real contact details -->
-      <li><span class="label">EMAIL</span> <a href="mailto:you@example.com" class="tw-line" data-speed="4">you@example.com</a></li>
-      <li><span class="label">INSTAGRAM</span> <a href="https://instagram.com/yourhandle" class="tw-line" data-speed="4">instagram.com/yourhandle</a></li>
-      <li><span class="label">BEHANCE</span> <a href="https://behance.net/yourhandle" class="tw-line" data-speed="4">behance.net/yourhandle</a></li>
-    </ul>
-  </section>
+      <ul class="contact-list">
+        <li><span class="label">EMAIL</span> <a href="mailto:nuria.carrasquilla.garcia@gmail.com" class="tw-line" data-speed="4">nuria.carrasquilla.garcia@gmail.com</a></li>
+        <li><span class="label">INSTAGRAM</span> <a href="https://instagram.com/carrasquilla_art" class="tw-line" data-speed="4" target="_blank">@carrasquilla_art</a></li>
+        <li><span class="label">LINKEDIN</span> <a href="https://www.linkedin.com/in/nuriacarrasquilla" class="tw-line" data-speed="4" target="_blank">linkedin.com/in/nuriacarrasquilla</a></li>
+        <li><span class="label">VIMEO</span> <a href="https://vimeo.com/carrasquilla" class="tw-line" data-speed="4" target="_blank">vimeo.com/carrasquilla</a></li>
+      </ul>
+    </section>
 
-  <footer class="status-bar">
-    <span>© 2026 Nuria Carrasquilla ®. Todos los derechos reservados.</span>
-  </footer>
+    <footer class="status-bar">
+      <span>&copy; 2026 Nuria Carrasquilla &reg;. Todos los derechos reservados.</span>
+    </footer>
 
-</div>
-<script src="js/terminal.js"></script>
+  </div>
+  <script src="js/translations.js"></script>
+  <script src="js/terminal.js"></script>
 </body>
 </html>

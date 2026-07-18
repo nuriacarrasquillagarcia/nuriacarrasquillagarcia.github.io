@@ -28,8 +28,57 @@
     });
   }
 
+  function restoreClickedLinks() {
+    document.querySelectorAll("a").forEach((link) => {
+      if (link.closest(".dos-nav") || link.closest("h1")) {
+        return;
+      }
+      if (link.closest(".menu-list")) {
+        const isGalleryLink = link.getAttribute("href") === "projects.html" || link.getAttribute("data-i18n") === "home.viewAll";
+        if (isGalleryLink) {
+          return;
+        }
+      }
+      const href = link.getAttribute("href");
+      const text = link.innerText.trim();
+      if (!href) return;
+      const key = `clicked_link_${href}_${text}`;
+      if (localStorage.getItem(key) === "true") {
+        link.classList.add("clicked");
+      }
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
     markActiveNavLink();
     showContentImmediately();
+    restoreClickedLinks();
+    if (window.applyAllAccents) {
+      window.applyAllAccents();
+    }
+  });
+
+  document.addEventListener("click", (e) => {
+    const link = e.target.closest("a");
+    if (link) {
+      if (link.closest(".dos-nav") || link.closest("h1")) {
+        return;
+      }
+      if (link.closest(".menu-list")) {
+        const isGalleryLink = link.getAttribute("href") === "projects.html" || link.getAttribute("data-i18n") === "home.viewAll";
+        if (isGalleryLink) {
+          return;
+        }
+      }
+      link.classList.add("clicked");
+      const href = link.getAttribute("href");
+      const text = link.innerText.trim();
+      if (href) {
+        const key = `clicked_link_${href}_${text}`;
+        try {
+          localStorage.setItem(key, "true");
+        } catch (err) {}
+      }
+    }
   });
 })();

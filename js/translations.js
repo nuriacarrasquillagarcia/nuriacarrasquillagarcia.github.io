@@ -1,3 +1,59 @@
+function escapeHtml(str) {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+window.applyAllAccents = function() {
+  function walk(node) {
+    if (node.nodeType === Node.ELEMENT_NODE) {
+      const tagName = node.tagName.toLowerCase();
+      if (tagName === 'script' || tagName === 'style' || tagName === 'select' || tagName === 'option' || tagName === 'textarea' || tagName === 'input' || tagName === 'h1' || tagName === 'h2' || tagName === 'h3') {
+        return;
+      }
+      if (node.closest('.dos-nav') || node.closest('.menu-list')) {
+        return;
+      }
+      if (node.classList.contains('accent-processed')) {
+        return;
+      }
+      
+      const children = Array.from(node.childNodes);
+      for (const child of children) {
+        walk(child);
+      }
+    } else if (node.nodeType === Node.TEXT_NODE) {
+      const text = node.nodeValue;
+      if (!text || !text.trim()) return;
+
+      const regex = /(\[[^\]\n]*\])|("[^"\n]+")|(“[^”\n]+”)|(«[^»\n]+»)|(»)/g;
+      const escaped = escapeHtml(text);
+      if (regex.test(escaped)) {
+        const span = document.createElement("span");
+        span.className = "accent-processed";
+        span.innerHTML = escaped.replace(regex, (match, p1, p2, p3, p4, p5) => {
+          if (p1) {
+            return `<span class="accent-bracket">${p1}</span>`;
+          } else if (p2) {
+            return `<span class="accent-quote">${p2}</span>`;
+          } else if (p3) {
+            return `<span class="accent-quote">${p3}</span>`;
+          } else if (p4) {
+            return `<span class="accent-quote">${p4}</span>`;
+          } else if (p5) {
+            return `<span class="accent-right-quote">${p5}</span>`;
+          }
+          return match;
+        });
+        node.parentNode.replaceChild(span, node);
+      }
+    }
+  }
+  const container = document.querySelector('.screen') || document.body;
+  walk(container);
+};
+
 const translations = {
   es: {
     nav: {
@@ -128,8 +184,8 @@ const translations = {
       fieldSourceRepo: "Repositorio",
       fieldSourceRepoNum: "Nº repositorio",
       fieldSourceLink: "Fuente",
-      conceptualTitle: "DECLARACIÓN CONCEPTUAL",
-      formalTitle: "DECLARACIÓN FORMAL"
+      conceptualTitle: "CONCEPTO",
+      formalTitle: "FORMA"
     },
     footer: {
       skipAnimation: "click / press any key to skip animation"
@@ -260,8 +316,8 @@ const translations = {
       fieldSourceRepo: "Repository",
       fieldSourceRepoNum: "Repository No.",
       fieldSourceLink: "Source",
-      conceptualTitle: "CONCEPTUAL STATEMENT",
-      formalTitle: "FORMAL STATEMENT"
+      conceptualTitle: "CONCEPT",
+      formalTitle: "FORM"
     },
     footer: {
       skipAnimation: "click / press any key to skip animation"
@@ -390,8 +446,8 @@ const translations = {
       fieldSourceRepo: "Repositori",
       fieldSourceRepoNum: "Nº repositori",
       fieldSourceLink: "Font",
-      conceptualTitle: "DECLARACIÓ CONCEPTUAL",
-      formalTitle: "DECLARACIÓ FORMAL"
+      conceptualTitle: "CONCEPTE",
+      formalTitle: "FORMA"
     },
     footer: {
       skipAnimation: "click / press any key to skip animation"
@@ -412,6 +468,9 @@ function getCurrentLanguage() {
 function setLanguage(lang) {
   localStorage.setItem('language', lang);
   updatePageLanguage(lang);
+  if (window.applyAllAccents) {
+    window.applyAllAccents();
+  }
 }
 
 function updatePageLanguage(lang) {

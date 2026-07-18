@@ -13,6 +13,12 @@
   --dos-highlight-bg: #bfbfbf;
   --dos-highlight-text: #000000;
   --font-dos: 'VT323', 'Perfect DOS VGA437', 'Consolas', 'Courier New', monospace;
+
+  /* Color accents */
+  --accent-magenta: #ff00ff;
+  --accent-yellow: #ffff00;
+  --accent-green: #00ff00;
+  --accent-blue: #0066ff;
 }
 
 * {
@@ -171,7 +177,7 @@ h2 {
 }
 
 .box-title {
-  color: var(--dos-text-dim);
+  color: var(--accent-green) !important;
   margin: -18px -18px 14px;
   padding: 4px 12px;
   border-bottom: 1px solid var(--dos-border);
@@ -187,10 +193,13 @@ h2 {
 .menu-list li {
   padding: 3px 0;
 }
+.menu-list ul li::before {
+  content: none;
+}
 
-.menu-list li::before {
+.menu-list > li::before {
   content: "\00BB ";
-  color: var(--dos-text-dim);
+  color: var(--accent-yellow) !important;
 }
 
 .menu-list a {
@@ -362,7 +371,7 @@ h2 {
 
 .phase-title {
   display: block;
-  color: var(--dos-text-bright);
+  color: var(--accent-yellow) !important;
   font-weight: bold;
   letter-spacing: 1px;
   margin-bottom: 3px;
@@ -761,4 +770,119 @@ h2 {
   letter-spacing: 1px;
   margin-bottom: 6px;
   text-transform: uppercase;
+}
+
+/* =========================================================
+   COLOR ACCENTS SYSTEM
+   ========================================================= */
+
+/* Ensure the main title link remains bright white under all states */
+h1 a, h1.tw-line a,
+h1 a:visited, h1.tw-line a:visited,
+h1 a.clicked, h1.tw-line a.clicked {
+  color: var(--dos-text-bright) !important;
+}
+h1 a:hover, h1.tw-line a:hover {
+  color: var(--dos-text-bright) !important;
+  text-decoration: underline;
+}
+
+/* Hyperlinks outside navigation, works list, and title */
+a:not(h1 a):not(h1 *):not(.dos-nav a):not(.menu-list a):not(.dos-nav *):not(.menu-list *) {
+  color: var(--accent-yellow);
+}
+a:not(h1 a):not(h1 *):not(.dos-nav a):not(.menu-list a):not(.dos-nav *):not(.menu-list *).clicked {
+  color: var(--accent-green) !important;
+}
+a:not(h1 a):not(h1 *):not(.dos-nav a):not(.menu-list a):not(.dos-nav *):not(.menu-list *):hover {
+  color: var(--dos-text-bright) !important;
+  text-decoration: underline;
+}
+/* Ensure the works list (.menu-list) is white by default, project links turn blue when clicked */
+.menu-list,
+.menu-list .hint {
+  color: var(--dos-text-bright) !important;
+}
+.menu-list a {
+  color: var(--dos-text-bright) !important;
+}
+.menu-list ul li a.clicked {
+  color: var(--accent-blue) !important;
+}
+.menu-list a:hover {
+  color: var(--dos-text-bright) !important;
+  text-decoration: underline;
+}
+
+/* Specific yellow override for the gallery link in works list (always yellow) */
+.menu-list > li a,
+.menu-list > li a:visited,
+.menu-list > li a.clicked {
+  color: var(--accent-yellow) !important;
+}
+.menu-list > li a:hover {
+  color: var(--dos-text-bright) !important;
+  text-decoration: underline;
+}
+
+/* Tagline styled in green */
+.tagline, .tagline.tw-line {
+  color: var(--accent-green) !important;
+}
+
+/* Italics (outside navigation and main works menu, excluding tagline) */
+body :not(.dos-nav):not(.menu-list) em,
+body :not(.dos-nav):not(.menu-list) i,
+body :not(.dos-nav):not(.menu-list) [style*="font-style: italic"]:not(.tagline) {
+  color: var(--accent-magenta) !important;
+}
+
+/* Bracket accents */
+.accent-bracket {
+  color: var(--accent-green) !important;
+}
+
+/* Quote accents */
+.accent-quote {
+  color: var(--accent-magenta) !important;
+}
+
+/* Right angle quote accents */
+.accent-right-quote {
+  color: var(--accent-magenta) !important;
+}
+
+/* Ensure quotes and brackets inside technical values (.tech-value) remain white */
+.tech-value .accent-quote,
+.tech-value .accent-bracket {
+  color: var(--dos-text-bright) !important;
+}
+
+/* Phase headings in nonrestraint.html styled in green */
+#fase-oscuridad > h2,
+#fase-camino > h2,
+#fase-penumbra > h2,
+#fase-luz > h2 {
+  color: var(--accent-green) !important;
+}
+
+/* Custom color override utility classes (with high specificity to beat global em/i rules) */
+body :not(.dos-nav):not(.menu-list) em.accent-yellow-text,
+body :not(.dos-nav):not(.menu-list) i.accent-yellow-text,
+body :not(.dos-nav):not(.menu-list) .accent-yellow-text,
+body :not(.dos-nav):not(.menu-list) .accent-yellow-text * {
+  color: var(--accent-yellow) !important;
+}
+
+body :not(.dos-nav):not(.menu-list) em.accent-green-text,
+body :not(.dos-nav):not(.menu-list) i.accent-green-text,
+body :not(.dos-nav):not(.menu-list) .accent-green-text,
+body :not(.dos-nav):not(.menu-list) .accent-green-text * {
+  color: var(--accent-green) !important;
+}
+
+/* Contact page links styled in yellow */
+.contact-list a,
+.contact-list a.clicked {
+  color: var(--accent-yellow) !important;
 }

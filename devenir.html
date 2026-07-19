@@ -56,42 +56,39 @@
 
       <div class="obra-layout" style="margin-bottom: 20px;">
         <div class="obra-imagen">
-          <button type="button" class="obra-img-main" aria-label="Ampliar imagen" onclick="openModal(0, 'gallery')"
+          <button type="button" class="obra-img-main" aria-label="Ampliar imagen Devenir 1" onclick="openModal(0, 'gallery')"
             style="max-width: 500px;">
-            <img src="EL DEVENIR/FOTOGRAFIAS/FOTOGRAFIA PRINCIPAL DEVENIR.jpg"
-              alt="El Devenir &mdash; Imagen Principal">
+            <img src="EL DEVENIR/FOTOGRAFIAS/devenir_01.jpg"
+              alt="Devenir 1">
           </button>
           <div class="obra-img-details">
             <span class="obra-details-label">&gt; Ver detalles e im&aacute;genes adicionales:</span>
-            <button type="button" class="gallery-thumb-small" aria-label="Detalle 1" onclick="openModal(1,'gallery')">
-              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5145.jpg" alt="Detalle 1">
+            <button type="button" class="gallery-thumb-small" aria-label="Devenir 3" onclick="openModal(1,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/devenir_03.jpg" alt="Devenir 3">
             </button>
-            <button type="button" class="gallery-thumb-small" aria-label="Detalle 2" onclick="openModal(2,'gallery')">
-              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5147.jpg" alt="Detalle 2">
+            <button type="button" class="gallery-thumb-small" aria-label="Devenir 4" onclick="openModal(2,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/devenir_04.jpg" alt="Devenir 4">
             </button>
-            <button type="button" class="gallery-thumb-small" aria-label="Detalle 3" onclick="openModal(3,'gallery')">
-              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5148.jpg" alt="Detalle 3">
+            <button type="button" class="gallery-thumb-small" aria-label="Devenir 5" onclick="openModal(3,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/devenir_05.jpg" alt="Devenir 5">
             </button>
-            <button type="button" class="gallery-thumb-small" aria-label="Detalle 4" onclick="openModal(4,'gallery')">
-              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5149.jpg" alt="Detalle 4">
+            <button type="button" class="gallery-thumb-small" aria-label="Devenir 6" onclick="openModal(4,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/devenir_06.jpg" alt="Devenir 6">
             </button>
-            <button type="button" class="gallery-thumb-small" aria-label="Detalle 5" onclick="openModal(5,'gallery')">
-              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5151.jpg" alt="Detalle 5">
+            <button type="button" class="gallery-thumb-small" aria-label="Devenir 7" onclick="openModal(5,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/devenir_07.jpg" alt="Devenir 7">
             </button>
-            <button type="button" class="gallery-thumb-small" aria-label="Detalle 6" onclick="openModal(6,'gallery')">
-              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5153.jpg" alt="Detalle 6">
+            <button type="button" class="gallery-thumb-small" aria-label="Devenir 8" onclick="openModal(6,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/devenir_08.jpg" alt="Devenir 8">
             </button>
-            <button type="button" class="gallery-thumb-small" aria-label="Detalle 7" onclick="openModal(7,'gallery')">
-              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5156.jpg" alt="Detalle 7">
+            <button type="button" class="gallery-thumb-small" aria-label="Devenir 9" onclick="openModal(7,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/devenir_09.jpg" alt="Devenir 9">
             </button>
-            <button type="button" class="gallery-thumb-small" aria-label="Detalle 8" onclick="openModal(8,'gallery')">
-              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5161.jpg" alt="Detalle 8">
+            <button type="button" class="gallery-thumb-small" aria-label="Devenir 10" onclick="openModal(8,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/devenir_10.jpg" alt="Devenir 10">
             </button>
-            <button type="button" class="gallery-thumb-small" aria-label="Detalle 9" onclick="openModal(9,'gallery')">
-              <img src="EL DEVENIR/FOTOGRAFIAS/IMG_5161-2.jpg" alt="Detalle 9">
-            </button>
-            <button type="button" class="gallery-thumb-small" aria-label="Detalle 10" onclick="openModal(10,'gallery')">
-              <img src="EL DEVENIR/FOTOGRAFIAS/WhatsApp Image 2026-06-09 at 08.17.36.jpeg" alt="Detalle 10">
+            <button type="button" class="gallery-thumb-small" aria-label="Devenir 11" onclick="openModal(9,'gallery')">
+              <img src="EL DEVENIR/FOTOGRAFIAS/devenir_11.jpg" alt="Devenir 11">
             </button>
           </div>
         </div>
@@ -175,17 +172,16 @@
       gallery: {
         folder: 'EL DEVENIR/FOTOGRAFIAS',
         files: [
-          'FOTOGRAFIA PRINCIPAL DEVENIR.jpg',
-          'IMG_5145.jpg',
-          'IMG_5147.jpg',
-          'IMG_5148.jpg',
-          'IMG_5149.jpg',
-          'IMG_5151.jpg',
-          'IMG_5153.jpg',
-          'IMG_5156.jpg',
-          'IMG_5161.jpg',
-          'IMG_5161-2.jpg',
-          'WhatsApp Image 2026-06-09 at 08.17.36.jpeg'
+          'devenir_01.jpg',
+          'devenir_03.jpg',
+          'devenir_04.jpg',
+          'devenir_05.jpg',
+          'devenir_06.jpg',
+          'devenir_07.jpg',
+          'devenir_08.jpg',
+          'devenir_09.jpg',
+          'devenir_10.jpg',
+          'devenir_11.jpg'
         ]
       },
       video_registro: {
@@ -244,8 +240,8 @@
       else { modalImage.src = url; modalImage.hidden = false; }
       var cap = document.getElementById('image-modal-caption');
       if (cap) {
-        cap.textContent = fn.replace(/\.[^/.]+$/, "").replace(/_/g, " ");
-        cap.style.display = cap.textContent ? 'block' : 'none';
+        cap.textContent = '';
+        cap.style.display = 'none';
       }
     }
     if (closeBtn) closeBtn.addEventListener('click', closeModal);

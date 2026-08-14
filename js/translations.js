@@ -745,14 +745,6 @@ const translations = {
       explicacionP1: "La roca funciona com un arxiu material del temps, acumulació d'existències i estrats temporals. La seva duresa i imperfecció actuen com a ancoratge d'una realitat no superficial. L'alternança de dos projectors que activen els somriures en cares oposades introdueix un temps cíclico similar al d'un metrònom, convertint el loop en una metàfora de l'etern retorn de les convencions socials.",
       explicacionP2: "Per traslladar aquesta dissonància a l'espectador, la videoinstal·lació proposa un entorn sensorial fred (temperatura controlada a la sala 5ºC inferior a l'exterior) i una il·luminació focal contrapicada molt tènue. El component sonor de l'aigua reproduït al revés crea una dissonància cognitiva: un estímul amable que, examinat al revés, resulta inquietant i antinatural, forçant l'immersió.",
       viewVideo: "> Veure el vídeo de la simulació de la videoinstal·lació"
-    },atitzar la naturalesa artificial i mercantilitzada del somriure. En projectar aquesta \"felicitat impostada\" sobre la superfície rugosa i imperfecta de la pedra, es visibilitza la violència que suposa l'imperatiu social de mostrar sempre una cara perfecta, revelant el seu caràcter deformat, efímer i vulnerable.",
-      techTitle: "Vacío Cíclico",
-      techFormat: "Videoinstal·lació / Videoescultura / Canal dual (vídeo 16:9, Full HD)",
-      techSound: "Estèreo envolupant (aigua rebobinada en loop)",
-      techSupport: "Roca natural calcària de superfície rugosa (30 x 25 x 50 cm). Peanya de 60 x 40 x 135 cm.",
-      techHardware: "Dos projectors digitals amb reproducció sincronitzada meitat i meitat alterna (cicles de 30'').",
-      techDimensions: "Variables (perímetre de protecció de 150 cm de diàmetre per a lliure circulació).",
-      techDuration: "Loop (Metratge total: 02' 11'' / Cicles d'alternança: 30'')"
     },
     histericasPage: {
       conceptP1: "Aquesta proposta neix d'una llarga reflexió que em va portar fins a l'arxiu sobre la histèria elaborat per Jean-Martin Charcot (1825–1893) a la clínica mèdica de la Salpêtrière, recollit al llibre <em>Iconographie Photographique de la Salpêtrière</em> (1878) de Bourneville i Regnard. Un arxiu que, tot i que ha estat revisitat en diferents moments del segle XX, encara es pot abordar des d'una perspectiva contemporània amb la intenció de donar-li un nou significat.",

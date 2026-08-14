@@ -97,7 +97,10 @@ const translations = {
       statementP3: "Presto atención a los gestos mínimos y a situaciones aparentemente sencillas: un desplazamiento, una sombra, una proximidad, una espera, un contacto. Son pequeños acontecimientos que pueden modificar nuestra manera de estar y de percibir.",
       statementP4: "A través de ellos, busco crear espacios de encuentro donde las diferencias no tengan que desaparecer para que exista algo común. Me interesa ese punto en el que una experiencia singular puede ser reconocida por otra persona sin dejar de ser propia.",
       statementP5: "En este sentido, la obra funciona como un espacio abierto a la relación. Un lugar donde las fronteras que hemos construido entre yo y otro, presencia y ausencia, sujeto y objeto o naturaleza y cultura pueden dejar de ser tan rígidas.",
-      statementP6: "Mi investigación parte de ahí: de observar qué sucede cuando prestamos atención a aquello que ocurre entre las cosas, y de cómo pequeños gestos pueden abrir otras formas de relación."
+      statementP6: "Mi investigación parte de ahí: de observar qué sucede cuando prestamos atención a aquello que ocurre entre las cosas, y de cómo pequeños gestos pueden abrir otras formas de relación.",
+      educationTitle: "<strong>Formación y reconocimientos</strong>",
+      educationItem1Title: "<strong>II Studium Generale Reina Sofía / UOC — Alumna becada, 2026</strong>",
+      educationItem1Desc: "Seleccionada para participar en una estancia intensiva de estudio, debate y crítica institucional en torno al arte contemporáneo en el Centro de Estudios del Museo Nacional Centro de Arte Reina Sofía."
     },
     projects: {
       title: "GALERÍA DE PROYECTOS",
@@ -307,7 +310,10 @@ const translations = {
       statementP3: "I pay attention to minimal gestures and seemingly simple situations: a displacement, a shadow, a proximity, a wait, a contact. They are small events that can alter our way of being and perceiving.",
       statementP4: "Through them, I seek to create meeting spaces where differences do not have to disappear for something common to exist. I am interested in that point where a singular experience can be recognized by another person without ceasing to be one's own.",
       statementP5: "In this sense, the artwork functions as an open space for relationship. A place where the boundaries we have constructed between self and other, presence and absence, subject and object, or nature and culture can become less rigid.",
-      statementP6: "My research stems from there: from observing what happens when we pay attention to what occurs between things, and how small gestures can open up other ways of relating."
+      statementP6: "My research stems from there: from observing what happens when we pay attention to what occurs between things, and how small gestures can open up other ways of relating.",
+      educationTitle: "<strong>Education and recognitions</strong>",
+      educationItem1Title: "<strong>II Studium Generale Reina Sofía / UOC — Grantee Student, 2026</strong>",
+      educationItem1Desc: "Selected to participate in an intensive study, debate, and institutional critique residency on contemporary art at the Research Centre of the Museo Nacional Centro de Arte Reina Sofía."
     },
     projects: {
       title: "PROJECT GALLERY",
@@ -517,7 +523,10 @@ const translations = {
       statementP3: "Paro atenció als gestos mínims i a situacions aparentment senzilles: un desplaçament, una ombra, una proximitat, una espera, un contacte. Són petits esdeveniments que poden modificar la nostra manera d'estar i de percebre.",
       statementP4: "A través d'ells, busco crear espais de trobada on les diferències no hagin de desaparèixer perquè existeixi quelcom comú. M'interessa aquest punt en què una experiència singular pot ser reconeguda per una altra persona sense deixar de ser pròpia.",
       statementP5: "En aquest sentit, l'obra funciona com un espai obert a la relació. Un lloc on les fronteres que hem construït entre jo i altre, presència i absència, subjecte i objecte o naturalesa i cultura poden deixar de ser tan rígides.",
-      statementP6: "La meva recerca parteix d'aquí: d'observar què passa quan parem atenció a allò que ocorre entre les coses, i de com petits gestos poden obrir altres formes de relació."
+      statementP6: "La meva recerca parteix d'aquí: d'observar què passa quan parem atenció a allò que ocorre entre les coses, i de com petits gestos poden obrir altres formes de relació.",
+      educationTitle: "<strong>Formació i reconeixements</strong>",
+      educationItem1Title: "<strong>II Studium Generale Reina Sofía / UOC — Alumna becada, 2026</strong>",
+      educationItem1Desc: "Seleccionada per a participar en una estada intensiva d'estudi, debat i crítica institucional al voltant de l'art contemporani al Centre d'Estudis del Museu Nacional Centre d'Art Reina Sofía."
     },
     projects: {
       title: "GALERIA DE PROJECTES",

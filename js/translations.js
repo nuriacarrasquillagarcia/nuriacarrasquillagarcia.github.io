@@ -168,22 +168,38 @@ const translations = {
       labelPhase2: "Fase 2",
       labelPhase3: "Fase 3",
       labelPhase4: "Fase 4",
-      detailsLabel: "> Ver detalles e imágenes adicionales:"
+      detailsLabel: "> Ver detalles e imágenes adicionales:",
+      labelChair: "Silla",
+      labelVase: "Jarrón",
+      processDetailsLabel: "> Ver detalles e imágenes del proceso:"
     },
     sections: {
       conceptTitle: "CONCEPTO",
       formTitle: "FORMA",
       insituTitle: "INTERVENCIÓN IN SITU — LA MUNTANYETA",
-      studioTitle: "REINTERPRETACIÓN EN ESTUDIO"
+      studioTitle: "REINTERPRETACIÓN EN ESTUDIO",
+      audiovisualDoc: "DOCUMENTACIÓN AUDIOVISUAL",
+      creativeProcessTitle: "PROCESO CREATIVO"
     },
     devenirPage: {
       p1: "Esta instalación artística nace de una necesidad introspectiva dentro del espacio doméstico. El detonante fue la noticia de un nuevo embarazo, un acontecimiento que reavivó emociones como el miedo, la incertidumbre y la ilusión, trayendo consigo la certeza de que el ser humano se encuentra atravesado por un proceso constante de deconstrucción y recomposición de la propia identidad. Habitar esta nueva versión de una misma, desde la fragilidad intrínseca de la vida y el cuidado, constituye el eje conceptual de la obra.",
       p2: "La propuesta plantea el cuerpo que gesta como un espacio de resistencia activa y resignificación afectiva. A través de la descontextualización de objetos cotidianos de su propio entorno familiar, se construye una metáfora visual y espacial sobre la metamorfosis del cuerpo y la inestabilidad.",
-      p3: "El pasillo distribuidor de la casa funciona como un umbral, un no-lugar de tránsito físico y emocional donde la pieza inclinada se erige en centinela del desvelo cotidiano."
+      p3: "El pasillo distribuidor de la casa funciona como un umbral, un no-lugar de tránsito físico y emocional donde la pieza inclinada se erige en centinela del desvelo cotidiano.",
+      explicacionP1: "La instalación se articula sobre la tensión de tres elementos principales. La <em class='accent-green-text'>silla</em> de madera, símil del cuerpo, se apoya sobre una sola pata desafiando el equilibrio estático, metáfora del desplazamiento físico del centro de gravedad y el vértigo de la creación biológica. En el respaldo, el <em class='accent-green-text'>jarrón con flores naturales</em> introduce la fragilidad del ciclo vital y lo efímero, mientras que el <em class='accent-green-text'>espejo lateral</em> funciona como un dispositivo de alteridad que multiplica el espacio.",
+      explicacionP2: "La pieza se basa en \"El Instante Revelado\". El pasillo permanece a oscuras hasta que la presencia física del visitante activa un sensor de movimiento PIR. En ese segundo, un foco LED cenital rompe la penumbra proyectando sombras dramáticas sobre las superficies, envolviendo al espectador en una atmósfera de luces, reflejos y autodescubrimiento en la que deviene simultáneamente sujeto y objeto de la experiencia.",
+      viewVideo: "> Ver el vídeo de registro de la instalación",
+      techMediumVal: "Instalación interactiva y relacional. Hibridación de objetos encontrados (silla de madera, jarrón, espejo), elementos orgánicos (flores naturales) y nuevos medios. Estructura interna de sujeción sobre peana.",
+      chairVal: "Madera de pino natural inclinada sobre una sola pata, fijación con varilla de 10mm roscada interior.",
+      vaseVal: "Jarrón de PVC fijado al respaldo y flores naturales de duración efímera.",
+      interactivityVal: "Sensor de movimiento PIR y proyector LED 20W para activación lumínica efímera de sombras.",
+      dimensionsVal: "Objeto con peana: 80 x 150 x 50 cm. Instalación de dimensiones variables adaptada al espacio distribuidor."
     },
     huecoPage: {
       p1: "El hueco como refugio es una escultura procesual e intervención en el paisaje que se centra en el cuidado y la protección de la memoria geológica y afectiva de \"la Muntanyeta\". El territorio intervenido es una zona familiar que recientemente ha iniciado un proceso de transformación urbanística de sus zonas verdes. In situ, la cera líquida actúa como un bálsamo que sella simbólicamente las heridas del terreno, abrigando elementos orgánicos recolectados en nichos terrestres.",
-      p2: "En la posterior presentación en el estudio, las piezas encapsuladas se disponen en espiral sobre una mesa de metacrilato retroiluminada. La luz evoca el calor que deshace la cera y aporta una sensación de ingravidez a las reliquias. Frente a la mesa, una fotografía de gran formato funciona como \"zona arqueológica emocional\", rescatando el estado original del terreno frente a su inminente desaparición."
+      p2: "En la posterior presentación en el estudio, las piezas encapsuladas se disponen en espiral sobre una mesa de metacrilato retroiluminada. La luz evoca el calor que deshace la cera y aporta una sensación de ingravidez a las reliquias. Frente a la mesa, una fotografía de gran formato funciona como \"zona arqueológica emocional\", rescatando el estado original del terreno frente a su inminente desaparición.",
+      techDisciplinesVal: "Escultura procesual, Land Art, Instalación",
+      techDimensionsVal: "Mesa de metacrilato de 70 x 40 cm (instalación de estudio)",
+      techMaterialsVal: "Cera (parafina), elementos orgánicos encapsulados (tierra, ramas, piedras), mesa de metacrilato retroiluminada y fotografía de registro de 70 x 50 cm"
     },
     inmemoriamPage: {
       p1: "In Memoriam es una instalación de arte relacional que investiga el afecto y el tiempo como elementos configuradores de vínculos. La obra entiende los cuerpos como filtros sensibles que construyen el camino explícito entre el presente y el duelo, convirtiendo el dormitorio en un espacio de resistencia afectiva e introspección. En este caso, el duelo debe entenderse como pérdida de lo vivido, de lo que fue y no volverá. Además, la propuesta combina materiales hápticos —muselinas, yeso y escayola— con sensores de movimiento e iluminación programada.",
@@ -197,7 +213,15 @@ const translations = {
       techInstallation: "Pieza escultórica suspendida <em>Memorándum</em> (50 x 140 x 170 cm) sobre el lecho",
       techInteractivity: "Sensor de movimiento PIR y foco LED (activación efímera lumínica y proyección de sombras)",
       techDocument: "Registro audiovisual de recepción y experiencia colectiva (Video HD, 4 min 30 s)",
-      declarationsP1: "In Memoriam concibe la ausencia no como un vacío inerte, sino como una materia sensible que deja una huella física y emocional en el espacio. Utilizando el dormitorio —el lecho cotidiano— como territorio simbólico, la obra busca mimetizar sensorialmente el duelo y el afecto."
+      declarationsP1: "In Memoriam concibe la ausencia no como un vacío inerte, sino como una materia sensible que deja una huella física y emocional en el espacio. Utilizando el dormitorio —el lecho cotidiano— como territorio simbólico, la obra busca mimetizar sensorialmente el duelo y el afecto.",
+      declarationsP2: "La hibridación con la tecnología (sensores y luces) evita las lecturas estáticas. El rastro de sombras proyectado efímeramente en las paredes al paso de la gente evoca el carácter dinámico del recuerdo y el olvido: el afecto no se mantiene fijo, sino que aparece y desaparece en la interacción cotidiana. La proximidad con las muselas expone la fragilidad inherente del material, reforzando la idea de la impermanencia del cuerpo.",
+      anteroomTitle: "ANTESALA — FOTOGRAFÍAS VÍVIDAS DEL CUIDADO",
+      anteroomDesc: "La antesala introduce al visitante en la experiencia inmersiva mediante una serie de fotografías que registran la intimidad del cuidado y la interacción táctil con los materiales de la obra. Estas fotografías, presentadas en hilera y bajo una iluminación focal en semipenumbra, preparan sensorialmente al espectador para la entrada a la sala principal.",
+      photoSeriesTitle: "SERIE FOTOGRÁFICA",
+      authorLabel: "Autora: Nuria Carrasquilla García",
+      placeLabel: "Lugar: Vilanova i la Geltrú, Barcelona (España)",
+      techniqueLabel: "Técnica: Fotografía digital impresa sobre cartón pluma (foam core)",
+      supportLabel: "Soporte: Cartón pluma de 20x20 cm con iluminación focal"
     },
     nonrestraintPage: {
       p1: "Esta instalación nace de una oscuridad íntima y se dirige hacia una luz que no quema, sino que abraza. Se articula desde el principio de <em>Non restraint</em>: sin ataduras, sin juicio. Es un intento de traducir, a través del movimiento, el color y el sonido, aquello que no se puede decir con palabras.",
@@ -211,7 +235,12 @@ const translations = {
       phase2Val: "CAMINO — pasillo oscuro, tránsito sensorial entre estados",
       phase3Val: "PENUMBRA — vídeo-performance proyectado a gran escala",
       phase4Val: "LUZ — lienzo giratorio (action painting) + instalación escultórica",
-      conceptP1: "Esta instalación establece una relación entre arte y emoción, entre cuerpo y lenguaje. El proyecto sirve como instrumento para la construcción de atmósferas empáticas. No se trata de abordar la salud mental como un tabú, sino de exponerla como una dimensión que convive y condiciona nuestras experiencias."
+      conceptP1: "Esta instalación establece una relación entre arte y emoción, entre cuerpo y lenguaje. El proyecto sirve como instrumento para la construcción de atmósferas empáticas. No se trata de abordar la salud mental como un tabú, sino de exponerla como una dimensión que convive y condiciona nuestras experiencias.",
+      conceptP2: "Cuando padeces una enfermedad mental, te sientes sola, incomprendida y aislada. Crece una tela invisible entre el tacto y la realidad, que convierte las vivencias en un eco de lo que desearías que fueran. La vida pasa lenta y rápida a la vez, y tu ritmo se desacompaña del resto del mundo.",
+      conceptP3: "Este proyecto nace de una necesidad profundamente personal de acercarme a los marginados, a quienes desean formar parte del grupo pero sienten que su pieza no encaja en el puzle común. La obra está dirigida a todo el público, especialmente a personas sensibles, a quienes han pasado —o están pasando— por estados de tristeza o ansiedad y buscan comprenderse, sentirse acompañadas o simplemente poner nombre a lo que sienten. Porque no es una obra sobre el dolor, sino sobre el camino hacia algo que aún está por venir.",
+      conceptP4: "No pretendo que el público sienta algo concreto: las emociones son únicas, cada quien es un filtro moldeado por su experiencia. Pero de forma intuitiva, quiero crear una atmósfera que diga: <em>\"no estás sola\"</em>.",
+      conceptP5: "La obra se inscribe en una tradición que enlaza el arte autobiográfico, el arte terapéutico y el arte relacional en torno a la salud mental. Inspirada por el principio de <em>Non restraint</em>, se plantea una visión más humanista donde la salud mental no se trata desde el juicio o la corrección, sino desde el acompañamiento y la posibilidad de transformación a través del arte.",
+      conceptP6: "Tras la realización del presente proyecto, he podido deshacer nudos y centrarme en las piezas que conforman cada emoción, porque cada una de ellas es un entramado de muchas otras. Ha sido un proceso enriquecedor y terapéutico, además de suponer un camino de aprendizaje y crecimiento profesional."
     },
     vaciociclicoPage: {
       p1: "Vacío cíclico pretende explorar la tensión entre la apariencia social y la verdad inherente a la condición humana, reflexionando sobre la máscara social frente a la materialidad sólida, áspera e inamovible que representa la roca. La obra convierte la convención social en experiencia corporal a través de un dispositivo material que interactúa directamente con el espectador en un entorno controlado.",
@@ -222,7 +251,10 @@ const translations = {
       techSupport: "Roca natural calcárea de superficie rugosa (30 x 25 x 50 cm). Peana de 60 x 40 x 135 cm.",
       techHardware: "Dos proyectores digitales con reproducción sincronizada alterna (ciclos de 30'').",
       techDimensions: "Variables (perímetro de protección de 150 cm de diámetro para libre circulación).",
-      techDuration: "Loop (Metraje total: 02' 11'' / Ciclos de alternancia: 30'')"
+      techDuration: "Loop (Metraje total: 02' 11'' / Ciclos de alternancia: 30'')",
+      explicacionP1: "La roca funciona como un archivo material del tiempo, acumulación de existencias y estratos temporales. Su dureza e imperfección actúan como anclaje de una realidad no superficial. La alternancia de dos proyectores que activan las sonrisas en caras opuestas introduce un tiempo cíclico similar al de un metrónomo, convirtiendo el loop en una metáfora del eterno retorno de las convenciones sociales.",
+      explicacionP2: "Para trasladar esta disonancia al espectador, la videoinstalación propone un entorno sensorial frío (temperatura controlada en sala 5ºC inferior a la exterior) y una iluminación focal contrapicada muy tenue. El componente sonoro del agua reproducido al revés crea una disonancia cognitiva: un estímulo amable que, examinado al revés, resulta inquietante y antinatural, forzando la inmersión.",
+      viewVideo: "> Ver el vídeo de la simulación de la videoinstalación"
     },
     histericasPage: {
       conceptP1: "Esta propuesta nace de una larga reflexión que me llevó hasta el archivo sobre la histeria elaborado por Jean-Martin Charcot (1825–1893) en la clínica francesa de la Salpêtrière, recogido en el libro <em>Iconographie Photographique de la Salpêtrière</em> (1878) de Bourneville y Regnard. Un archivo que, aunque ha sido revisitado en distintos momentos del siglo XX, aún puede abordarse desde una perspectiva contemporánea con la intención de darle un nuevo significado.",
@@ -381,22 +413,38 @@ const translations = {
       labelPhase2: "Phase 2",
       labelPhase3: "Phase 3",
       labelPhase4: "Phase 4",
-      detailsLabel: "> View details and additional images:"
+      detailsLabel: "> View details and additional images:",
+      labelChair: "Chair",
+      labelVase: "Vase",
+      processDetailsLabel: "> View details and process images:"
     },
     sections: {
       conceptTitle: "CONCEPT",
       formTitle: "FORM",
       insituTitle: "IN SITU INTERVENTION — LA MUNTANYETA",
-      studioTitle: "STUDIO REINTERPRETATION"
+      studioTitle: "STUDIO REINTERPRETATION",
+      audiovisualDoc: "AUDIOVISUAL DOCUMENTATION",
+      creativeProcessTitle: "CREATIVE PROCESS"
     },
     devenirPage: {
       p1: "This artistic installation is born from an introspective need within the domestic space. The trigger was the news of a new pregnancy, an event that reignited emotions such as fear, uncertainty, and hope, bringing with it the certainty that human beings undergo a constant process of deconstruction and recomposition of their own identity. Inhabiting this new version of oneself, from the intrinsic fragility of life and care, constitutes the conceptual axis of the work.",
       p2: "The proposal posits the gestating body as a space of active resistance and affective resignification. Through the contextual displacement of everyday objects from her own family environment, a visual and spatial metaphor is constructed regarding the body's metamorphosis and instability.",
-      p3: "The hallway of the house functions as a threshold, a non-place of physical and emotional transit where the tilted piece stands as a sentinel of daily vigilance."
+      p3: "The hallway of the house functions as a threshold, a non-place of physical and emotional transit where the tilted piece stands as a sentinel of daily vigilance.",
+      explicacionP1: "The installation is articulated around the tension of three main elements. The wooden <em class='accent-green-text'>chair</em>, a simile for the body, rests on a single leg challenging static balance, a metaphor for the physical displacement of the center of gravity and the vertigo of biological creation. On the backrest, the <em class='accent-green-text'>vase with natural flowers</em> introduces the fragility of the life cycle and the ephemeral, while the <em class='accent-green-text'>side mirror</em> functions as a device of alterity multiplying the space.",
+      explicacionP2: "The piece is based on \"The Revealed Instant\". The hallway remains in darkness until the physical presence of the visitor activates a PIR motion sensor. In that second, an overhead LED spotlight breaks the gloom projecting dramatic shadows onto the surfaces, wrapping the viewer in an atmosphere of lights, reflections, and self-discovery in which they become simultaneously subject and object of the experience.",
+      viewVideo: "> View the installation record video",
+      techMediumVal: "Interactive and relational installation. Hybridization of found objects (wooden chair, vase, mirror), organic elements (natural flowers) and new media. Internal holding structure on pedestal.",
+      chairVal: "Natural pine wood tilted on a single leg, fastened with internal 10mm threaded rod.",
+      vaseVal: "PVC vase attached to the backrest and natural flowers of ephemeral duration.",
+      interactivityVal: "PIR motion sensor and 20W LED spotlight for ephemeral light shadow activation.",
+      dimensionsVal: "Object with pedestal: 80 x 150 x 50 cm. Installation of variable dimensions adapted to the hallway space."
     },
     huecoPage: {
       p1: "El hueco como refugio is a processual sculpture and landscape intervention focusing on the care and protection of the geological and emotional memory of \"la Muntanyeta\". The intervened territory is a family land that has recently begun an urban transformation process of its green areas. In situ, liquid wax acts as a balm symbolically sealing the wounds of the terrain, sheltering collected organic elements in earthen niches.",
-      p2: "In the subsequent studio presentation, the encapsulated pieces are arranged in a spiral over a backlit methacrylate table. The light evokes the heat that melts wax and brings a feeling of weightlessness to the relics. Facing the table, a large-format photograph operates as an \"emotional archaeological zone\", rescuing the terrain's original state ahead of its imminent disappearance."
+      p2: "In the subsequent studio presentation, the encapsulated pieces are arranged in a spiral over a backlit methacrylate table. The light evokes the heat that melts wax and brings a feeling of weightlessness to the relics. Facing the table, a large-format photograph operates as an \"emotional archaeological zone\", rescuing the terrain's original state ahead of its imminent disappearance.",
+      techDisciplinesVal: "Processual sculpture, Land Art, Installation",
+      techDimensionsVal: "Methacrylate table 70 x 40 cm (studio installation)",
+      techMaterialsVal: "Wax (paraffin), encapsulated organic elements (earth, branches, stones), backlit methacrylate table and 70 x 50 cm registration photograph"
     },
     inmemoriamPage: {
       p1: "In Memoriam is a relational art installation investigating affection and time as bond-configuring elements. The work understands bodies as sensitive filters constructing the explicit path between the present and grief, turning the bedroom into a space of affective resistance and introspection. In this case, grief must be understood as the loss of what was lived, of what was and will not return. Furthermore, the proposal combines haptic materials —muslin, plaster, and cast— with motion sensors and programmed lighting.",
@@ -410,7 +458,15 @@ const translations = {
       techInstallation: "Suspended sculptural piece <em>Memorandum</em> (50 x 140 x 170 cm) over the bed",
       techInteractivity: "PIR motion sensor and LED spotlight (ephemeral light activation and shadow projection)",
       techDocument: "Audiovisual record of reception and collective experience (HD Video, 4 min 30 s)",
-      declarationsP1: "In Memoriam conceives absence not as an inert void, but as a sensitive material that leaves a physical and emotional trace in space. Using the bedroom —the daily bed— as a symbolic territory, the work seeks to sensorially mimic grief and affection."
+      declarationsP1: "In Memoriam conceives absence not as an inert void, but as a sensitive material that leaves a physical and emotional trace in space. Using the bedroom —the daily bed— as a symbolic territory, the work seeks to sensorially mimic grief and affection.",
+      declarationsP2: "Hybridization with technology (sensors and lights) avoids static readings. The trace of shadows ephemerally projected on the walls as people pass evokes the dynamic character of memory and oblivion: affection does not remain fixed, but appears and disappears in daily interaction. Proximity to the muslins exposes the inherent fragility of the material, reinforcing the idea of the body's impermanence.",
+      anteroomTitle: "ANTEROOM — VIVID PHOTOGRAPHS OF CARE",
+      anteroomDesc: "The anteroom introduces the visitor to the immersive experience through a series of photographs capturing the intimacy of care and tactile interaction with the work's materials. These photographs, presented in a line under focal lighting in semi-darkness, sensorially prepare the viewer for entry into the main room.",
+      photoSeriesTitle: "PHOTOGRAPHIC SERIES",
+      authorLabel: "Author: Nuria Carrasquilla García",
+      placeLabel: "Place: Vilanova i la Geltrú, Barcelona (Spain)",
+      techniqueLabel: "Technique: Digital photograph printed on foam core",
+      supportLabel: "Support: 20x20 cm foam core with focal lighting"
     },
     nonrestraintPage: {
       p1: "This installation is born from an intimate darkness and moves toward a light that does not burn, but embraces. It is articulated from the principle of <em>Non restraint</em>: without ties, without judgment. It is an attempt to translate, through movement, color, and sound, that which cannot be said in words.",
@@ -424,7 +480,12 @@ const translations = {
       phase2Val: "PATH — dark hallway, sensory transit between states",
       phase3Val: "PENUMBRA — large-scale projected video-performance",
       phase4Val: "LIGHT — rotating linen canvas (action painting) + sculptural installation",
-      conceptP1: "This installation establishes a relationship between art and emotion, between body and language. The project serves as an instrument for building empathetic atmospheres. It is not about addressing mental health as a taboo, but exposing it as a dimension that coexists with and shapes our experiences."
+      conceptP1: "This installation establishes a relationship between art and emotion, between body and language. The project serves as an instrument for building empathetic atmospheres. It is not about addressing mental health as a taboo, but exposing it as a dimension that coexists with and shapes our experiences.",
+      conceptP2: "When you suffer from mental illness, you feel alone, misunderstood, and isolated. An invisible cloth grows between touch and reality, turning experiences into an echo of what you wish they were. Life goes by slowly and quickly at the same time, and your rhythm falls out of sync with the rest of the world.",
+      conceptP3: "This project is born from a deeply personal need to reach out to the marginalized, to those who wish to be part of the group but feel their piece does not fit the common puzzle. The work is aimed at everyone, especially sensitive people, those who have gone through —or are going through— states of sadness or anxiety and seek to understand themselves, feel accompanied, or simply put a name to what they feel. Because it is not a work about pain, but about the path toward something yet to come.",
+      conceptP4: "I do not intend for the public to feel something specific: emotions are unique, everyone is a filter shaped by their experience. But intuitively, I want to create an atmosphere that says: <em>\"you are not alone\"</em>.",
+      conceptP5: "The work falls within a tradition linking autobiographical art, therapeutic art, and relational art around mental health. Inspired by the principle of <em>Non restraint</em>, it proposes a more humanistic view where mental health is not addressed through judgment or correction, but through accompaniment and the possibility of transformation through art.",
+      conceptP6: "After carrying out this project, I have been able to untie knots and focus on the pieces that make up each emotion, because each one is a mesh of many others. It has been an enriching and therapeutic process, as well as representing a path of learning and professional growth."
     },
     vaciociclicoPage: {
       p1: "Vacío cíclico aims to explore the tension between social appearance and the truth inherent to the human condition, reflecting on the social mask versus the solid, rough, and immovable materiality represented by rock. The work turns social convention into bodily experience through a material device interacting directly with the viewer in a controlled environment.",
@@ -435,7 +496,10 @@ const translations = {
       techSupport: "Rough natural limestone rock (30 x 25 x 50 cm). Pedestal 60 x 40 x 135 cm.",
       techHardware: "Two digital projectors with synchronized alternating playback (30'' cycles).",
       techDimensions: "Variable (150 cm diameter protection perimeter for free circulation).",
-      techDuration: "Loop (Total length: 02' 11'' / Alternation cycles: 30'')"
+      techDuration: "Loop (Total length: 02' 11'' / Alternation cycles: 30'')",
+      explicacionP1: "The rock functions as a material archive of time, accumulation of existences and temporal strata. Its hardness and imperfection act as an anchor to a non-superficial reality. The alternation of two projectors activating smiles on opposite sides introduces a cyclical time similar to a metronome, turning the loop into a metaphor for the eternal return of social conventions.",
+      explicacionP2: "To transfer this dissonance to the viewer, the video installation proposes a cold sensory environment (controlled room temperature 5ºC lower than outside) and a very dim low-angle focal lighting. The sound component of water played backwards creates a cognitive dissonance: a gentle stimulus that, examined in reverse, becomes unsettling and unnatural, forcing immersion.",
+      viewVideo: "> View the video simulation of the video installation"
     },
     histericasPage: {
       conceptP1: "This proposal stems from a long reflection that led me to the archive on hysteria created by Jean-Martin Charcot (1825–1893) at the French Salpêtrière clinic, compiled in the book <em>Iconographie Photographique de la Salpêtrière</em> (1878) by Bourneville and Regnard. An archive that, although revisited at various moments in the 20th century, can still be approached from a contemporary perspective to give it new meaning.",
@@ -594,22 +658,38 @@ const translations = {
       labelPhase2: "Fase 2",
       labelPhase3: "Fase 3",
       labelPhase4: "Fase 4",
-      detailsLabel: "> Veure detalls i imatges addicionals:"
+      detailsLabel: "> Veure detalls i imatges addicionals:",
+      labelChair: "Cadira",
+      labelVase: "Jarró",
+      processDetailsLabel: "> Veure detalls i imatges del procés:"
     },
     sections: {
       conceptTitle: "CONCEPTE",
       formTitle: "FORMA",
       insituTitle: "INTERVENCIÓ IN SITU — LA MUNTANYETA",
-      studioTitle: "REINTERPRETACIÓ A L'ESTUDI"
+      studioTitle: "REINTERPRETACIÓ A L'ESTUDI",
+      audiovisualDoc: "DOCUMENTACIÓ AUDIOVISUAL",
+      creativeProcessTitle: "PROCÉS CREATIU"
     },
     devenirPage: {
       p1: "Aquesta instal·lació artística neix d'una necessitat introspectiva dins de l'espai domèstic. El detonant va ser la notícia d'un nou embaràs, un esdeveniment que va reavivar emocions com la por, la incertesa i la il·lusió, portant amb si la certesa que l'ésser humà es troba travessat per un procés constant de desconstrucció i recomposició de la pròpia identitat. Habitar aquesta nova versió d'una mateixa, des de la fragilitat intrínseca de la vida i la cura, constitueix l'eix conceptual de l'obra.",
       p2: "La proposta planteja el cos que gesta com un espai de resistència activa i resignificació afectiva. A través de la descontextualització d'objectes quotidians del seu propi entorn familiar, es construeix una metàfora visual i espacial sobre la metamorfosi del cos i la inestabilitat.",
-      p3: "El passadís distribuïdor de la casa funciona com un umbral, un no-lloc de trànsit físic i emocional on la peça inclinada s'erigeix en centinella del desvetllament quotidià."
+      p3: "El passadís distribuïdor de la casa funciona com un umbral, un no-lloc de trànsit físic i emocional on la peça inclinada s'erigeix en centinella del desvetllament quotidià.",
+      explicacionP1: "La instal·lació s'articula sobre la tensió de tres elements principals. La <em class='accent-green-text'>cadira</em> de fusta, símil del cos, se supedita a una sola cama desafiant l'equilibri estàtic, metàfora del desplaçament físic del centre de gravetat i el vertigen de la creació biològica. Al respatller, el <em class='accent-green-text'>jarró amb flors naturals</em> introdueix la fragilitat del cicle vital i allò efímer, mentre que el <em class='accent-green-text'>mirall lateral</em> funciona com un dispositiu d'alteritat que multiplica l'espai.",
+      explicacionP2: "La peça es basa en \"L'Instant Revelat\". El passadís roman a les fosques fins que la presència física del visitant activa un sensor de moviment PIR. En aquest segon, un foc LED cenital trenca la penombra projectant ombres dramàtiques sobre les superfícies, embolcallant l'espectador en una atmosfera de llums, reflexos i autodescobriment en què esdevé simultàniament subjecte i objecte de l'experiència.",
+      viewVideo: "> Veure el vídeo de registre de la instal·lació",
+      techMediumVal: "Instal·lació interactiva i relacional. Hibridació d'objectes trobats (cadira de fusta, jarró, mirall), elements orgànics (flors naturals) i nous mitjans. Estructura interna de subjecció sobre peana.",
+      chairVal: "Fusta de pi natural inclinada sobre una sola cama, fixació amb vareta de 10mm roscada interior.",
+      vaseVal: "Jarró de PVC fixat al respatller i flors naturals de durada efímera.",
+      interactivityVal: "Sensor de moviment PIR i projector LED 20W per a activació lumínica efímera d'ombres.",
+      dimensionsVal: "Objecte amb peana: 80 x 150 x 50 cm. Instal·lació de dimensions variables adaptada a l'espai distribuïdor."
     },
     huecoPage: {
       p1: "El hueco como refugio és una escultura processual i intervenció en el paisatge que es centra en la cura i la protecció de la memòria geològica i afectiva de \"la Muntanyeta\". El territori intervingut és una zona familiar que recentment ha iniciat un procés de transformació urbanística de les seves zones verdes. In situ, la cera líquida actua com un bàlsam que segella simbólicament les ferides del terreny, abrigant elements orgànics recolectats en nichs terrestres.",
-      p2: "En la posterior presentació a l'estudi, les peces encapsulades es disposen en espiral sobre una taula de metacrilat retroil·luminada. La llum evoca la calor que desfa la cera i aporta una sensació d'ingravidesa a les relíquies. Davant la taula, una fotografia de gran format funciona com a \"zona arqueològica emocional\", rescatant l'estat original del terreny davant la seva imminent desaparició."
+      p2: "En la posterior presentació a l'estudi, les peces encapsulades es disposen en espiral sobre una taula de metacrilat retroil·luminada. La llum evoca la calor que desfa la cera i aporta una sensació d'ingravidesa a les relíquies. Davant la taula, una fotografia de gran format funciona com a \"zona arqueològica emocional\", rescatant l'estat original del terreny davant la seva imminent desaparició.",
+      techDisciplinesVal: "Escultura processual, Land Art, Instal·lació",
+      techDimensionsVal: "Taula de metacrilat de 70 x 40 cm (instal·lació d'estudi)",
+      techMaterialsVal: "Cera (parafina), elements orgànics encapsulats (terra, branques, pedres), taula de metacrilat retroil·luminada i fotografia de registre de 70 x 50 cm"
     },
     inmemoriamPage: {
       p1: "In Memoriam és una instal·lació d'art relacional que investiga l'afecte i el temps com a elements configuradors de vincles. L'obra entén els cossos com a filtres sensibles que construeixen el camí explícit entre el present i el dol, convertint el dormitori en un espai de resistència afectiva i introspecció. En aquest cas, el dol s'ha d'entendre com a pèrdua del que es va viure, del que va ser i no tornarà. A més, la proposta combina materials hàptics —muselines, guix i escaiola— amb sensors de moviment i il·luminació programada.",
@@ -623,7 +703,15 @@ const translations = {
       techInstallation: "Peça escultòria suspesa <em>Memoràndum</em> (50 x 140 x 170 cm) sobre el llit",
       techInteractivity: "Sensor de moviment PIR i focus LED (activació efímera lumínica i projecció d'ombres)",
       techDocument: "Registre audiovisual de recepció i experiència col·lectiva (Vídeo HD, 4 min 30 s)",
-      declarationsP1: "In Memoriam concibe l'absència no com un buit inerte, sinó com una matèria sensible que deixa una petjada física i emocional en l'espai. Utilitzant el dormitori —el llit quotidià— com a territori simbòlic, l'obra busca mimetitzar sensorialment el dol i l'afecte."
+      declarationsP1: "In Memoriam concibe l'absència no com un buit inerte, sinó com una matèria sensible que deixa una petjada física i emocional en l'espai. Utilitzant el dormitori —el llit quotidià— com a territori simbòlic, l'obra busca mimetitzar sensorialment el dol i l'afecte.",
+      declarationsP2: "La hibridació amb la tecnologia (sensors i llums) evita les lectures estàtiques. El rastre d'ombres projectat efímerament a les parets al pas de la gent evoca el caràcter dinàmic del record i l'oblit: l'afecte no es manté fix, sinó que apareix i desapareix en la interacció quotidiana. La proximitat amb les muselines exposa la fragilitat inherent del material, reforçant la idea de la impermanència del cos.",
+      anteroomTitle: "ANTESALA — FOTOGRAFIES VÍVIDES DE LA CURA",
+      anteroomDesc: "L'antesala introdueix el visitant en l'experiència immersiva mitjançant una sèrie de fotografies que enregistren l'intimitat de la cura i la interacció tàctil amb els materials de l'obra. Aquestes fotografies, presentades en filera i sota una il·luminació focal en semipenombra, preparen sensorialment l'espectador per a l'entrada a la sala principal.",
+      photoSeriesTitle: "SÈRIE FOTOGRÀFICA",
+      authorLabel: "Autora: Nuria Carrasquilla García",
+      placeLabel: "Lloc: Vilanova i la Geltrú, Barcelona (Espanya)",
+      techniqueLabel: "Tècnica: Fotografia digital impresa sobre cartró ploma (foam core)",
+      supportLabel: "Suport: Cartró ploma de 20x20 cm amb il·luminació focal"
     },
     nonrestraintPage: {
       p1: "Aquesta instal·lació neix d'una foscor íntima i es dirigeix cap a una llum que no crema, sinó que abraça. S'articula des del principi de <em>Non restraint</em>: sense lligams, sense judici. És un intent de traduir, a través del moviment, el color i el so, allò que no es pot dir amb paraules.",
@@ -637,11 +725,27 @@ const translations = {
       phase2Val: "CAMÍ — passadís fosc, trànsit sensorial entre estats",
       phase3Val: "PENOMBRA — vídeo-performance projectat a gran escala",
       phase4Val: "LLUM — llenç de lli giratori (action painting) + instal·lació escultòrica",
-      conceptP1: "Aquesta instal·lació estableix una relació entre art i emoció, entre cos i llenguatge. El projecte serveix com a instrument per a la construcció d'atmosferes empàtiques. No es tracta d'abordar la salut mental com un tabú, sinó d'exposar-la com una dimensió que conviu i condiciona les nostres experiències."
+      conceptP1: "Aquesta instal·lació estableix una relació entre art i emoció, entre cos i llenguatge. El projecte serveix com a instrument per a la construcció d'atmosferes empàtiques. No es tracta d'abordar la salut mental com un tabú, sinó d'exposar-la com una dimensió que conviu i condiciona les nostres experiències.",
+      conceptP2: "Quan pateixes una malaltia mental, et sents sola, incompresa i aïllada. Creix una tela invisible entre el tacte i la realitat, que converteix les vivències en un eco del que desitjaries que fossin. La vida passa lenta i ràpida a la vegada, i el teu ritme es desacompassa de la resta del món.",
+      conceptP3: "Aquest projecte neix d'una necessitat profundament personal d'acostar-me als marginats, a qui desitja formar part del grup però sent que la seva peça no encaixa en el trencaclosques comú. L'obra està dirigida a tot el públic, especialment a persones sensibles, a qui ha passat —o està passant— per estats de tristesa o ansietat i cerca comprendre's, sentir-se acompanyada o simplement posar nom al que sent. Perquè no és una obra sobre el dolor, sinó sobre el camí cap a quelcom que encara ha de venir.",
+      conceptP4: "No pretenc que el públic senti quelcom concret: les emocions són úniques, cadascú és un filtre modelat per la seva experiència. Però de forma intuïtiva, vull crear una atmosfera que digui: <em>\"no estàs sola\"</em>.",
+      conceptP5: "L'obra s'inscriu en una tradició que enllaça l'art autobiogràfic, l'art terapèutic i l'art relacional al voltant de la salut mental. Inspirada pel principi de <em>Non restraint</em>, es planteja una visió més humanista on la salut mental no es tracta des del judici o la correcció, sinó des de l'acompanyament i la possibilitat de transformació a través de l'art.",
+      conceptP6: "Després de la realització del present projecte, he pogut desfer nusos i centrar-me en les peces que conformen cada emoció, perquè cadascuna d'elles és un entramat de moltes altres. Ha estat un procés enriquidor i terapèutic, a més de suposar un camí d'aprenentatge i creixement professional."
     },
     vaciociclicoPage: {
       p1: "Vacío cíclico pretén explorar la tensió entre l'aparença social i la veritat inherent a la condició humana, reflexionant sobre la màscara social enfront de la materialitat sòlida, àpera i inamovible que representa la roca. L'obra converteix la convenció social en experiència corporal a través d'un dispositiu material que interactua directament amb l'espectador en un entorn controlat.",
       p2: "He optat per l'apropiació d'imatges de stock per emfatitzar la naturalesa artificial i mercantilitzada del somriure. En projectar aquesta \"felicitat impostada\" sobre la superfície rugosa i imperfecta de la pedra, es visibilitza la violència que suposa l'imperatiu social de mostrar sempre una cara perfecta, revelant el seu caràcter deformat, efímer i vulnerable.",
+      techTitle: "Vacío Cíclico",
+      techFormat: "Videoinstal·lació / Videoescultura / Canal dual (vídeo 16:9, Full HD)",
+      techSound: "Estèreo envolupant (aigua rebobinada en loop)",
+      techSupport: "Roca natural calcària de superfície rugosa (30 x 25 x 50 cm). Peanya de 60 x 40 x 135 cm.",
+      techHardware: "Dos projectors digitals amb reproducció sincronizada meitat i meitat alterna (cicles de 30'').",
+      techDimensions: "Variables (perímetre de protecció de 150 cm de diàmetre per a lliure circulació).",
+      techDuration: "Loop (Metratge total: 02' 11'' / Cicles d'alternança: 30'')",
+      explicacionP1: "La roca funciona com un arxiu material del temps, acumulació d'existències i estrats temporals. La seva duresa i imperfecció actuen com a ancoratge d'una realitat no superficial. L'alternança de dos projectors que activen els somriures en cares oposades introdueix un temps cíclico similar al d'un metrònom, convertint el loop en una metàfora de l'etern retorn de les convencions socials.",
+      explicacionP2: "Per traslladar aquesta dissonància a l'espectador, la videoinstal·lació proposa un entorn sensorial fred (temperatura controlada a la sala 5ºC inferior a l'exterior) i una il·luminació focal contrapicada molt tènue. El component sonor de l'aigua reproduït al revés crea una dissonància cognitiva: un estímul amable que, examinat al revés, resulta inquietant i antinatural, forçant l'immersió.",
+      viewVideo: "> Veure el vídeo de la simulació de la videoinstal·lació"
+    },atitzar la naturalesa artificial i mercantilitzada del somriure. En projectar aquesta \"felicitat impostada\" sobre la superfície rugosa i imperfecta de la pedra, es visibilitza la violència que suposa l'imperatiu social de mostrar sempre una cara perfecta, revelant el seu caràcter deformat, efímer i vulnerable.",
       techTitle: "Vacío Cíclico",
       techFormat: "Videoinstal·lació / Videoescultura / Canal dual (vídeo 16:9, Full HD)",
       techSound: "Estèreo envolupant (aigua rebobinada en loop)",
